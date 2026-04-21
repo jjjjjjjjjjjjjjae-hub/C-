@@ -1,0 +1,43 @@
+name: Build Ghost APK
+on: [push]
+
+jobs:
+  build:
+      runs-on: ubuntu-latest
+          steps:
+                - uses: actions/checkout@v4
+
+                      - name: Set up JDK
+                              uses: actions/setup-java@v3
+                                      with:
+                                                java-version: '17'
+                                                          distribution: 'temurin'
+
+                                                                - name: Download Apktool
+                                                                        run: wget https://github.com/iBotPeaches/Apktool/releases/download/v2.9.3/apktool_2.9.3.jar -O apktool.jar
+
+                                                                              - name: Decompile Original
+                                                                                      run: java -jar apktool.jar d original.apk -o build_dir
+
+                                                                                            - name: Apply Ghost Patch
+                                                                                                    run: |
+                                                                                                              cp patch/smali/MainActivity.smali build_dir/smali_classes3/com/samsung/android/game/gamehome/app/
+                                                                                                                        mkdir -p build_dir/lib/arm64-v8a/
+                                                                                                                                  cp patch/lib/arm64-v8a/*.so build_dir/lib/arm64-v8a/
+
+                                                                                                                                        - name: Rebuild APK
+                                                                                                                                                run: java -jar apktool.jar b build_dir -o ghost_gaming_hub.apk
+
+                                                                                                                                                      - name: Sign APK
+                                                                                                                                                              run: |
+                                                                                                                                                                        sudo apt-get install -y apksigner
+                                                                                                                                                                                  # Тесттік кілт жасау және қол қою
+                                                                                                                                                                                            keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
+                                                                                                                                                                                                      apksigner sign --ks debug.keystore --ks-pass pass:android --out ghost_signed.apk ghost_gaming_hub.apk
+
+                                                                                                                                                                                                            - name: Upload Finished APK
+                                                                                                                                                                                                                    uses: actions/upload-artifact@v4
+                                                                                                                                                                                                                            with:
+                                                                                                                                                                                                                                      name: ghost_gaming_hub
+                                                                                                                                                                                                                                                path: ghost_signed.apk
+                                                                                                                                                                                                                                                

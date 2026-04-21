@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="home_big_portrait_item_count">3</integer>
+    <integer name="home_new_games_card_item_count">2</integer>
+    <integer name="home_portrait_item_count">4</integer>
+</resources>

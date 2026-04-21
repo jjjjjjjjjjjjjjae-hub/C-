@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="@bool/hide_system_ui_condition" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/basic_round_and_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SeslAppbarLayout">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_app_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="scroll|exitUntilCollapsed" style="@style/SeslCollapsingToolbarLayout">
+                <androidx.appcompat.widget.Toolbar android:layout_gravity="bottom" android:id="@id/collapsing_toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_collapseMode="pin" style="@style/SeslToolbar" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="always" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/erase_button" android:focusable="true" android:visibility="gone" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_button_margin_top" android:text="@string/settings_erase" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/description" app:layout_constraintWidth_percent="@fraction/settings_about_button_min_width" style="@style/Settings.About.Button.Update" />
+                <TextView android:textSize="@dimen/basic_settings_description_text_size" android:textColor="@color/basic_setting_erase_description_text_color" android:id="@id/description" android:paddingTop="@dimen/basic_settings_description_erase_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_erase_personal_data_description_global" android:lineSpacingExtra="@dimen/basic_settings_description_text_line_space" android:paddingStart="@dimen/basic_settings_description_erase_padding_start" android:paddingEnd="@dimen/basic_settings_description_erase_padding_end" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

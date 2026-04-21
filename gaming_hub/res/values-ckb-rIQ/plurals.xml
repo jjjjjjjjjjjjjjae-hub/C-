@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">%d دەسنیشانکرا</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d دەسنیشانکرا</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">%d نیشانگە بسڕێتەوە؟</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d نیشانگە بسڕێتەوە؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">ناتوانیت زیاتر لە %d کارەکتەر بنووسیت.</item>
+        <item quantity="zero">ناتوانیت زیاتر لە %d کارەکتەر بنووسیت.</item>
+        <item quantity="one">ناتوانرێت زیاتر لە %d نووسە زیاد بکات.</item>
+        <item quantity="two">ناتوانیت زیاتر لە %d کارەکتەر بنووسیت.</item>
+        <item quantity="few">ناتوانیت زیاتر لە %d کارەکتەر بنووسیت.</item>
+        <item quantity="many">ناتوانیت زیاتر لە %d کارەکتەر بنووسیت.</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">%d ڕۆژ لەمەوبەر</item>
+        <item quantity="zero">%d days ago</item>
+        <item quantity="one">%d ڕۆژ لەمەوبەر</item>
+        <item quantity="two">%d days ago</item>
+        <item quantity="few">%d days ago</item>
+        <item quantity="many">%d days ago</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">ئەرکی نوێی دواتری تۆ پاش %d ڕۆژ تر دێت.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ئەرکی نوێی دواتری تۆ پاش %d ڕۆژ تر دێت.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">بۆ بەکارهێنانی Instant Plays پێویستە تەمەنت بەلانیکەم %d ساڵ بێت.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">بۆ بەکارهێنانی Instant Plays پێویستە تەمەنت بەلانیکەم %d ساڵ بێت.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">%d جار ئەم یارییەت کردووە. بۆ کتێبخانەکەتی زیاد بکە بۆ دەستپێگەیشتنی خێراتر.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d جار ئەم یارییەت کردووە. بۆ کتێبخانەکەتی زیاد بکە بۆ دەستپێگەیشتنی خێراتر.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">%1$s و %2$dی تر لە Gaming Hub سڕدرانەوە</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s و %2$dی تر لە Gaming Hub سڕدرانەوە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">%d کاتژمێر لەمەوبەر</item>
+        <item quantity="zero">%d hours ago</item>
+        <item quantity="one">%d کاتژمێر لەمەوبەر</item>
+        <item quantity="two">%d hours ago</item>
+        <item quantity="few">%d hours ago</item>
+        <item quantity="many">%d hours ago</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">%d خولەک لەمەوبەر</item>
+        <item quantity="zero">%d minutes ago</item>
+        <item quantity="one">%d خولەک لەمەوبەر</item>
+        <item quantity="two">%d minutes ago</item>
+        <item quantity="few">%d minutes ago</item>
+        <item quantity="many">%d minutes ago</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">ئاگانامەکانی یارییەکەت بۆ ماوەی %d ڕۆژ لێرەدا پیشان دەدرێن.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ئاگانامەکانی یارییەکەت بۆ ماوەی %d ڕۆژ لێرەدا پیشان دەدرێن.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">%d دەسنیشانکرا</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d دەسنیشانکرا</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">سەرجەمی %d یاری</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">سەرجەمی %d یاری</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">دوایین %d مانگ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">دوایین %d مانگ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d ڕۆژ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ڕۆژ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">%d ڕۆژ ماوە</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ڕۆژ ماوە</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d secs</item>
+        <item quantity="zero">%d secs</item>
+        <item quantity="one">%d sec</item>
+        <item quantity="two">%d secs</item>
+        <item quantity="few">%d secs</item>
+        <item quantity="many">%d secs</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">%d ڕۆژ لەمەوبەر</item>
+        <item quantity="zero">%d days ago</item>
+        <item quantity="one">%d ڕۆژ لەمەوبەر</item>
+        <item quantity="two">%d days ago</item>
+        <item quantity="few">%d days ago</item>
+        <item quantity="many">%d days ago</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">%d کاتژمێر لەمەوبەر</item>
+        <item quantity="zero">%d hours ago</item>
+        <item quantity="one">%d کاتژمێر لەمەوبەر</item>
+        <item quantity="two">%d hours ago</item>
+        <item quantity="few">%d hours ago</item>
+        <item quantity="many">%d hours ago</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">%d خولەک لەمەوبەر</item>
+        <item quantity="zero">%d minutes ago</item>
+        <item quantity="one">%d خولەک لەمەوبەر</item>
+        <item quantity="two">%d minutes ago</item>
+        <item quantity="few">%d minutes ago</item>
+        <item quantity="many">%d minutes ago</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">%d مانگ لەمەوبەر</item>
+        <item quantity="zero">%d months ago</item>
+        <item quantity="one">%d مانگ لەمەوبەر</item>
+        <item quantity="two">%d months ago</item>
+        <item quantity="few">%d months ago</item>
+        <item quantity="many">%d months ago</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">%d weeks ago</item>
+        <item quantity="zero">%d weeks ago</item>
+        <item quantity="one">%d week ago</item>
+        <item quantity="two">%d weeks ago</item>
+        <item quantity="few">%d weeks ago</item>
+        <item quantity="many">%d weeks ago</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">%d ساڵ لەمەوبەر</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ساڵ لەمەوبەر</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

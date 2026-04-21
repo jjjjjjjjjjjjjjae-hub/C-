@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/gametools_floating_toast_stroke_width" android:color="@color/gametools_floating_stroke_color" />
+            <corners android:radius="@dimen/gametools_floating_toast_radius" />
+            <solid android:color="@color/gametools_floating_toast_background" />
+        </shape>
+    </item>
+    <item>
+        <ripple android:color="@color/basic_light_theme_ripple_color">
+            <item android:id="@android:id/mask">
+                <shape android:shape="rectangle">
+                    <solid android:color="@android:color/white" />
+                    <corners android:radius="@dimen/gametools_floating_toast_radius" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+</layer-list>

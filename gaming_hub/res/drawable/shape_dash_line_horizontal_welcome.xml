@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="line"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/oobe_custom_dialog_dotted_line_width" android:color="@color/welcome_dotted_line_circle" android:dashWidth="@dimen/oobe_custom_dialog_dotted_line_dash_width" android:dashGap="@dimen/oobe_custom_dialog_dotted_line_dash_gap" />
+</shape>

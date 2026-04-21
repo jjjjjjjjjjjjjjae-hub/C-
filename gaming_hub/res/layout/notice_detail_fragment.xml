@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:background="@color/basic_round_and_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_app_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="scroll|exitUntilCollapsed" app:title="@string/announcement_header" style="@style/SeslCollapsingToolbarLayout">
+                <androidx.appcompat.widget.Toolbar android:layout_gravity="bottom" android:id="@id/collapsing_toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:title="@string/announcement_header" app:layout_collapseMode="pin" style="@style/SeslToolbar" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <include android:id="@id/progress_bar_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/common_progress_bar_view" />
+            <androidx.core.widget.NestedScrollView android:id="@id/announcement_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/title_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/announcement_detail_title_layout_height" android:layout_marginStart="@dimen/announcement_detail_margin_start" android:layout_marginEnd="@dimen/announcement_detail_margin_end" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                        <TextView android:id="@id/title" android:paddingTop="@dimen/announcement_detail_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Announcement.Text.Title" />
+                        <TextView android:id="@id/date" android:paddingBottom="@dimen/announcement_detail_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/Announcement.Text.Date" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <View android:id="@id/divider" android:background="@color/announcement_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/announcement_detail_divider_size" android:layout_marginStart="@dimen/announcement_detail_margin_start" android:layout_marginEnd="@dimen/announcement_detail_margin_end" app:layout_constraintTop_toBottomOf="@id/title_layout" />
+                    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/description_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/announcement_detail_description_container_padding_horizontal" android:paddingVertical="@dimen/announcement_detail_description_container_padding_vertical" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/divider">
+                        <TextView android:id="@id/description_textview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="0.0dip" android:singleLine="false" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Announcement.Text.Description" />
+                        <WebView android:id="@id/description_webview" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.core.widget.NestedScrollView>
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

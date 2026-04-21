@@ -1,0 +1,11 @@
+.class public interface abstract Lcom/google/gson/a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract shouldSkipClass(Ljava/lang/Class;)Z
+.end method
+
+.method public abstract shouldSkipField(Lcom/google/gson/b;)Z
+.end method

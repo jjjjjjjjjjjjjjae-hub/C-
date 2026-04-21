@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppCompat.Main" parent="@style/SeslAppcompat">
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:statusBarColor">@color/colorTransparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="actionMenuTextColor">@color/common_fafafa_100</item>
+    </style>
+    <style name="AppCompat.Solid" parent="@style/SeslAppcompat">
+        <item name="android:windowBackground">@color/basic_background_color</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:statusBarColor">@color/basic_background_color</item>
+    </style>
+    <style name="BottomNavigationView" parent="@style/Widget.Design.BottomNavigationView" />
+    <style name="BottomNavigationView.Text" parent="@style/Widget.Design.BottomNavigationView.Text" />
+    <style name="GmpSeslCollapsingToolbarStyle" parent="@style/Widget.Design.CollapsingToolbar" />
+    <style name="MasDeviceDefaultTheme" parent="@android:style/Theme.DeviceDefault" />
+    <style name="MasDeviceDefaultTheme.Dialog" parent="@android:style/Theme.DeviceDefault.Dialog.NoActionBar" />
+    <style name="MasDeviceDefaultTheme.Dialog.Alert" parent="@android:style/Theme.DeviceDefault.Dialog.Alert">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="MasDeviceDefaultTheme.NoActionBar" parent="@android:style/Theme.DeviceDefault.NoActionBar" />
+    <style name="SearchViewWithBackground" parent="@style/Base.Widget.AppCompat.SearchView">
+        <item name="queryBackground">@drawable/shape_basic_search_background</item>
+        <item name="submitBackground">@drawable/shape_basic_search_background</item>
+    </style>
+    <style name="SeslAppcompat" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:textDirection">locale</item>
+        <item name="android:statusBarColor">@color/announcement_sesl_bg_color</item>
+        <item name="android:navigationBarColor">@color/basic_background_color</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="actionModeCloseButtonStyle">@style/WhiteActionModeCloseButtonStyle</item>
+        <item name="actionOverflowButtonStyle">@style/SeslAppcompat.ActionButton.Overflow</item>
+        <item name="alertDialogTheme">@style/GameLauncher.Dialog</item>
+        <item name="bottomSheetDialogTheme">@style/NewWelcome.BottomSheet.DialogTheme</item>
+        <item name="colorControlActivated">@color/basic_primary_dark</item>
+        <item name="colorPrimary">@color/basic_primary</item>
+        <item name="colorPrimaryDark">@color/basic_primary_dark</item>
+        <item name="windowActionModeOverlay">false</item>
+    </style>
+    <style name="SeslCollapsingToolbarLayout" parent="@style/Widget.Design.CollapsingToolbar" />
+    <style name="Theme.AppCompat.DayNight" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="@style/Theme.AppCompat.Dialog" />
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="@style/Theme.AppCompat.Dialog.Alert" />
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="@style/Theme.AppCompat.Dialog.MinWidth" />
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="@style/Theme.AppCompat.DialogWhenLarge" />
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="@style/Theme.AppCompat.NoActionBar" />
+    <style name="Theme.Material3.DayNight" parent="@style/Theme.Material3.Dark" />
+    <style name="Theme.Material3.DayNight.BottomSheetDialog" parent="@style/Theme.Material3.Dark.BottomSheetDialog" />
+    <style name="Theme.Material3.DayNight.Dialog" parent="@style/Theme.Material3.Dark.Dialog" />
+    <style name="Theme.Material3.DayNight.Dialog.Alert" parent="@style/Theme.Material3.Dark.Dialog.Alert" />
+    <style name="Theme.Material3.DayNight.Dialog.MinWidth" parent="@style/Theme.Material3.Dark.Dialog.MinWidth" />
+    <style name="Theme.Material3.DayNight.DialogWhenLarge" parent="@style/Theme.Material3.Dark.DialogWhenLarge" />
+    <style name="Theme.Material3.DayNight.NoActionBar" parent="@style/Theme.Material3.Dark.NoActionBar" />
+    <style name="Theme.Material3.DayNight.SideSheetDialog" parent="@style/Theme.Material3.Dark.SideSheetDialog" />
+    <style name="Theme.Material3.DynamicColors.DayNight" parent="@style/Theme.Material3.DynamicColors.Dark" />
+    <style name="Theme.Material3.DynamicColors.DayNight.NoActionBar" parent="@style/Theme.Material3.DynamicColors.Dark.NoActionBar" />
+    <style name="Theme.MaterialComponents.DayNight" parent="@style/Theme.MaterialComponents" />
+    <style name="Theme.MaterialComponents.DayNight.BottomSheetDialog" parent="@style/Theme.MaterialComponents.BottomSheetDialog" />
+    <style name="Theme.MaterialComponents.DayNight.Bridge" parent="@style/Theme.MaterialComponents.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar" parent="@style/Theme.MaterialComponents" />
+    <style name="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge" parent="@style/Theme.MaterialComponents.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog" parent="@style/Theme.MaterialComponents.Dialog" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert" parent="@style/Theme.MaterialComponents.Dialog.Alert" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Alert.Bridge" parent="@style/Theme.MaterialComponents.Dialog.Alert.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.Bridge" parent="@style/Theme.MaterialComponents.Dialog.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize" parent="@style/Theme.MaterialComponents.Dialog.FixedSize" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.FixedSize.Bridge" parent="@style/Theme.MaterialComponents.Dialog.FixedSize.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth" parent="@style/Theme.MaterialComponents.Dialog.MinWidth" />
+    <style name="Theme.MaterialComponents.DayNight.Dialog.MinWidth.Bridge" parent="@style/Theme.MaterialComponents.Dialog.MinWidth.Bridge" />
+    <style name="Theme.MaterialComponents.DayNight.DialogWhenLarge" parent="@style/Theme.MaterialComponents.DialogWhenLarge" />
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar" parent="@style/Theme.MaterialComponents.NoActionBar" />
+    <style name="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" parent="@style/Theme.MaterialComponents.NoActionBar.Bridge" />
+    <style name="ThemeOverlay.AppCompat.DayNight" parent="@style/ThemeOverlay.AppCompat.Dark" />
+    <style name="ThemeOverlay.Material3.DynamicColors.DayNight" parent="@style/ThemeOverlay.Material3.DynamicColors.Dark" />
+</resources>

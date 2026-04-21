@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="#1a9b9b9b" android:endColor="#2698a8e2" android:angle="180.0" />
+    <corners android:radius="@dimen/gmp_promotions_list_item_image_radius" />
+</shape>

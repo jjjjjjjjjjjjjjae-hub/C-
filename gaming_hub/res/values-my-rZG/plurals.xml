@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">%d ကို ေ႐ြးထားသည္</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">စာမွတ္ %d ခုကိုဖ်က္မလား?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">အကၡရာ %d လုံးထက္ ပိုၿပီး ထည့္သြင္း၍မရပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">လြန္ခဲ့ေသာ %d ရက္က</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">သင့္မစ္ရွင္ေနာက္တစ္ခုသည္ %d ရက္အတြင္း လာပါမည္။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">အသင့္ကစားဂိမ္းမ်ားကို အသုံးျပဳရန္ သင္သည္ အနည္းဆံုး အသက္ %d ႏွစ္ ရွိရမည္။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">သင္ ဒီဂိမ္းကို %d ႀကိမ္ ကစားခဲ့သည္။ ျမန္ဆန္စြာ ဝင္ေရာက္ႏိုင္ရန္ သင္၏စာၾကည့္တိုက္ထဲသို႔ ထည့္ပါ။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">%1$s ႏွင့္ အျခား %2$d ခုကို Gaming Hub မွ ဖယ္ရွားထားသည္။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">လြန္ခဲ့ေသာ %d နာရီက</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">လြန္ခဲ့ေသာ %d မိနစ္က</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">သင့္ဂိမ္း သတိေပးခ်က္မ်ားကို ဤေနရာမွာ %d ရက္ခန႔္ ျပသပါမည္။</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">%d ကို ေ႐ြးထားသည္</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">စုစုေပါင္း ဂိမ္း %d ခု</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">လြန္ခဲ့ေသာ %d လ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d ရက္</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">%d ရက္ က်န္ရွိသည္</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d စကၠန္႔</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">လြန္ခဲ့ေသာ %d ရက္က</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">လြန္ခဲ့ေသာ %d နာရီက</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">လြန္ခဲ့ေသာ %d မိနစ္က</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">လြန္ခဲ့ေသာ %d လက</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">လြန္ခဲ့သည့္ %d ပတ္က</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">လြန္ခဲ့ေသာ %d ႏွစ္က</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">N/A</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

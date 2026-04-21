@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/test_sa" android:key="pref_key_test_sa_category">
+        <SwitchPreferenceCompat android:title="@string/test_sa_force_request_consent" android:key="@string/PREF_KEY_TEST_SA_FORCE_REQUEST_CONSENT" android:summary="@string/test_sa_force_request_consent_summary" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

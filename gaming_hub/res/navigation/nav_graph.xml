@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph" app:startDestination="@id/StartFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="" android:name="com.samsung.android.game.gamehome.app.StartFragment" android:id="@id/StartFragment">
+        <argument android:name="locatePackage" android:defaultValue="" app:argType="string" />
+        <argument android:name="uninstallPackage" android:defaultValue="" app:argType="string" />
+        <argument android:name="launchSource" android:defaultValue="ICON" app:argType="string" />
+        <action android:id="@id/action_startFragment_to_homeFragment" app:destination="@id/HomeFragment" app:popUpTo="@id/nav_graph" app:popUpToInclusive="true" />
+        <action android:id="@id/action_startFragment_to_mainFragment" app:destination="@id/MainFragment" app:popUpTo="@id/nav_graph" app:popUpToInclusive="true" />
+        <action android:id="@id/action_startFragment_to_noNetworkFragment" app:destination="@id/NoNetworkFragment" app:popUpTo="@id/StartFragment" app:popUpToInclusive="true" />
+        <action android:id="@id/action_startFragment_to_newUserNetworkErrorFragment" app:destination="@id/NewUserNetworkErrorFragment" app:popUpTo="@id/StartFragment" app:popUpToInclusive="true" />
+        <action android:id="@id/action_start_to_deleting_user_dialog" app:destination="@id/DeletingUserDialogFragment" />
+        <action android:id="@id/action_start_to_delete_completed_user_dialog" app:destination="@id/DeleteCompletedUserDialogFragment" />
+        <action android:id="@id/action_start_to_invalid_user_age_dialog" app:destination="@id/InvalidUserAgeDialogFragment" />
+        <action android:id="@id/action_start_to_sign_in_account" app:destination="@id/SignInAccountFragment" app:enterAnim="@anim/sesl_welcome_fragment_open_enter" app:exitAnim="@anim/sesl_welcome_fragment_open_exit" app:popEnterAnim="@anim/sesl_welcome_fragment_close_enter" app:popExitAnim="@anim/sesl_welcome_fragment_close_exit" />
+        <action android:id="@id/action_start_to_new_legal_welcome" app:destination="@id/NewLegalWelcomeFragment" app:enterAnim="@anim/sesl_welcome_fragment_open_enter" app:exitAnim="@anim/sesl_welcome_fragment_open_exit" app:popEnterAnim="@anim/sesl_welcome_fragment_close_enter" app:popExitAnim="@anim/sesl_welcome_fragment_close_exit" />
+    </fragment>
+    <fragment android:label="" android:name="com.samsung.android.game.gamehome.app.NoNetworkFragment" android:id="@id/NoNetworkFragment">
+        <argument android:name="locatePackage" android:defaultValue="" app:argType="string" />
+        <argument android:name="uninstallPackage" android:defaultValue="" app:argType="string" />
+        <action android:id="@id/action_noNetworkFragment_to_startFragment" app:destination="@id/StartFragment" app:popUpTo="@id/NoNetworkFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="" android:name="com.samsung.android.game.gamehome.app.NewUserNetworkErrorFragment" android:id="@id/NewUserNetworkErrorFragment">
+        <argument android:name="locatePackage" android:defaultValue="" app:argType="string" />
+        <argument android:name="uninstallPackage" android:defaultValue="" app:argType="string" />
+        <action android:id="@id/action_newUserNetworkErrorFragment_to_startFragment" app:destination="@id/StartFragment" app:popUpTo="@id/NewUserNetworkErrorFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="@string/home_fragment_label" android:name="com.samsung.android.game.gamehome.app.home.HomeFragment" android:id="@id/HomeFragment">
+        <argument android:name="locatePackage" android:defaultValue="" app:argType="string" />
+        <argument android:name="uninstallPackage" android:defaultValue="" app:argType="string" />
+        <action android:id="@id/action_home_to_overlayPopup" app:destination="@id/OverlayPermissionDialogFragment" app:launchSingleTop="true" app:popUpTo="@id/HomeFragment" app:popUpToInclusive="true" />
+        <action android:id="@id/action_home_to_remove_item_dialog" app:destination="@id/RemoveOneGameDialogFragment" />
+        <action android:id="@id/action_home_to_remove_items_dialog" app:destination="@id/RemoveMultiGamesDialogFragment" />
+        <action android:id="@id/action_home_to_game_sound_dialog" app:destination="@id/GameSoundDialog" />
+        <action android:id="@id/action_home_to_deleting_user_dialog" app:destination="@id/DeletingUserDialogFragment" />
+        <action android:id="@id/action_home_to_delete_completed_user_dialog" app:destination="@id/DeleteCompletedUserDialogFragment" />
+        <action android:id="@id/action_home_to_invalid_user_age_dialog" app:destination="@id/InvalidUserAgeDialogFragment" />
+        <action android:id="@id/action_home_to_game_notification" app:destination="@id/nav_graph_notification" />
+    </fragment>
+    <activity android:label="" android:name="com.samsung.android.game.gamehome.app.setting.SettingsActivity" android:id="@id/SettingsActivity" />
+    <fragment android:label="" android:name="com.samsung.android.game.gamehome.app.main.MainFragment" android:id="@id/MainFragment">
+        <argument android:name="locatePackage" android:defaultValue="" app:argType="string" />
+        <argument android:name="uninstallPackage" android:defaultValue="" app:argType="string" />
+        <argument android:name="launchSource" android:defaultValue="ICON" app:argType="string" />
+        <action android:id="@id/action_main_to_my_games_activity" app:destination="@id/MyGamesActivity" />
+        <action android:id="@id/action_main_to_remove_multi_items_dialog" app:destination="@id/RemoveMultiGamesDialogFragment" />
+        <action android:id="@id/action_main_to_remove_one_item_dialog" app:destination="@id/RemoveOneGameDialogFragment" />
+    </fragment>
+    <activity android:label="" android:name="com.samsung.android.game.gamehome.app.test.TestActivity" android:id="@id/TestActivity" />
+    <activity android:label="" android:name="com.samsung.android.game.gamehome.app.notification.NotificationListActivity" android:id="@id/NotificationListActivity" />
+    <activity android:label="" android:name="com.samsung.android.game.gamehome.app.instantgames.InstantGamesActivity" android:id="@id/InstantGamesActivity" />
+    <activity android:label="" android:name="com.samsung.android.game.gamehome.app.category.CategoryGamesActivity" android:id="@id/CategoryGamesActivity" />
+    <activity android:label="" android:name="com.samsung.android.game.gamehome.app.notice.NoticeActivity" android:id="@id/NoticeActivity" />
+    <activity android:label="" android:name="com.samsung.android.game.gamehome.app.event.EventActivity" android:id="@id/EventActivity" />
+    <activity android:label="" android:name="com.samsung.android.game.gamehome.app.mygames.addapps.LibraryAddActivity" android:id="@id/LibraryAddActivity" />
+    <activity android:label="" android:name="com.samsung.android.game.gamehome.app.mygames.addapps.setting.LibrarySettingActivity" android:id="@id/LibrarySettingActivity" />
+    <activity android:label="" android:name="com.samsung.android.game.gamehome.app.detail.DetailActivity" android:id="@id/DetailActivity">
+        <argument android:name="gameType" android:defaultValue="UNKNOWN" app:argType="com.samsung.android.game.gamehome.network.gamelauncher.model.instantplays.constant.GameType" />
+        <argument android:name="packageName" android:defaultValue="" app:argType="string" />
+        <argument android:name="gameId" android:defaultValue="" app:argType="string" />
+        <argument android:name="storeType" android:defaultValue="" app:argType="string" />
+        <argument android:name="downloadLink" android:defaultValue="" app:argType="string" />
+    </activity>
+    <activity android:label="" android:name="com.samsung.android.game.gamehome.app.instantdetail.InstantDetailActivity" android:id="@id/InstantDetailActivity" />
+    <activity android:label="" android:name="com.samsung.android.game.gamehome.gmp.ui.promotions.PromotionsActivity" android:id="@id/PromotionsActivity" />
+    <activity android:label="@string/main_home_my_games_card_header" android:name="com.samsung.android.game.gamehome.app.mygames.MyGamesActivity" android:id="@id/MyGamesActivity">
+        <argument android:name="locatePackage" android:defaultValue="" app:argType="string" />
+        <argument android:name="uninstallPackage" android:defaultValue="" app:argType="string" />
+    </activity>
+    <dialog android:label="" android:name="com.samsung.android.game.gamehome.app.oobe.restrict.LgpdGdprRestrictDialogFragment" android:id="@id/LgpdGdprRestrictDialogFragment" />
+    <dialog android:label="" android:name="com.samsung.android.game.gamehome.app.oobe.update.UpdateDialogFragment" android:id="@id/UpdateDialogFragment" />
+    <dialog android:label="" android:name="com.samsung.android.game.gamehome.app.oobe.update.ForceUpdateDialogFragment" android:id="@id/ForceUpdateDialogFragment" />
+    <dialog android:label="" android:name="com.samsung.android.game.gamehome.app.oobe.marketingagree.MarketingAgreementFragment" android:id="@id/MarketingAgreeFragment" />
+    <dialog android:label="" android:name="com.samsung.android.game.gamehome.app.oobe.permission.OverlayPermissionDialogFragment" android:id="@id/OverlayPermissionDialogFragment" />
+    <dialog android:label="" android:name="com.samsung.android.game.gamehome.app.dialog.AgeDialogFragment" android:id="@id/AgeDialogFragment">
+        <argument android:name="intent" app:argType="android.content.Intent" />
+    </dialog>
+    <dialog android:label="" android:name="com.samsung.android.game.gamehome.app.oobe.usagedata.UsageDataPermissionDialogFragment" android:id="@id/UsageDataPrimissionDialogFragment">
+        <argument android:name="fromMain" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="type" app:argType="integer" />
+    </dialog>
+    <dialog android:label="" android:name="com.samsung.android.game.gamehome.app.mygames.dialog.RemoveMultiGamesDialogFragment" android:id="@id/RemoveMultiGamesDialogFragment">
+        <argument android:name="packageNameList" app:argType="string[]" />
+        <argument android:name="doneMessage" app:argType="string" />
+    </dialog>
+    <dialog android:label="" android:name="com.samsung.android.game.gamehome.app.mygames.dialog.RemoveOneGameDialogFragment" android:id="@id/RemoveOneGameDialogFragment">
+        <argument android:name="packageName" app:argType="string" />
+        <argument android:name="isGame" app:argType="boolean" />
+    </dialog>
+    <dialog android:label="" android:name="com.samsung.android.game.gamehome.app.dialog.NotificationPermissionDialog" android:id="@id/NotificationPermissionDialog">
+        <argument android:name="isSystemDialog" android:defaultValue="false" app:argType="boolean" />
+    </dialog>
+    <fragment android:label="" android:name="com.samsung.android.game.gamehome.app.welcome.NewLegalWelcomeFragment" android:id="@id/NewLegalWelcomeFragment">
+        <action android:id="@id/action_welcome_to_terms" app:destination="@id/TermsFragment">
+            <argument android:name="termsType" app:argType="com.samsung.android.game.gamehome.app_domain.subclass.terms.TermsType" />
+            <argument android:name="termsUrl" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        </action>
+        <action android:id="@id/action_new_legal_to_old_welcome" app:destination="@id/OldWelcomeFragment" app:enterAnim="@anim/sesl_welcome_fragment_open_enter" app:exitAnim="@anim/sesl_welcome_fragment_open_exit" app:popEnterAnim="@anim/sesl_welcome_fragment_close_enter" app:popExitAnim="@anim/sesl_welcome_fragment_close_exit" />
+        <action android:id="@id/action_welcome_to_turkiye_welcome" app:destination="@id/TurkiyeWelcomeFragment" app:enterAnim="@anim/sesl_welcome_fragment_open_enter" app:exitAnim="@anim/sesl_welcome_fragment_open_exit" app:popEnterAnim="@anim/sesl_welcome_fragment_close_enter" app:popExitAnim="@anim/sesl_welcome_fragment_close_exit" app:popUpTo="@id/NewLegalWelcomeFragment" />
+        <action android:id="@id/action_welcome_to_ad_details" app:destination="@id/WelcomeAdDetailsFragment" />
+        <action android:id="@id/action_welcome_to_start_fragment" app:destination="@id/StartFragment" />
+    </fragment>
+    <fragment android:label="" android:name="com.samsung.android.game.gamehome.app.welcome.turkiye.TurkiyeWelcomeFragment" android:id="@id/TurkiyeWelcomeFragment">
+        <action android:id="@id/action_turkiye_welcome_to_terms" app:destination="@id/TermsFragment">
+            <argument android:name="termsType" app:argType="com.samsung.android.game.gamehome.app_domain.subclass.terms.TermsType" />
+            <argument android:name="termsUrl" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        </action>
+        <action android:id="@id/action_welcome_to_ad_details" app:destination="@id/WelcomeAdDetailsFragment" />
+        <action android:id="@id/action_welcome_to_start_fragment" app:destination="@id/StartFragment" />
+    </fragment>
+    <fragment android:label="" android:name="com.samsung.android.game.gamehome.app.signin.SignInAccountFragment" android:id="@id/SignInAccountFragment">
+        <action android:id="@id/action_sing_in_to_leaving_sign_in" app:destination="@id/LeavingSignInDialogFragment" />
+        <action android:id="@id/action_sing_in_to_leaving_confirm_dialog" app:destination="@id/LeavingConfirmDialogFragment" />
+        <action android:id="@id/action_sign_in_to_start_fragment" app:destination="@id/StartFragment" />
+    </fragment>
+    <dialog android:label="" android:name="com.samsung.android.game.gamehome.app.oobe.error.DeletingUserDialogFragment" android:id="@id/DeletingUserDialogFragment" />
+    <dialog android:label="" android:name="com.samsung.android.game.gamehome.app.oobe.error.DeleteCompletedUserDialogFragment" android:id="@id/DeleteCompletedUserDialogFragment" />
+    <dialog android:label="" android:name="com.samsung.android.game.gamehome.app.oobe.error.InvalidUserAgeDialogFragment" android:id="@id/InvalidUserAgeDialogFragment" />
+    <dialog android:label="" android:name="com.samsung.android.game.gamehome.app.signin.LeavingSignInDialogFragment" android:id="@id/LeavingSignInDialogFragment" />
+    <dialog android:label="" android:name="com.samsung.android.game.gamehome.app.signin.LeavingConfirmDialogFragment" android:id="@id/LeavingConfirmDialogFragment" />
+    <fragment android:label="" android:name="com.samsung.android.game.gamehome.app.welcome.WelcomeFragment" android:id="@id/OldWelcomeFragment">
+        <action android:id="@id/action_welcome_to_terms" app:destination="@id/TermsFragment">
+            <argument android:name="termsType" app:argType="com.samsung.android.game.gamehome.app_domain.subclass.terms.TermsType" />
+            <argument android:name="termsUrl" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        </action>
+        <action android:id="@id/action_welcome_to_ad_details" app:destination="@id/WelcomeAdDetailsFragment" />
+        <action android:id="@id/action_welcome_to_marketing_agree_details" app:destination="@id/WelcomeMarketingDetailFragment" />
+        <action android:id="@id/action_welcome_to_start_fragment" app:destination="@id/StartFragment" />
+    </fragment>
+    <fragment android:label="@string/terms_fragment_label" android:name="com.samsung.android.game.gamehome.app.setting.terms.TermsFragment" android:id="@id/TermsFragment">
+        <argument android:name="termsType" app:argType="com.samsung.android.game.gamehome.app_domain.subclass.terms.TermsType" />
+        <argument android:name="termsUrl" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="fromTermsList" android:defaultValue="false" app:argType="boolean" />
+        <action android:id="@id/action_terms_to_terms_list" app:destination="@id/TermsListFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit">
+            <argument android:name="termsType" app:argType="com.samsung.android.game.gamehome.app_domain.subclass.terms.TermsType" />
+        </action>
+    </fragment>
+    <fragment android:label="@string/terms_list_fragment_label" android:name="com.samsung.android.game.gamehome.app.setting.terms.TermsListFragment" android:id="@id/TermsListFragment">
+        <argument android:name="termsType" app:argType="com.samsung.android.game.gamehome.app_domain.subclass.terms.TermsType" />
+        <action android:id="@id/action_terms_list_to_terms" app:destination="@id/TermsFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit">
+            <argument android:name="termsType" app:argType="com.samsung.android.game.gamehome.app_domain.subclass.terms.TermsType" />
+            <argument android:name="termsUrl" app:argType="string" />
+            <argument android:name="fromTermsList" android:defaultValue="true" app:argType="boolean" />
+        </action>
+    </fragment>
+    <fragment android:label="@string/welcome_ad_details_fragment_label" android:name="com.samsung.android.game.gamehome.app.welcome.WelcomeAdDetailsFragment" android:id="@id/WelcomeAdDetailsFragment">
+        <action android:id="@id/action_welcome_ad_details_to_terms" app:destination="@id/TermsFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit">
+            <argument android:name="termsType" app:argType="com.samsung.android.game.gamehome.app_domain.subclass.terms.TermsType" />
+            <argument android:name="termsUrl" app:argType="string" />
+        </action>
+    </fragment>
+    <fragment android:label="@string/welcome_marketing_agree_text" android:name="com.samsung.android.game.gamehome.app.welcome.WelcomeMarketingDetailFragment" android:id="@id/WelcomeMarketingDetailFragment">
+        <action android:id="@id/actions_welcome_marketing_details_to_terms" app:destination="@id/TermsFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit">
+            <argument android:name="termsType" app:argType="com.samsung.android.game.gamehome.app_domain.subclass.terms.TermsType" />
+            <argument android:name="termsUrl" app:argType="string" />
+        </action>
+    </fragment>
+    <fragment android:label="@string/promotions_coupons_title" android:name="com.samsung.android.game.gamehome.gmp.ui.promotions.CouponsFragment" android:id="@id/CouponsFragment" />
+    <action android:id="@id/action_global_to_restrictPopup" app:destination="@id/LgpdGdprRestrictDialogFragment" app:launchSingleTop="true" />
+    <action android:id="@id/action_global_to_overlayPopup" app:destination="@id/OverlayPermissionDialogFragment" app:launchSingleTop="true" />
+    <action android:id="@id/action_global_to_usageDataPermissionDialog" app:destination="@id/UsageDataPrimissionDialogFragment" app:launchSingleTop="true">
+        <argument android:name="fromMain" app:argType="boolean" />
+        <argument android:name="type" app:argType="integer" />
+    </action>
+    <action android:id="@id/action_global_to_updatePopup" app:destination="@id/UpdateDialogFragment" app:launchSingleTop="true" />
+    <action android:id="@id/action_global_to_forceUpdatePopup" app:destination="@id/ForceUpdateDialogFragment" app:launchSingleTop="true" />
+    <action android:id="@id/action_global_to_marketingAgreePopup" app:destination="@id/MarketingAgreeFragment" app:launchSingleTop="true" />
+    <action android:id="@id/action_global_to_age_dialog" app:destination="@id/AgeDialogFragment" app:launchSingleTop="true" />
+    <action android:id="@id/action_global_to_notification_permission_dialog" app:destination="@id/NotificationPermissionDialog" app:launchSingleTop="true" />
+    <include app:graph="@navigation/nav_graph_notification" />
+    <include app:graph="@navigation/nav_graph_my_games" />
+</navigation>

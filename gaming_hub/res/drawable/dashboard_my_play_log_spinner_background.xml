@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <ripple android:color="@color/basic_ripple_color">
+            <item android:id="@android:id/mask">
+                <shape android:shape="rectangle">
+                    <solid android:color="?android:colorBackground" />
+                    <corners android:radius="@dimen/each_play_log_detail_period_spinner_background_radius" />
+                </shape>
+            </item>
+        </ripple>
+    </item>
+    <item android:gravity="end|center" android:height="@dimen/basic_spinner_triangle_height" android:width="@dimen/basic_spinner_triangle_width" android:start="3.0dip">
+        <bitmap android:src="@drawable/tw_spinner_mtrl_am_alpha" android:tint="@color/basic_token_sys_on_surface_container_highest" />
+    </item>
+</layer-list>

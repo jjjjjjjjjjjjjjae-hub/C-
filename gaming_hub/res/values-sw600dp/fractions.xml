@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="fraction" name="detail_play_button_width">0.475</item>
+    <item type="fraction" name="gmp_oneui_contained_button_max_width">0.6</item>
+</resources>

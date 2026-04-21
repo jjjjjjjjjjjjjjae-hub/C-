@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="fraction" name="welcome_container_width_percent">1.0</item>
+    <item type="fraction" name="welcome_extended_app_bar_height_proportion">0.32</item>
+</resources>

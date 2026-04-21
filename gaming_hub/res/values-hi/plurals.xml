@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">%d चयनित</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d चयनित</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">%d बुकमार्क्स हटाएँ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d बुकमार्क हटाएँ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">%d से अधिक वर्ण प्रविष्ट नहीं किए जा सकते।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d से अधिक वर्ण प्रविष्ट नहीं किया जा सकता।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">%d दिन पहले</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d दिन पहले</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">वीडियो को %d सेकंड आगे बढ़ाएं</item>
+        <item quantity="one">वीडियो को %d सेकंड आगे बढ़ाएं</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">वीडियो को %d सेकंड पीछे ले जाएं</item>
+        <item quantity="one">वीडियो को %d सेकंड पीछे ले जाएं</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">आपका अगला नया मिशन %d दिनों में आ रहा है।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">आपका अगला नया मिशन %d दिन में आ रहा है।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">तुरंत खेले जा सकने वाले गेम्स का उपयोग करने के लिए आपकी आयु कम से कम %d वर्ष होनी चाहिए।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">तुरंत खेले जा सकने वाले गेम्स का उपयोग करने के लिए आपकी आयु कम से कम %d वर्ष होनी चाहिए।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">आपने इस गेम को %d बार खेला है। शीघ्रता से एक्सेस करने के लिए इसे अपनी लाइब्रेरी में जोड़ें।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">आपने इस गेम को %d बार खेला है। शीघ्रता से एक्सेस करने के लिए इसे अपनी लाइब्रेरी में जोड़ें।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">Gaming Hub से %1$s और %2$d अन्य निकाले गए।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gaming Hub से %1$s और %2$d अन्य को निकाला गया।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">%d घंटे पहले</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d घंटा पहले</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">%d मिनट पहले</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d मिनट पहले</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d नई सूचनाएं</item>
+        <item quantity="one">%d नई सूचनाएं</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">आपकी गेम नोटिफिकेशंस %d दिनों के लिए यहां दिखाई जाएँगी।</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">आपकी गेम नोटिफिकेशंस %d दिन के लिए यहां दिखाई जाएँगी।</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">%d चयनित</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d चयनित</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">कुल %d गेम्स</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">कुल %d गेम</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">पिछले %d महीने</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">पिछला %d महीना</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d दिन</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d दिन</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">%d दिन बाकी हैं</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d दिन बाकी है</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d सेकंड</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d सेकंड</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">%d दिन पहले</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d दिन पहले</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">%d घंटे पहले</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d घंटा पहले</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">%d मिनट पहले</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d मिनट पहले</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">%d महीने पहले</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d महीना पहले</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">%d सप्ताह पहले</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d सप्ताह पहले</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">%d वर्ष पहले</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d वर्ष पहले</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

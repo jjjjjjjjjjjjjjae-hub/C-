@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="184.0dip" android:width="184.0dip" android:viewportWidth="184.0" android:viewportHeight="184.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="s1" android:pivotX="0.0" android:pivotY="0.0" android:scaleX="1.0" android:scaleY="1.0" android:rotation="0.0" android:translateX="91.5" android:translateY="91.5">
+        <group android:name="s1pg1" android:pivotX="-1.9866333" android:pivotY="31.940002" android:scaleX="1.0" android:scaleY="1.0" android:rotation="0.0" android:translateX="10.486633" android:translateY="-31.940002">
+            <path android:name="s1pg1p20" android:fillColor="#ffffffff" android:pathData="M -42.803 -1.747 C -42.803 -6.178 -38.424 -9.252 -34.567 -9.252 C -34.567 -9.252 -26.267 -9.313 -26.267 -9.313 C -22 -9.313 -18.287 -5.938 -18.287 -1.719 C -18.287 8.524 -18.388 53.141 -18.388 65.667 C -18.388 69.761 -22.009 73.302 -26.259 73.302 C -26.259 73.302 -34.542 73.261 -34.542 73.261 C -38.625 73.261 -42.798 70 -42.798 65.736 C -42.798 65.736 -42.803 -1.747 -42.803 -1.747 Z" android:fillAlpha="1.0" />
+            <path android:name="s1pg1p10" android:fillColor="#ffffffff" android:pathData="M 7.816 -9.432 C 7.816 -9.432 15.504 -9.382 15.504 -9.382 C 20.25 -9.382 23.83 -5.947 23.83 -1.71 C 23.83 -1.71 23.816 65.643 23.816 65.643 C 23.816 69.88 19.552 73.313 15.495 73.313 C 15.495 73.313 7.807 73.262 7.807 73.262 C 3.75 73.262 -0.519 69.829 -0.519 65.592 C -0.519 65.592 -0.505 -1.761 -0.505 -1.761 C -0.505 -5.998 3.759 -9.432 7.816 -9.432 Z" android:fillAlpha="1.0" />
+        </group>
+    </group>
+</vector>

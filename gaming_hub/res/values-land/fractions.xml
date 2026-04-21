@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="fraction" name="common_item_horizontal_padding_end">0.85</item>
+    <item type="fraction" name="common_item_horizontal_padding_start">0.15</item>
+    <item type="fraction" name="welcome_common_guide_percent_top">0.0</item>
+</resources>

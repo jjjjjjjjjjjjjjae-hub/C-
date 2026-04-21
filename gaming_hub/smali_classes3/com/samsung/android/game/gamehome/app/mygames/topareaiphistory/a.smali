@@ -1,0 +1,47 @@
+.class public final Lcom/samsung/android/game/gamehome/app/mygames/topareaiphistory/a;
+.super Landroidx/recyclerview/widget/RecyclerView$a0;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Landroidx/recyclerview/widget/RecyclerView$a0;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getItemOffsets(Landroid/graphics/Rect;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$q0;)V
+    .locals 0
+
+    const-string p0, "outRect"
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/i;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string p0, "view"
+
+    invoke-static {p2, p0}, Lkotlin/jvm/internal/i;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string p0, "parent"
+
+    invoke-static {p3, p0}, Lkotlin/jvm/internal/i;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string p0, "state"
+
+    invoke-static {p4, p0}, Lkotlin/jvm/internal/i;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const p0, 0x7f070493
+
+    invoke-static {p2, p0}, Lcom/samsung/android/game/gamehome/utility/f0;->f(Landroid/view/View;I)I
+
+    move-result p0
+
+    iput p0, p1, Landroid/graphics/Rect;->left:I
+
+    iput p0, p1, Landroid/graphics/Rect;->right:I
+
+    return-void
+.end method

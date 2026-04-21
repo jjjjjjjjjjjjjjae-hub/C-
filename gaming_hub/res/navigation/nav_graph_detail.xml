@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph_detail" app:startDestination="@id/DetailFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/detail_fragment_label" android:name="com.samsung.android.game.gamehome.app.detail.DetailFragment" android:id="@id/DetailFragment">
+        <argument android:name="gameType" android:defaultValue="UNKNOWN" app:argType="com.samsung.android.game.gamehome.network.gamelauncher.model.instantplays.constant.GameType" />
+        <argument android:name="packageName" android:defaultValue="" app:argType="string" />
+        <argument android:name="gameId" android:defaultValue="" app:argType="string" />
+        <argument android:name="storeType" android:defaultValue="" app:argType="string" />
+        <argument android:name="downloadLink" android:defaultValue="" app:argType="string" />
+        <action android:id="@id/action_detail_to_youtube_list" app:destination="@id/YoutubeListFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" />
+        <action android:id="@id/action_detail_to_galaxy_ranking" app:destination="@id/GalaxyRankingListFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" />
+    </fragment>
+    <fragment android:label="" android:name="com.samsung.android.game.gamehome.app.video.YouTubeListFragment" android:id="@id/YoutubeListFragment">
+        <argument android:name="packageName" app:argType="string" />
+        <argument android:name="gameId" android:defaultValue="" app:argType="string" />
+    </fragment>
+    <fragment android:label="" android:name="com.samsung.android.game.gamehome.app.ranking.GalaxyRankingListFragment" android:id="@id/GalaxyRankingListFragment">
+        <argument android:name="type" app:argType="string" />
+        <argument android:name="id" app:argType="string" />
+        <argument android:name="from" app:argType="string" />
+        <argument android:name="rank" android:defaultValue="-1" app:argType="integer" />
+        <action android:id="@id/action_ranking_to_detail" app:destination="@id/DetailFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" />
+    </fragment>
+    <action android:id="@id/action_global_to_detail" app:destination="@id/DetailFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" />
+</navigation>

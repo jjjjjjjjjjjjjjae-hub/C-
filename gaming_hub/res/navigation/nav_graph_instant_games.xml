@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph_instant_games" app:startDestination="@id/InstantGamesFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="" android:name="com.samsung.android.game.gamehome.app.instantgames.InstantGamesFragment" android:id="@id/InstantGamesFragment">
+        <argument android:name="rcuId" app:argType="string" />
+        <argument android:name="rcuTitle" app:argType="string" />
+        <argument android:name="rcuSubTitle" app:argType="string" />
+        <argument android:name="isLandscape" app:argType="boolean" />
+        <argument android:name="displayType" app:argType="string" />
+        <argument android:name="cardPosition" app:argType="string" />
+    </fragment>
+    <activity android:label="" android:name="com.samsung.android.game.gamehome.app.detail.DetailActivity" android:id="@id/DetailActivity" />
+    <activity android:label="" android:name="com.samsung.android.game.gamehome.app.instantdetail.InstantDetailActivity" android:id="@id/InstantDetailActivity" />
+    <dialog android:label="" android:name="com.samsung.android.game.gamehome.app.dialog.AgeDialogFragment" android:id="@id/AgeDialogFragment">
+        <argument android:name="intent" app:argType="android.content.Intent" />
+    </dialog>
+    <action android:id="@id/action_global_to_age_dialog" app:destination="@id/AgeDialogFragment" app:launchSingleTop="true" />
+</navigation>

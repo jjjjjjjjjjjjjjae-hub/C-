@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_toast" android:background="@drawable/shape_floating_toast_background" android:paddingTop="@dimen/gametools_floating_toast_padding_vertical" android:paddingBottom="@dimen/gametools_floating_toast_padding_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gametools_floating_toast_margin_bottom" android:minHeight="@dimen/gametools_floating_toast_height" android:paddingStart="@dimen/gametools_floating_toast_padding_start" android:paddingEnd="@dimen/gametools_floating_toast_padding_end">
+        <ImageView android:background="@drawable/bottom_bar_volume_media" android:layout_width="@dimen/gametools_floating_toast_speaker_icon_size" android:layout_height="@dimen/gametools_floating_toast_speaker_icon_size" android:layout_marginEnd="@dimen/gametools_floating_toast_speaker_margin_end" />
+        <TextView android:id="@id/tv_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/floating_volume_popup_game_sound_muted_tap_to_unmute" style="@style/GameTools.FloatingToast.Text" />
+    </LinearLayout>
+</FrameLayout>

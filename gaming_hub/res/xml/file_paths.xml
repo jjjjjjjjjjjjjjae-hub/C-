@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <cache-path name="instant_plays_shared_images" path="images/" />
+    <external-files-path name="gamelauncher_logs" path="logs/" />
+</paths>

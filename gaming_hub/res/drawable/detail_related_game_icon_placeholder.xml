@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/gamehome_launcher_icon_gamefad" android:tint="@color/common_fafafa_15"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

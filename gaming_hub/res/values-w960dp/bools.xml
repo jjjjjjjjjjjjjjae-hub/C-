@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="main_contents_for_you_is_pager">false</bool>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.game.gamehome.ui.settings.sync.DescriptionWithProgressPreference android:title="[TEMP] BACKUP YOUR GAME DATA SO THAT YOU CAN RESTORE WITH YOUR OTHER DEVICES" android:selectable="false" android:key="@string/settings_backup_data_preference_key_description" />
+    <androidx.preference.PreferenceCategory>
+        <androidx.preference.SwitchPreferenceCompat android:title="[TEMP] AUTO BACKUP" android:key="@string/settings_backup_data_preference_key_auto_backup" android:summary="[TEMP] BACKUP YOUR DATA AUTOMATICALLY EVERY 24 HOURS." android:defaultValue="false" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory>
+        <androidx.preference.Preference android:title="[TEMP] BACKUP NOW" android:key="@string/settings_backup_data_preference_key_backup_now" />
+        <androidx.preference.DropDownPreference android:entries="@array/entries_backup_using" android:title="[TEMP] BACKUP USING" android:key="@string/settings_backup_data_preference_key_backup_using" android:entryValues="@array/entryvalues_backup_using" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

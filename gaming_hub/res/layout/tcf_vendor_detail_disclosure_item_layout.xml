@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/tcf_vendor_detail_item_layout_margin_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/title_view" android:paddingBottom="@dimen/tcf_vendor_detail_sub_disclosure_title_padding_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/tcf_vendor_detail_sub_title_text_style" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/identifier_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toStartOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title_view">
+        <TextView android:id="@id/identifier_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/tcf_vendor_detail_sub_content_disclosure_item_title_style" />
+        <TextView android:id="@id/identifier_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/tcf_vendor_detail_sub_content_disclosure_item_content_style" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/type_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/identifier_container">
+        <TextView android:id="@id/type_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/tcf_vendor_detail_sub_content_disclosure_item_title_style" />
+        <TextView android:id="@id/type_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/tcf_vendor_detail_sub_content_disclosure_item_content_style" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/lifespan_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/type_container">
+        <TextView android:id="@id/lifespan_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/tcf_vendor_detail_sub_content_disclosure_item_title_style" />
+        <TextView android:id="@id/lifespan_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/tcf_vendor_detail_sub_content_disclosure_item_content_style" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/domain_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/lifespan_container">
+        <TextView android:id="@id/domain_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/tcf_vendor_detail_sub_content_disclosure_item_title_style" />
+        <TextView android:id="@id/domain_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/tcf_vendor_detail_sub_content_disclosure_item_content_style" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/purposes_container" android:paddingBottom="@dimen/tcf_vendor_detail_sub_disclosure_purposes_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/domain_container">
+        <TextView android:id="@id/purposes_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/tcf_vendor_detail_sub_content_disclosure_item_title_style" />
+        <TextView android:id="@id/purposes_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/tcf_vendor_detail_sub_content_disclosure_item_content_style" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

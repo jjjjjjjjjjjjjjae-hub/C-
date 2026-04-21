@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/mas_slim_ad_view_text_gradient_start_color" android:endColor="@color/mas_slim_ad_view_text_gradient_end_color" android:angle="-90.0" android:type="linear" />
+    <corners android:radius="@dimen/multi_ad_slim_view_cornerRadius" android:topLeftRadius="0.0dip" android:topRightRadius="0.0dip" android:bottomLeftRadius="@dimen/multi_ad_slim_view_cornerRadius" android:bottomRightRadius="@dimen/multi_ad_slim_view_cornerRadius" />
+</shape>

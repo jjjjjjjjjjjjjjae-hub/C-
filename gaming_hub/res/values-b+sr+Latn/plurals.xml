@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">Izabrano: %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Izabrano: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Izabrano: %d</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">Želite li da izbrišete %d obeleživača?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Želite li da izbrišete %d obeleživač?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Želite li da izbrišete %d obeleživača?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">Možete da unesete najviše %d karaktera.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Možete da unesete najviše %d karakter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Možete da unesete najviše %d karaktera.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">Pre %d dana</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pre %d dana</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pre %d dana</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Premotajte %d sekundi unapred</item>
+        <item quantity="one">Premotajte %d sekundu unapred</item>
+        <item quantity="few">Premotajte %d sekunde unapred</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Premotajte %d sekundi unazad</item>
+        <item quantity="one">Premotajte %d sekundu unazad</item>
+        <item quantity="few">Premotajte %d sekunde unazad</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">Sledeća misija stiže za %d dana.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sledeća misija stiže za %d dan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Sledeća misija stiže za %d dana.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">Morate imati najmanje %d godina da biste koristili instant igre.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Morate imati najmanje %d godinu da biste koristili instant igre.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Morate imati najmanje %d godine da biste koristili instant igre.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">Igrali ste ovu igru %d puta. Dodajte je u biblioteku da biste joj brže pristupili.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Igrali ste ovu igru %d put. Dodajte je u biblioteku da biste joj brže pristupili.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Igrali ste ovu igru %d puta. Dodajte je u biblioteku da biste joj brže pristupili.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">%1$s i još %2$d igara je uklonjeno iz funkcije Gaming Hub.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s i još %2$d igra je uklonjena iz funkcije Gaming Hub.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s i još %2$d igre su uklonjene iz funkcije Gaming Hub.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">Pre %d sati</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pre %d sata</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pre %d sata</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">Pre %d minuta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pre %d minuta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pre %d minuta</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novih obaveštenja</item>
+        <item quantity="one">%d novo obaveštenje</item>
+        <item quantity="few">%d nova obaveštenja</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">Obaveštenja igre će se prikazivati ovde %d dana.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Obaveštenja igre će se prikazivati ovde %d dan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Obaveštenja igre će se prikazivati ovde %d dana.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">Izabrano: %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Izabrano: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Izabrano: %d</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">Ukupno od %d igara</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ukupno od %d igre</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ukupno od %d igre</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">Poslednjih %d meseci</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Poslednji %d mesec</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Poslednja %d meseca</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d dana</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d dana</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">Preostalo je %d dana</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Preostao je %d dan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Preostala su %d dana</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d sekundi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d sekunde</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">Pre %d dana</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pre %d dana</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pre %d dana</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">Pre %d sati</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pre %d sata</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pre %d sata</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">Pre %d minuta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pre %d minuta</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pre %d minuta</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">Pre %d meseci</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pre %d mesec</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pre %d meseca</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">Pre %d nedelja</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pre %d nedelju</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pre %d nedelje</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">Pre %d godina</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pre %d godine</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pre %d godine</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">%d selected</item>
+        <item quantity="zero">%d selected</item>
+        <item quantity="one">%d selected</item>
+        <item quantity="two">%d selected</item>
+        <item quantity="few">%d selected</item>
+        <item quantity="many">%d selected</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">Delete %d bookmarks?</item>
+        <item quantity="zero">Delete %d bookmarks?</item>
+        <item quantity="one">Delete %d bookmark?</item>
+        <item quantity="two">Delete %d bookmarks?</item>
+        <item quantity="few">Delete %d bookmarks?</item>
+        <item quantity="many">Delete %d bookmarks?</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">"Can't enter more than %d characters."</item>
+        <item quantity="zero">"Can't enter more than %d characters."</item>
+        <item quantity="one">"Can't enter more than %d character."</item>
+        <item quantity="two">"Can't enter more than %d characters."</item>
+        <item quantity="few">"Can't enter more than %d characters."</item>
+        <item quantity="many">"Can't enter more than %d characters."</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">%d days ago</item>
+        <item quantity="zero">%d days ago</item>
+        <item quantity="one">%d day ago</item>
+        <item quantity="two">%d days ago</item>
+        <item quantity="few">%d days ago</item>
+        <item quantity="many">%d days ago</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">Your next new mission is coming in %d days.</item>
+        <item quantity="zero">Your next new mission is coming in %d days.</item>
+        <item quantity="one">Your next new mission is coming in %d day.</item>
+        <item quantity="two">Your next new mission is coming in %d days.</item>
+        <item quantity="few">Your next new mission is coming in %d days.</item>
+        <item quantity="many">Your next new mission is coming in %d days.</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">You need to be at least %d years old to use Instant Plays.</item>
+        <item quantity="zero">You need to be at least %d years old to use Instant Plays.</item>
+        <item quantity="one">You need to be at least %d year old to use Instant Plays.</item>
+        <item quantity="two">You need to be at least %d years old to use Instant Plays.</item>
+        <item quantity="few">You need to be at least %d years old to use Instant Plays.</item>
+        <item quantity="many">You need to be at least %d years old to use Instant Plays.</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">"You've played this game %d times. Add it to your library for quicker access."</item>
+        <item quantity="zero">"You've played this game %d times. Add it to your library for quicker access."</item>
+        <item quantity="one">"You've played this game %d time. Add it to your library for quicker access."</item>
+        <item quantity="two">"You've played this game %d times. Add it to your library for quicker access."</item>
+        <item quantity="few">"You've played this game %d times. Add it to your library for quicker access."</item>
+        <item quantity="many">"You've played this game %d times. Add it to your library for quicker access."</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">Removed %1$s and %2$d others from Gaming Hub.</item>
+        <item quantity="zero">Removed %1$s and %2$d others from Gaming Hub.</item>
+        <item quantity="one">Removed %1$s and %2$d other from Gaming Hub.</item>
+        <item quantity="two">Removed %1$s and %2$d others from Gaming Hub.</item>
+        <item quantity="few">Removed %1$s and %2$d others from Gaming Hub.</item>
+        <item quantity="many">Removed %1$s and %2$d others from Gaming Hub.</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">%d hours ago</item>
+        <item quantity="zero">%d hours ago</item>
+        <item quantity="one">%d hour ago</item>
+        <item quantity="two">%d hours ago</item>
+        <item quantity="few">%d hours ago</item>
+        <item quantity="many">%d hours ago</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">%d minutes ago</item>
+        <item quantity="zero">%d minutes ago</item>
+        <item quantity="one">%d minute ago</item>
+        <item quantity="two">%d minutes ago</item>
+        <item quantity="few">%d minutes ago</item>
+        <item quantity="many">%d minutes ago</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">Your game notifications will be shown here for %d days.</item>
+        <item quantity="zero">Your game notifications will be shown here for %d days.</item>
+        <item quantity="one">Your game notifications will be shown here for %d day.</item>
+        <item quantity="two">Your game notifications will be shown here for %d days.</item>
+        <item quantity="few">Your game notifications will be shown here for %d days.</item>
+        <item quantity="many">Your game notifications will be shown here for %d days.</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">%d selected</item>
+        <item quantity="zero">%d selected</item>
+        <item quantity="one">%d selected</item>
+        <item quantity="two">%d selected</item>
+        <item quantity="few">%d selected</item>
+        <item quantity="many">%d selected</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">Total of %d games</item>
+        <item quantity="zero">Total of %d games</item>
+        <item quantity="one">Total of %d game</item>
+        <item quantity="two">Total of %d games</item>
+        <item quantity="few">Total of %d games</item>
+        <item quantity="many">Total of %d games</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">Last %d months</item>
+        <item quantity="zero">Last %d months</item>
+        <item quantity="one">Last %d month</item>
+        <item quantity="two">Last %d months</item>
+        <item quantity="few">Last %d months</item>
+        <item quantity="many">Last %d months</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d days</item>
+        <item quantity="zero">%d days</item>
+        <item quantity="one">%d day</item>
+        <item quantity="two">%d days</item>
+        <item quantity="few">%d days</item>
+        <item quantity="many">%d days</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">%d days left</item>
+        <item quantity="zero">%d days left</item>
+        <item quantity="one">%d day left</item>
+        <item quantity="two">%d days left</item>
+        <item quantity="few">%d days left</item>
+        <item quantity="many">%d days left</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d secs</item>
+        <item quantity="zero">%d secs</item>
+        <item quantity="one">%d sec</item>
+        <item quantity="two">%d secs</item>
+        <item quantity="few">%d secs</item>
+        <item quantity="many">%d secs</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">%d days ago</item>
+        <item quantity="zero">%d days ago</item>
+        <item quantity="one">%d day ago</item>
+        <item quantity="two">%d days ago</item>
+        <item quantity="few">%d days ago</item>
+        <item quantity="many">%d days ago</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">%d hours ago</item>
+        <item quantity="zero">%d hours ago</item>
+        <item quantity="one">%d hour ago</item>
+        <item quantity="two">%d hours ago</item>
+        <item quantity="few">%d hours ago</item>
+        <item quantity="many">%d hours ago</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">%d minutes ago</item>
+        <item quantity="zero">%d minutes ago</item>
+        <item quantity="one">%d minute ago</item>
+        <item quantity="two">%d minutes ago</item>
+        <item quantity="few">%d minutes ago</item>
+        <item quantity="many">%d minutes ago</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">%d months ago</item>
+        <item quantity="zero">%d months ago</item>
+        <item quantity="one">%d month ago</item>
+        <item quantity="two">%d months ago</item>
+        <item quantity="few">%d months ago</item>
+        <item quantity="many">%d months ago</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">%d weeks ago</item>
+        <item quantity="zero">%d weeks ago</item>
+        <item quantity="one">%d week ago</item>
+        <item quantity="two">%d weeks ago</item>
+        <item quantity="few">%d weeks ago</item>
+        <item quantity="many">%d weeks ago</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">%d years ago</item>
+        <item quantity="zero">%d years ago</item>
+        <item quantity="one">%d year ago</item>
+        <item quantity="two">%d years ago</item>
+        <item quantity="few">%d years ago</item>
+        <item quantity="many">%d years ago</item>
+    </plurals>
+</resources>

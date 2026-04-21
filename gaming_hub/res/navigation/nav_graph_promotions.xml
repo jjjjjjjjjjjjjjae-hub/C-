@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph_promotions" app:startDestination="@id/PromotionsFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/promotions_title" android:name="com.samsung.android.game.gamehome.gmp.ui.promotions.EventsFragment" android:id="@id/PromotionsFragment">
+        <action android:id="@id/action_promotions_to_coupons" app:destination="@id/CouponsFragment" />
+    </fragment>
+    <fragment android:label="@string/promotions_coupons_title" android:name="com.samsung.android.game.gamehome.gmp.ui.promotions.CouponsFragment" android:id="@id/CouponsFragment" />
+</navigation>

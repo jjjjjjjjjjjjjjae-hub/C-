@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ad_backgroundThumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:id="@id/dim_bg_layer" android:background="@drawable/multi_ad_slim_view_dim_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.samsung.android.mas.internal.ui.AspectRatioLayout android:layout_gravity="center" android:id="@id/adAspectRatio" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/adMediaThumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <View android:layout_gravity="bottom" android:id="@id/multi_ad_slim_text_view_gradient_bg" android:background="@drawable/multi_ad_slim_text_view_gradient_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/multi_ad_slim_view_text_gradient_bg_height" />
+    </com.samsung.android.mas.internal.ui.AspectRatioLayout>
+</merge>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="fraction" name="benefit_description_text_letter_spacing">-0.035</item>
+    <item type="fraction" name="common_item_horizontal_padding_end">1.0</item>
+    <item type="fraction" name="common_item_horizontal_padding_start">0.0</item>
+    <item type="fraction" name="contained_button_default_width">0.6</item>
+    <item type="fraction" name="contained_button_max_width">0.75</item>
+    <item type="fraction" name="detail_play_button_width">0.66</item>
+    <item type="fraction" name="edit_profile_preset_container_width_percent">0.86</item>
+    <item type="fraction" name="edit_profile_text_input_layout_width_percent">1.0</item>
+    <item type="fraction" name="gmp_no_item_width">0.75</item>
+    <item type="fraction" name="gmp_oneui_contained_button_max_width">0.75</item>
+    <item type="fraction" name="home_banner_card_default_description_height_percent">0.181</item>
+    <item type="fraction" name="home_banner_card_default_horizontal_bias">0.12</item>
+    <item type="fraction" name="home_banner_card_default_title_height_percent">0.135</item>
+    <item type="fraction" name="home_banner_card_default_title_width_percent">0.568</item>
+    <item type="fraction" name="main_home_width_percent">1.0</item>
+    <item type="fraction" name="main_tab_layout_percent_width">1.0</item>
+    <item type="fraction" name="no_item_width">0.75</item>
+    <item type="fraction" name="settings_about_button_min_width">0.6</item>
+    <item type="fraction" name="settings_about_button_width_percentage">0.61</item>
+    <item type="fraction" name="settings_about_half">0.5</item>
+    <item type="fraction" name="top_banner_width_percent">1.0</item>
+    <item type="fraction" name="welcome_common_guide_percent_end">0.92</item>
+    <item type="fraction" name="welcome_common_guide_percent_start">0.08</item>
+    <item type="fraction" name="welcome_common_guide_percent_top">0.11</item>
+    <item type="fraction" name="welcome_container_width_percent">1.0</item>
+    <item type="fraction" name="welcome_extended_app_bar_height_proportion">0.2785</item>
+</resources>

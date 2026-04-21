@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:autoMirrored="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:topLeftRadius="@dimen/main_contents_curation_item_type_background_radius" android:bottomRightRadius="@dimen/main_contents_curation_item_thumbnail_radius" />
+            <solid android:color="@color/basic_token_effect_blur_dim_background_dark" />
+        </shape>
+    </item>
+</layer-list>

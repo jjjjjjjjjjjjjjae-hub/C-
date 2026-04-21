@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/test_db" android:key="pref_key_test_database_category">
+        <Preference android:title="@string/test_db_export_db_title" android:key="@string/PREF_KEY_TEST_DB_EXPORT_FILE" android:summary="@string/test_db_export_file_summary" />
+        <Preference android:title="@string/test_network_db_clear_title" android:key="pref_key_test_clear_network_cache" />
+        <Preference android:title="@string/test_db_show_app_usage_events" android:key="@string/PREF_KEY_TEST_DB_SHOW_APP_USAGE_EVENTS" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

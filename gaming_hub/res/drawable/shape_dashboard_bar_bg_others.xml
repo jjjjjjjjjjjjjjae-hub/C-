@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/gamer_profile_dashboard_bar_others_gradient_start_color" android:endColor="@color/gamer_profile_dashboard_bar_others_gradient_end_color" android:angle="0.0" android:type="linear" />
+    <corners android:radius="@dimen/gamer_profile_dashboard_bar_bg_radius" />
+</shape>

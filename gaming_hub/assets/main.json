@@ -1,0 +1,440 @@
+{
+  "resultCode": "000",
+  "description": "success",
+  "curatedResult": {
+    "resultCode": 0,
+    "description": "success",
+    "testId": "no_test",
+    "segmentId": "no_test",
+    "ipUserType": "2",
+    "rankedList": [
+      {
+        "rcuId": "RCU_GTG_PSNL_GAME",
+        "algoId": "ALGO_GREEDY",
+        "rcuType": "recommend",
+        "abPlanId": "",
+        "itemIdList": "000006051139|000006121418|000005539821|000006023362|000006027039|000006013861|000005936212|000005769144|000005299213|000004753441|000006210104|000004001833|000005828362|000005827429|000004622654|000005889420|000005354575|000005965303|000005967706|000005794719|000005952949",
+        "displayType": "05",
+        "displayOrder": 1,
+        "rcuTitle": "더미 히어로",
+        "rcuShortTitle": "더미 히어로",
+        "loopBack": "loopBack",
+        "utmInfo": "utm_source=GameLauncher&utm_medium=internal_curation_carosel&utm_campaign=recommender|RCU_GTG_PSNL_GAME&utm_content=ALGO_GREEDY|1|%CID"
+      }, {
+        "rcuId": "RCU_GTG_PSNL_GAME",
+        "algoId": "ALGO_GREEDY",
+        "rcuType": "recommend",
+        "abPlanId": "",
+        "itemIdList": "000006051139|000006121418|000005539821|000006023362|000006027039|000006013861|000005936212|000005769144|000005299213|000004753441|000006210104|000004001833|000005828362|000005827429|000004622654|000005889420|000005354575|000005965303|000005967706|000005794719|000005952949",
+        "displayType": "06",
+        "displayOrder": 1,
+        "rcuTitle": "더미 메뉴얼",
+        "rcuShortTitle": "더미 메뉴얼",
+        "loopBack": "loopBack",
+        "utmInfo": "utm_source=GameLauncher&utm_medium=internal_curation_carosel&utm_campaign=recommender|RCU_GTG_PSNL_GAME&utm_content=ALGO_GREEDY|1|%CID"
+      }, {
+        "rcuId": "RCU_GTG_PSNL_GAME",
+        "algoId": "ALGO_GREEDY",
+        "rcuType": "recommend",
+        "abPlanId": "",
+        "itemIdList": "000006051139|000006121418|000005539821|000006023362|000006027039|000006013861|000005936212|000005769144|000005299213|000004753441|000006210104|000004001833|000005828362|000005827429|000004622654|000005889420|000005354575|000005965303|000005967706|000005794719|000005952949",
+        "displayType": "01",
+        "displayOrder": 1,
+        "rcuTitle": "더미 뉴게임",
+        "rcuShortTitle": "더미 뉴게임",
+        "loopBack": "loopBack",
+        "utmInfo": "utm_source=GameLauncher&utm_medium=internal_curation_carosel&utm_campaign=recommender|RCU_GTG_PSNL_GAME&utm_content=ALGO_GREEDY|1|%CID"
+      }, {
+        "rcuId": "RCU_GTG_DHOT_GAME",
+        "algoId": "ALGO_USERCOUNT",
+        "rcuType": "recommend",
+        "abPlanId": "",
+        "itemIdList": "000005420240|000005547585|000006226528|000005828362|000006264263|000005354606|000006241303|000005299078|000005343296|000005785734|000005923035|000006027039|000005954340|000005875952|000005760706|000006072112|000006241783|000005577960|000005317543|000005343292|000006051139|000006121418|000005539821|000006023362|000006027039|000006013861|000005936212|000005769144|000005299213|000004753441|000006210104|000004001833|000005828362|000005827429|000004622654|000005889420|000005354575|000005965303|000005967706|000005794719|000005952949",
+        "displayType": "03",
+        "displayOrder": 2,
+        "rcuTitle": "인기 게임",
+        "rcuShortTitle": "인기 게임",
+        "loopBack": "loopBack",
+        "utmInfo": "utm_source=GameLauncher&utm_medium=internal_curation_gamelist&utm_campaign=recommender|RCU_GTG_DHOT_GAME&utm_content=ALGO_USERCOUNT|2|%CID"
+      }, {
+        "rcuId": "RCU_GTG_STACKING_GAME",
+        "algoId": "",
+        "rcuType": "Tag",
+        "abPlanId": "",
+        "itemIdList": "000006013966|000005499580|000005580738|000005354606|000005360143|000005828447|000005360156|000005530359|000005910661|000005293234|000005343293|000005354559|000005785734|000005354535|000005299078",
+        "displayType": "02",
+        "displayOrder": 3,
+        "rcuTitle": "쌓기",
+        "rcuShortTitle": "쌓기",
+        "loopBack": "loopBack",
+        "utmInfo": "utm_source=GameLauncher&utm_medium=internal_curation_gamelist&utm_campaign=recommender|RCU_GTG_STACKING_GAME&utm_content=ALGO_HOT|3|%CID",
+        "categoryItemID": "Stacking"
+      }, {
+        "rcuId": "RCU_GTG_SCRUBBING_GAME",
+        "algoId": "",
+        "rcuType": "Tag",
+        "abPlanId": "",
+        "itemIdList": "000005354370",
+        "displayType": "02",
+        "displayOrder": 4,
+        "rcuTitle": "화면 문지르기",
+        "rcuShortTitle": "화면 문지르기",
+        "loopBack": "loopBack",
+        "utmInfo": "utm_source=GameLauncher&utm_medium=internal_curation_gamelist&utm_campaign=recommender|RCU_GTG_SCRUBBING_GAME&utm_content=ALGO_HOT|4|%CID",
+        "categoryItemID": "Scrubbing"
+      }, {
+        "rcuId": "RCU_GTG_SOFTGAMES_GAME",
+        "algoId": "",
+        "rcuType": "Seller",
+        "abPlanId": "",
+        "itemIdList": "000005323882|000005936212|000005910209|000005991621|000005829655|000006013966|000005321262|000005997454|000005768135|000005967884|000005827429|000005828352|000005794719|000005932876|000005754145|000005876507|000005792997|000005886179|000005828305|000005962375|000005787262|000005927772|000005778690|000006013861|000005936416|000006025221|000005828447|000005985399|000005886229|000005978511|000005790649|000005787202|000005930086|000005794898|000005997674|000005768195|000005932565|000005999237|000005819154|000005829764|000005778701|000005828362|000005354675|000005886290|000006010040|000005971779|000005323991|000005754133|000005965303|000005830907|000005902322|000005886097|000006024880|000006051058|000005769933|000005317543|000006050702|000005829893|000005790893|000005831038|000005795237|000005967706|000005876450|000005778709",
+        "displayType": "02",
+        "displayOrder": 5,
+        "rcuTitle": "SOFTGAMES",
+        "rcuShortTitle": "SOFTGAMES",
+        "loopBack": "loopBack",
+        "utmInfo": "utm_source=GameLauncher&utm_medium=internal_curation_gamelist&utm_campaign=recommender|RCU_GTG_SOFTGAMES_GAME&utm_content=ALGO_HOT|5|%CID",
+        "categoryItemID": "SOFTGAMES"
+      }, {
+        "rcuId": "RCU_GTG_MERGING_GAME",
+        "algoId": "",
+        "rcuType": "Tag",
+        "abPlanId": "",
+        "itemIdList": "000005354530|000005760260|000005932565|000005299227|000005754145|000005828305|000005292385|000005927772|000005299225|000005616922|000005932876|000005293257|000005323991|000005902322|000005829655|000005464573|000005473068|000005577960|000005997674|000005321262|000005725340|000005292355|000005961477|000005987285|000005886179|000006010040|000005999237|000005827429|000005991621|000005343292|000005505924|000005754133|000006050702|000006001250|000005299078|000005699827|000005876450|000005499580|000006018364|000006013861|000005886290|000005787202|000005886229|000005300689|000006035329|000005360156|000005480589|000005317543|000005819154",
+        "displayType": "04",
+        "displayOrder": 6,
+        "rcuTitle": "합치기",
+        "rcuShortTitle": "합치기",
+        "loopBack": "loopBack",
+        "utmInfo": "utm_source=GameLauncher&utm_medium=internal_curation_gamelist&utm_campaign=recommender|RCU_GTG_MERGING_GAME&utm_content=ALGO_HOT|6|%CID",
+        "categoryItemID": "Merging"
+      }, {
+        "rcuId": "RCU_GTG_PUZZLE_GAME",
+        "algoId": "",
+        "rcuType": "Tag",
+        "abPlanId": "",
+        "itemIdList": "000005886179|000005360143|000005829655|000005300689|000005343300|000005977874|000006051058|000005293145|000005792997|000005999237|000005876450|000005768195|000006018364|000005768135|000005354610|000005354565|000005506212|000005985399|000005967303|000005925359|000005468294|000005637264|000005787202|000005694591|000005407109|000005299221|000005354607|000005293169|000005827429|000005961477|000005504579|000005505924|000005293251|000005292385|000005480589|000005987285|000005819154|000005794898|000005699827|000005466294|000005317543|000005886290|000005464573|000005293194|000005828305|000005595530|000005354375|000005299241|000006013861|000005343293|000006050702|000005754145|000005997674|000005354537|000005886097|000005577960|000005930086|000005826744|000005299078|000005476489|000005927772|000005299225|000005992328|000005354546|000006010040|000005354559|000005354386|000006013966|000005499580|000005829893|000005321262|000005299227|000005769144|000006035329|000005760656|000005293257|000005292355|000005810300|000005360140|000005466301|000005932876|000005557052|000005354530|000005991621|000005459367|000005407104|000006001250|000005725340|000005360156|000005744277|000005923035|000005616922|000005360155|000005886229|000005977633|000005971779|000005902322|000005473068",
+        "displayType": "02",
+        "displayOrder": 7,
+        "rcuTitle": "퍼즐",
+        "rcuShortTitle": "퍼즐",
+        "loopBack": "loopBack",
+        "utmInfo": "utm_source=GameLauncher&utm_medium=internal_curation_gamelist&utm_campaign=recommender|RCU_GTG_PUZZLE_GAME&utm_content=ALGO_HOT|7|%CID",
+        "categoryItemID": "Puzzle"
+      }, {
+        "rcuId": "RCU_GTG_FRVR_GAME",
+        "algoId": "",
+        "rcuType": "Seller",
+        "abPlanId": "",
+        "itemIdList": "000005343293|000005343296|000005354527|000005330382|000005407026|000005964050|000005760260|000005910661|000005354607|000005760656|000005407069|000005354565|000005360143|000006018364|000005354390|000005480571|000005354546|000005343277|000005354605|000005407071|000005354341|000005354537|000005864215|000005354357|000005480589|000005343290|000006003496|000005407109|000005530359|000005343300|000005987285|000005760603|000005354368|000005343285|000005354375|000005354610|000005343307|000005354606|000006038167|000005354530|000005547585|000005343294|000005354347|000005925359|000005360155|000005871460|000005407064|000005407074|000005407077|000005354386|000005343288|000005354370|000005354575|000005935544|000005360140|000005354559|000005547582|000005407061|000005360156|000005407068|000005407106|000005360115|000005354535|000006035329|000005330538|000005760706|000006023362|000005832933|000005343292|000005480579|000005407104|000006051139|000006121418|000005539821|000006023362|000005343293|000005343296|000005354527|000005330382|000005407026|000005964050|000005760260|000005910661|000005354607|000005760656|000005407069|000005354565|000005360143|000006018364|000005354390|000005480571|000005354546|000005343277|000005354605|000005407071|000005354341|000005354537|000005864215|000005354357|000005480589|000005343290|000006003496|000005407109|000005530359|000005343300|000005987285|000005760603|000005354368|000005343285|000005354375|000005354610|000005343307|000005354606|000006038167|000005354530|000005547585|000005343294|000005354347|000005925359|000005360155|000005871460|000005407064|000005407074|000005407077|000005354386|000005343288|000005354370|000005354575|000005935544|000005360140|000005354559|000005547582|000005407061|000005360156|000005407068|000005407106|000005360115|000005354535|000006035329|000005330538|000005760706|000006023362|000005832933|000005343292|000005480579|000005407104|000006051139|000006121418|000005539821|000006023362",
+        "displayType": "04",
+        "displayOrder": 8,
+        "rcuTitle": "FRVR",
+        "rcuShortTitle": "FRVR",
+        "loopBack": "loopBack",
+        "utmInfo": "utm_source=GameLauncher&utm_medium=internal_curation_gamelist&utm_campaign=recommender|RCU_GTG_FRVR_GAME&utm_content=ALGO_HOT|8|%CID",
+        "categoryItemID": "FRVR"
+      }, {
+        "rcuId": "RCU_GTG_DRAGGING_GAME",
+        "algoId": "",
+        "rcuType": "Tag",
+        "abPlanId": "",
+        "itemIdList": "000005530359|000005407026|000006050702|000005875952|000005923035|000005360115|000005828305|000005967303|000005299236|000005354605|000005292385|000005754145|000005299078|000005810300|000005760706|000005354606|000006018364|000005925359|000005978511|000005354537|000005330382|000005407064|000006001250|000005876450|000005354535|000005830907|000005939713|000005964050|000005932876|000005886179|000006003496|000005420240|000006023362|000005354357|000005997674|000006010040|000006035329|000005407071|000005343293|000005930086|000005828362|000005637264|000005927772|000005354347|000005694591|000005886097|000005985399|000005932565|000005577960|000005828352|000005755844|000005760656|000005343296|000005506212|000005360143|000005407104|000005769144|000005768195|000005744277|000005299227|000005407069|000006027039|000005699827|000005464573|000005794719|000005480589|000005826744|000005292355|000005819154|000005754133|000005343288|000005513061|000005354610|000005343290|000005616922|000005360140|000005795237|000005407106|000005323882|000005794898|000005407109|000005580579|000005991621|000006051058|000005595530|000005354565|000005787202|000005999237|000005935544|000005407077|000005354370|000005354575|000005354390|000006038167|000005760260|000005792997|000005557052|000005354530|000005354607|000005293257|000006013861|000005354386|000005466294|000005300689|000005299221|000005985823|000005961477|000005760603|000005992328|000005317543|000005343277|000005971779",
+        "displayType": "02",
+        "displayOrder": 9,
+        "rcuTitle": "드래그",
+        "rcuShortTitle": "드래그",
+        "loopBack": "loopBack",
+        "utmInfo": "utm_source=GameLauncher&utm_medium=internal_curation_gamelist&utm_campaign=recommender|RCU_GTG_DRAGGING_GAME&utm_content=ALGO_HOT|9|%CID",
+        "categoryItemID": "Dragging"
+      }, {
+        "rcuId": "RCU_GTG_GROWING_GAME",
+        "algoId": "",
+        "rcuType": "Tag",
+        "abPlanId": "",
+        "itemIdList": "000005407026|000005932069|000005785885|000005577960",
+        "displayType": "02",
+        "displayOrder": 10,
+        "rcuTitle": "육성",
+        "rcuShortTitle": "육성",
+        "loopBack": "loopBack",
+        "utmInfo": "utm_source=GameLauncher&utm_medium=internal_curation_gamelist&utm_campaign=recommender|RCU_GTG_GROWING_GAME&utm_content=ALGO_HOT|10|%CID",
+        "categoryItemID": "Growing"
+      }, {
+        "rcuId": "RCU_GTG_MOVISOFT_GAME",
+        "algoId": "",
+        "rcuType": "Seller",
+        "abPlanId": "",
+        "itemIdList": "000005299231|000005813971|000005459367|000005889420|000005932069|000005299241|000005506212|000005785734|000005985823|000005810300|000005923035|000005299221|000005299213|000005466294|000005473068|000005977874|000005977633|000005992328|000005481212|000005299236|000005744277|000005580738|000005299233|000005299078|000005954340|000005699827|000005814324|000005466301|000005577960|000005967303|000006027039|000005299190|000005299227|000005557052|000006001250|000005694591|000005570206|000005496947|000005299225|000005468294|000005499580|000005785885|000005505924",
+        "displayType": "02",
+        "displayOrder": 11,
+        "rcuTitle": "MOVISOFT",
+        "rcuShortTitle": "MOVISOFT",
+        "loopBack": "loopBack",
+        "utmInfo": "utm_source=GameLauncher&utm_medium=internal_curation_gamelist&utm_campaign=recommender|RCU_GTG_MOVISOFT_GAME&utm_content=ALGO_HOT|11|%CID",
+        "categoryItemID": "MOVISOFT"
+      }, {
+        "rcuId": "RCU_GTG_ONETOUCHPUZZLES_GAME",
+        "algoId": "",
+        "rcuType": "Tag",
+        "abPlanId": "",
+        "itemIdList": "000005292385|000005769144|000005985399|000005354537|000005299221|000005360140",
+        "displayType": "02",
+        "displayOrder": 12,
+        "rcuTitle": "한 붓 그리기",
+        "rcuShortTitle": "한 붓 그리기",
+        "loopBack": "loopBack",
+        "utmInfo": "utm_source=GameLauncher&utm_medium=internal_curation_gamelist&utm_campaign=recommender|RCU_GTG_ONETOUCHPUZZLES_GAME&utm_content=ALGO_HOT|12|%CID",
+        "categoryItemID": "One-touch puzzles"
+      }
+    ],
+    "categoryList": [
+      {
+        "categoryType": "Tag",
+        "categoryItemID": "Puzzle",
+        "categoryTitle": "퍼즐",
+        "contentCount": 98
+      }, {
+        "categoryType": "Tag",
+        "categoryItemID": "Arcade",
+        "categoryTitle": "아케이드",
+        "contentCount": 91
+      }, {
+        "categoryType": "Tag",
+        "categoryItemID": "Sports",
+        "categoryTitle": "스포츠",
+        "contentCount": 19
+      }, {
+        "categoryType": "Tag",
+        "categoryItemID": "One hand",
+        "categoryTitle": "한 손 플레이",
+        "contentCount": 189
+      }, {
+        "categoryType": "Tag",
+        "categoryItemID": "Timing",
+        "categoryTitle": "타이밍",
+        "contentCount": 53
+      }, {
+        "categoryType": "Tag",
+        "categoryItemID": "Dexterity",
+        "categoryTitle": "빨리 누르기",
+        "contentCount": 33
+      }, {
+        "categoryType": "Tag",
+        "categoryItemID": "Merging",
+        "categoryTitle": "합치기",
+        "contentCount": 49
+      }, {
+        "categoryType": "Tag",
+        "categoryItemID": "Card",
+        "categoryTitle": "카드",
+        "contentCount": 12
+      }, {
+        "categoryType": "Seller",
+        "categoryItemID": "CoolGames",
+        "categoryTitle": "CoolGames",
+        "contentCount": 1
+      }, {
+        "categoryType": "Seller",
+        "categoryItemID": "FRVR",
+        "categoryTitle": "FRVR",
+        "contentCount": 71
+      }, {
+        "categoryType": "Seller",
+        "categoryItemID": "GameN",
+        "categoryTitle": "GameN",
+        "contentCount": 38
+      }, {
+        "categoryType": "Seller",
+        "categoryItemID": "MOVISOFT",
+        "categoryTitle": "MOVISOFT",
+        "contentCount": 43
+      }, {
+        "categoryType": "Seller",
+        "categoryItemID": "SOFTGAMES",
+        "categoryTitle": "SOFTGAMES",
+        "contentCount": 64
+      }
+    ]
+  },
+  "games": [
+    {
+      "itemId": "000005300689",
+      "title": "Jewel Academy KR",
+      "link": "http://img.samsungapps.com/instantgame/000005300689/index.html",
+      "company": "CoolGames Publishing bv",
+      "genre": "PUZZLE",
+      "iconUrl": "http://img.samsungapps.com/productNew/000005300689/IconImage_20210401073010418_NEW_WEB_ICON_512_512.png",
+      "orientation": "01",
+      "videoUrls": {
+        "portrait": "http://img.samsungapps.com/productNew/000005300689/instantgame/Portrait_20210318124158909_p.mp4",
+        "landscape": "http://img.samsungapps.com/productNew/000005300689/instantgame/Landscape_20210318124218955_l.mp4"
+      },
+      "imageUrls": {
+        "portrait": "http://img.samsungapps.com/productNew/000005300689/instantgame/Portrait_20210318124125923_p.jpg",
+        "landscape": "http://img.samsungapps.com/productNew/000005300689/instantgame/Landscape_20210318124140695_l.jpg"
+      },
+      "privacyPolicy": "https://www.coolgames.com/privacy-policy/",
+      "createDate": 0,
+      "enableIap": false,
+      "gameType": "01",
+      "restrictedAge": 0,
+      "heroImageUrl": ""
+    }, {
+      "itemId": "000005330382",
+      "title": "Basketball FRVR",
+      "link": "http://img.samsungapps.com/instantgame/000005330382/index.html",
+      "company": "FRVR Limited",
+      "genre": "SPORTS",
+      "iconUrl": "http://img.samsungapps.com/productNew/000005330382/IconImage_20210304060910801_NEW_WEB_ICON_512_512.png",
+      "orientation": "01",
+      "videoUrls": {
+        "portrait": "http://img.samsungapps.com/productNew/000005330382/instantgame/Portrait_20201030104156726_p.mp4",
+        "landscape": "http://img.samsungapps.com/productNew/000005330382/instantgame/Landscape_20201030104154638_l.mp4"
+      },
+      "imageUrls": {
+        "portrait": "http://img.samsungapps.com/productNew/000005330382/instantgame/Portrait_20201030104157514_p.png",
+        "landscape": "http://img.samsungapps.com/productNew/000005330382/instantgame/Landscape_20201030104159209_l.png"
+      },
+      "privacyPolicy": "https://frvr.com/legal/#PrivacyPolicy",
+      "createDate": 0,
+      "enableIap": false,
+      "gameType": "01",
+      "restrictedAge": 0,
+      "heroImageUrl": ""
+    }, {
+      "itemId": "000005343292",
+      "title": "Gold Digger FRVR",
+      "link": "http://img.samsungapps.com/instantgame/000005343292/index.html",
+      "company": "FRVR Limited",
+      "genre": "ARCADE",
+      "iconUrl": "http://img.samsungapps.com/productNew/000005343292/IconImage_20210223021047782_NEW_WEB_ICON_512_512.png",
+      "orientation": "01",
+      "videoUrls": {
+        "portrait": "http://img.samsungapps.com/productNew/000005343292/instantgame/Portrait_20201106140209970_p.mp4",
+        "landscape": "http://img.samsungapps.com/productNew/000005343292/instantgame/Landscape_20201106140211364_l.mp4"
+      },
+      "imageUrls": {
+        "portrait": "http://img.samsungapps.com/productNew/000005343292/instantgame/Portrait_20201106140146360_p.png",
+        "landscape": "http://img.samsungapps.com/productNew/000005343292/instantgame/Landscape_20201106140148342_l.png"
+      },
+      "privacyPolicy": "https://frvr.com/legal/#PrivacyPolicy",
+      "createDate": 0,
+      "enableIap": false,
+      "gameType": "01",
+      "restrictedAge": 0,
+      "heroImageUrl": ""
+    }, {
+      "itemId": "000005343294",
+      "title": "Kickup FRVR",
+      "link": "http://img.samsungapps.com/instantgame/000005343294/index.html",
+      "company": "FRVR Limited",
+      "genre": "SPORTS",
+      "iconUrl": "http://img.samsungapps.com/productNew/000005343294/IconImage_20210128080825221_NEW_WEB_ICON_512_512.png",
+      "orientation": "01",
+      "videoUrls": {
+        "portrait": "http://img.samsungapps.com/productNew/000005343294/instantgame/Portrait_20201106140710934_p.mp4",
+        "landscape": "http://img.samsungapps.com/productNew/000005343294/instantgame/Landscape_20201106140721564_l.mp4"
+      },
+      "imageUrls": {
+        "portrait": "http://img.samsungapps.com/productNew/000005343294/instantgame/Portrait_20201106140659490_p.png",
+        "landscape": "http://img.samsungapps.com/productNew/000005343294/instantgame/Landscape_20201106140702035_l.png"
+      },
+      "privacyPolicy": "https://frvr.com/legal/#PrivacyPolicy",
+      "createDate": 0,
+      "enableIap": false,
+      "gameType": "01",
+      "restrictedAge": 0,
+      "heroImageUrl": ""
+    }, {
+      "itemId": "000005343300",
+      "title": "Mahjong FRVR",
+      "link": "http://img.samsungapps.com/instantgame/000005343300/index.html",
+      "company": "FRVR Limited",
+      "genre": "PUZZLE",
+      "iconUrl": "http://img.samsungapps.com/productNew/000005343300/IconImage_20210128080926021_NEW_WEB_ICON_512_512.png",
+      "orientation": "01",
+      "videoUrls": {
+        "portrait": "http://img.samsungapps.com/productNew/000005343300/instantgame/Portrait_20201106141221839_p.mp4",
+        "landscape": "http://img.samsungapps.com/productNew/000005343300/instantgame/Landscape_20201106141227095_l.mp4"
+      },
+      "imageUrls": {
+        "portrait": "http://img.samsungapps.com/productNew/000005343300/instantgame/Portrait_20201106141201297_p.png",
+        "landscape": "http://img.samsungapps.com/productNew/000005343300/instantgame/Landscape_20201106141203047_l.png"
+      },
+      "privacyPolicy": "https://frvr.com/legal/#PrivacyPolicy",
+      "createDate": 0,
+      "enableIap": false,
+      "gameType": "01",
+      "restrictedAge": 0,
+      "heroImageUrl": ""
+    }, {
+      "itemId": "000004001833",
+      "title": "Stardew Valley",
+      "link": "cloudgame://com.samsung.android.game.cloudgame/closebeta?package=com.chucklefish.stardewvalleysamsung",
+      "company": "ConcernedApe LLC",
+      "genre": "Role Playing",
+      "iconUrl": "https://img.samsungapps.com/content/q93y5jw1vh/2019/0311/IconImage_20190311163914624.png",
+      "orientation": "02",
+      "videoUrls": {
+        "portrait": "",
+        "landscape": ""
+      },
+      "imageUrls": {
+        "portrait": "https://img.samsungapps.com/productNew/000006351709/instantgame/Portrait_20220610111609450_p.jpg",
+        "landscape": "https://img.samsungapps.com/content/q93y5jw1vh/2019/0311/ENG/ScreenImage_20190311164143324.jpg"
+      },
+      "privacyPolicy": "",
+      "createDate": 0,
+      "enableIap": true,
+      "gameType": "02",
+      "restrictedAge": 12,
+      "heroImageUrl": "https://img.samsungapps.com/content/awjbqr94bg/2022/0610/IconImage_20220610111601309.png"
+    }, {
+      "itemId": "000004753441",
+      "title": "Honkai 3rd",
+      "link": "cloudgame://com.samsung.android.game.cloudgame/closebeta?package=com.miHoYo.bh3korea.samsung",
+      "company": "miHoYo Limited",
+      "genre": "Action",
+      "iconUrl": "https://img.samsungapps.com/content/vsdytdgh0a/2022/0217/IconImage_20220217123608736.png",
+      "orientation": "02",
+      "videoUrls": {
+        "portrait": "",
+        "landscape": ""
+      },
+      "imageUrls": {
+        "portrait": "https://img.samsungapps.com/productNew/000006101142/instantgame/Portrait_20220613065722031_p.jpg",
+        "landscape": "https://img.samsungapps.com/content/vsdytdgh0a/2022/0908/KOR/ScreenImage_20220908120411468.jpg"
+      },
+      "privacyPolicy": "",
+      "createDate": 0,
+      "enableIap": true,
+      "gameType": "02",
+      "restrictedAge": 18,
+      "heroImageUrl": "https://img.samsungapps.com/content/qkxefcr9dg/2022/0105/IconImage_20220105085753583.png"
+    }, {
+      "itemId": "000004622654",
+      "title": "Lords Mobile",
+      "link": "cloudgame://com.samsung.android.game.cloudgame/closebeta?package=com.igg.samsung.lordsmobile",
+      "company": "IGG SINGAPORE PTE. LTD.",
+      "genre": "Strategy",
+      "iconUrl": "https://img.samsungapps.com/content/bjvlair3uc/2021/0329/IconImage_20210329031230988.png",
+      "orientation": "02",
+      "videoUrls": {
+        "portrait": "",
+        "landscape": ""
+      },
+      "imageUrls": {
+        "portrait": "https://img.samsungapps.com/productNew/000006262602/instantgame/Portrait_20220902064237132_p.jpg",
+        "landscape": "https://img.samsungapps.com/content/bjvlair3uc/2021/0329/ENG/ScreenImage_20210329031913263.jpg"
+      },
+      "privacyPolicy": "",
+      "createDate": 0,
+      "enableIap": true,
+      "gameType": "02",
+      "restrictedAge": 12,
+      "heroImageUrl": "https://img.samsungapps.com/content/o6xaifza9h/2022/0621/IconImage_20220621015822405.png"
+    }
+  ],
+  "video_auto_play": false
+}

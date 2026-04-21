@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/library_background_radius" />
+    <solid android:angle="@integer/library_background_angle" android:type="linear" android:color="@color/library_background_color" />
+</shape>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:fitsSystemWindows="@bool/hide_system_ui_condition_main" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/basic_round_and_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/home_root_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:seslUseCustomHeight="true">
+                <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_app_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="scroll|enterAlways" style="@style/SeslCollapsingToolbarLayout">
+                    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentInsetStart="0.0dip">
+                        <include android:id="@id/toolbar_content" android:layout_width="fill_parent" android:layout_height="?actionBarSize" layout="@layout/home_toolbar_layout" />
+                    </androidx.appcompat.widget.Toolbar>
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+            <FrameLayout android:id="@id/container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/home_list" android:paddingBottom="@dimen/main_my_games_bottom_padding_for_home_list" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            </FrameLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </FrameLayout>
+    <View android:id="@id/tutorial_dim_background" android:background="@color/main_tutorial_background_dim_color" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

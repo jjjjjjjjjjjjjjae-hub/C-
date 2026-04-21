@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppCompat.Main" parent="@style/SeslAppcompat">
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="actionMenuTextColor">@color/common_fafafa_100</item>
+    </style>
+    <style name="LibraryMultiSelect.Text" parent="@style/RobotoRegular">
+        <item name="android:textSize">@dimen/library_multi_select_dialog_text_size</item>
+        <item name="android:textColor">@color/selector_library_multi_select_popup_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="MainContents.Ad.HtmlAdmob" parent="@style/MainContents.Ad">
+        <item name="android:layout_width">320.0dip</item>
+        <item name="android:layout_height">0.0dip</item>
+    </style>
+    <style name="MainContents.Ad.HtmlMas" parent="@style/MainContents.Ad">
+        <item name="android:layout_width">320.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="MainContents.Ad.Multi" parent="@style/MainContents.Ad">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">126.0dip</item>
+    </style>
+    <style name="Widget.MaterialComponents.MaterialCalendar.HeaderSelection" parent="@style/Widget.AppCompat.TextView">
+        <item name="android:textAppearance">?textAppearanceHeadline6</item>
+        <item name="android:textColor">?colorOnPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">start|center|top</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">@integer/mtrl_calendar_selection_text_lines</item>
+    </style>
+    <style name="Widget.MaterialComponents.MaterialCalendar.HeaderToggleButton" parent="@style/Base.Widget.MaterialComponents.MaterialCalendar.HeaderToggleButton">
+        <item name="android:layout_gravity">start|bottom|center</item>
+    </style>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="detail_youtube_list_item_info_channel_text_size">13.0dip</dimen>
+    <dimen name="detail_youtube_list_item_info_margin_start">20.0dip</dimen>
+    <dimen name="detail_youtube_list_item_info_title_text_size">18.0dip</dimen>
+    <dimen name="detail_youtube_list_item_info_view_count_text_size">13.0dip</dimen>
+    <dimen name="detail_youtube_list_item_padding_vertical">20.0dip</dimen>
+    <dimen name="detail_youtube_list_item_thumbnail_height">169.0dip</dimen>
+    <dimen name="detail_youtube_list_item_thumbnail_width">300.0dip</dimen>
+    <dimen name="detail_youtube_player_info_channel_margin_top">5.0dip</dimen>
+</resources>

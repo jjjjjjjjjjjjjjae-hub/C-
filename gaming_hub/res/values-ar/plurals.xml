@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">تم تحديد %d</item>
+        <item quantity="zero">تم تحديد %d</item>
+        <item quantity="one">تم تحديد %d</item>
+        <item quantity="two">تم تحديد %d</item>
+        <item quantity="few">تم تحديد %d</item>
+        <item quantity="many">تم تحديد %d</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">أتريد حذف %d إشارة مرجعية؟</item>
+        <item quantity="zero">أتريد حذف %d إشارة مرجعية؟</item>
+        <item quantity="one">أتريد حذف إشارة مرجعية واحدة؟</item>
+        <item quantity="two">أتريد حذف إشارتَين مرجعيتَين؟</item>
+        <item quantity="few">أتريد حذف %d إشارات مرجعية؟</item>
+        <item quantity="many">أتريد حذف %d إشارة مرجعية؟</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">يتعذر إدخال أكثر من %d حرف.</item>
+        <item quantity="zero">يتعذر إدخال أكثر من %d حرف.</item>
+        <item quantity="one">يتعذر إدخال أكثر من حرف واحد.</item>
+        <item quantity="two">يتعذر إدخال أكثر من حرفين.</item>
+        <item quantity="few">يتعذر إدخال أكثر من %d أحرف.</item>
+        <item quantity="many">يتعذر إدخال أكثر من %d حرفًا.</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">منذ %d يوم</item>
+        <item quantity="zero">منذ %d يوم</item>
+        <item quantity="one">منذ يوم واحد</item>
+        <item quantity="two">منذ يومَين</item>
+        <item quantity="few">منذ %d أيام</item>
+        <item quantity="many">منذ %d يوماً</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">تقديم سريع للفيديو بمقدار %d ثانية</item>
+        <item quantity="zero">تقديم سريع للفيديو بمقدار %d ثانية</item>
+        <item quantity="one">تقديم سريع للفيديو بمقدار ثانية واحدة (%d)</item>
+        <item quantity="two">تقديم سريع للفيديو بمقدار ثانيتَين (%d)</item>
+        <item quantity="few">تقديم سريع للفيديو بمقدار %d ثوانٍ</item>
+        <item quantity="many">تقديم سريع للفيديو بمقدار %d ثانية</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">ترجيع الفيديو بمقدار %d ثانية</item>
+        <item quantity="zero">ترجيع الفيديو بمقدار %d ثانية</item>
+        <item quantity="one">ترجيع الفيديو بمقدار ثانية واحدة (%d)</item>
+        <item quantity="two">ترجيع الفيديو بمقدار ثانيتَين (%d)</item>
+        <item quantity="few">ترجيع الفيديو بمقدار %d ثوانٍ</item>
+        <item quantity="many">ترجيع الفيديو بمقدار %d ثانية</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">تتوفر مهمتك الجديدة التالية خلال %d يوم.</item>
+        <item quantity="zero">تتوفر مهمتك الجديدة التالية خلال %d يوم.</item>
+        <item quantity="one">تتوفر مهمتك الجديدة التالية خلال يوم واحد.</item>
+        <item quantity="two">تتوفر مهمتك الجديدة التالية خلال يومين.</item>
+        <item quantity="few">تتوفر مهمتك الجديدة التالية خلال %d أيام.</item>
+        <item quantity="many">تتوفر مهمتك الجديدة التالية خلال %d يوماً.</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">يجب أن يكون عمرك ‏‎%d سنة على الأقل لاستخدام الألعاب الفورية.</item>
+        <item quantity="zero">يجب أن يكون عمرك ‏‎%d‎‏‎ سنة على الأقل لاستخدام الألعاب الفورية.</item>
+        <item quantity="one">يجب أن يكون عمرك ‏‎سنة واحدة على الأقل لاستخدام الألعاب الفورية.</item>
+        <item quantity="two">يجب أن يكون عمرك ‏‎سنتين على الأقل لاستخدام الألعاب الفورية.</item>
+        <item quantity="few">يجب أن يكون عمرك ‏‎%d سنوات على الأقل لاستخدام الألعاب الفورية.</item>
+        <item quantity="many">يجب أن يكون عمرك ‏‎%d سنةً على الأقل لاستخدام الألعاب الفورية.</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">لقد لعبت هذه اللعبة %d مرة. قم بإضافتها إلى مكتبتك من أجل الوصول الأسرع.</item>
+        <item quantity="zero">لقد لعبت هذه اللعبة %d مرة. قم بإضافتها إلى مكتبتك من أجل الوصول الأسرع.</item>
+        <item quantity="one">لقد لعبت هذه اللعبة مرة واحدة. قم بإضافتها إلى مكتبتك من أجل الوصول الأسرع.</item>
+        <item quantity="two">لقد لعبت هذه اللعبة مرتين. قم بإضافتها إلى مكتبتك من أجل الوصول الأسرع.</item>
+        <item quantity="few">لقد لعبت هذه اللعبة %d مرات. قم بإضافتها إلى مكتبتك من أجل الوصول الأسرع.</item>
+        <item quantity="many">لقد لعبت هذه اللعبة %d مرةً. قم بإضافتها إلى مكتبتك من أجل الوصول الأسرع.</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">تمت إزالة %1$s و%2$d لعبة أخرى من Gaming Hub.</item>
+        <item quantity="zero">تمت إزالة %1$s و%2$d لعبة أخرى من Gaming Hub.</item>
+        <item quantity="one">تمت إزالة %1$s ولعبة واحدة أخرى من Gaming Hub.</item>
+        <item quantity="two">تمت إزالة %1$s ولعبتين أخريين من Gaming Hub.</item>
+        <item quantity="few">تمت إزالة %1$s و%2$d ألعاب أخرى من Gaming Hub.</item>
+        <item quantity="many">تمت إزالة %1$s و%2$d لعبة أخرى من Gaming Hub.</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">منذ %d ساعة</item>
+        <item quantity="zero">منذ %d ساعة</item>
+        <item quantity="one">منذ ساعة واحدة</item>
+        <item quantity="two">منذ ساعتَين</item>
+        <item quantity="few">منذ %d ساعات</item>
+        <item quantity="many">منذ %d ساعة</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">منذ %d دقيقة</item>
+        <item quantity="zero">منذ %d دقيقة</item>
+        <item quantity="one">منذ دقيقة واحدة</item>
+        <item quantity="two">منذ دقيقتَين</item>
+        <item quantity="few">منذ %d دقائق</item>
+        <item quantity="many">منذ %d دقيقة</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d إشعار جديد</item>
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">سيتم عرض إشعارات لعبتك هنا لمدة %d يوم.</item>
+        <item quantity="zero">سيتم عرض إشعارات اللعبة هنا لمدة %d يوم.</item>
+        <item quantity="one">سيتم عرض إشعارات لعبتك هنا لمدة يوم واحد.</item>
+        <item quantity="two">سيتم عرض إشعارات لعبتك هنا لمدة يومَين.</item>
+        <item quantity="few">سيتم عرض إشعارات لعبتك هنا لمدة %d أيام.</item>
+        <item quantity="many">سيتم عرض إشعارات لعبتك هنا لمدة %d يوماً.</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">تم تحديد %d</item>
+        <item quantity="zero">تم تحديد %d</item>
+        <item quantity="one">تم تحديد %d</item>
+        <item quantity="two">تم تحديد %d</item>
+        <item quantity="few">تم تحديد %d</item>
+        <item quantity="many">تم تحديد %d</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">مجموع %d لعبة</item>
+        <item quantity="zero">مجموع %d لعبة</item>
+        <item quantity="one">مجموع لعبة واحدة</item>
+        <item quantity="two">مجموع لعبتَين</item>
+        <item quantity="few">مجموع %d ألعاب</item>
+        <item quantity="many">مجموع %d لعبة</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">آخر %d شهر</item>
+        <item quantity="zero">آخر %d شهر</item>
+        <item quantity="one">آخر شهر واحد</item>
+        <item quantity="two">آخر شهرين</item>
+        <item quantity="few">آخر %d أشهر</item>
+        <item quantity="many">آخر %d شهراً</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d يوم</item>
+        <item quantity="zero">%d يوم</item>
+        <item quantity="one">يوم واحد</item>
+        <item quantity="two">يومان</item>
+        <item quantity="few">%d أيام</item>
+        <item quantity="many">%d يوماً</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">يتبقى %d يوم</item>
+        <item quantity="zero">يتبقى %d يوم</item>
+        <item quantity="one">يتبقى يوم واحد</item>
+        <item quantity="two">يتبقى يومان</item>
+        <item quantity="few">يتبقى %d أيام</item>
+        <item quantity="many">يتبقى %d يوماً</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d ثانية</item>
+        <item quantity="zero">%d ثانية</item>
+        <item quantity="one">ثانية واحدة</item>
+        <item quantity="two">ثانيتان</item>
+        <item quantity="few">%d ثوانٍ</item>
+        <item quantity="many">%d ثانيةً</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">منذ %d يوم</item>
+        <item quantity="zero">منذ %d يوم</item>
+        <item quantity="one">منذ يوم واحد</item>
+        <item quantity="two">منذ يومَين</item>
+        <item quantity="few">منذ %d أيام</item>
+        <item quantity="many">منذ %d يوماً</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">منذ %d ساعة</item>
+        <item quantity="zero">منذ %d ساعة</item>
+        <item quantity="one">منذ ساعة واحدة</item>
+        <item quantity="two">منذ ساعتَين</item>
+        <item quantity="few">منذ %d ساعات</item>
+        <item quantity="many">منذ %d ساعة</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">منذ %d دقيقة</item>
+        <item quantity="zero">منذ %d دقيقة</item>
+        <item quantity="one">منذ دقيقة واحدة</item>
+        <item quantity="two">منذ دقيقتَين</item>
+        <item quantity="few">منذ %d دقائق</item>
+        <item quantity="many">منذ %d دقيقة</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">منذ %d شهر</item>
+        <item quantity="zero">منذ %d شهر</item>
+        <item quantity="one">منذ شهر واحد</item>
+        <item quantity="two">منذ شهرين</item>
+        <item quantity="few">منذ %d أشهر</item>
+        <item quantity="many">منذ %d شهراً</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">منذ %d أسبوع</item>
+        <item quantity="zero">منذ %d أسبوع</item>
+        <item quantity="one">منذ أسبوع واحد</item>
+        <item quantity="two">منذ أسبوعين</item>
+        <item quantity="few">منذ %d أسابيع</item>
+        <item quantity="many">منذ %d أسبوعاً</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">منذ %d سنة</item>
+        <item quantity="zero">منذ %d سنة</item>
+        <item quantity="one">منذ سنة واحدة</item>
+        <item quantity="two">منذ سنتين</item>
+        <item quantity="few">منذ %d سنوات</item>
+        <item quantity="many">منذ %d سنةً</item>
+    </plurals>
+</resources>

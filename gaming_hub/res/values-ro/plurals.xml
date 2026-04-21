@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">S-au selectat %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S-a selectat %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">S-au selectat %d</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">Ștergeți %d marcaje?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ștergeți %d marcaj?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ștergeți %d marcaje?</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">Nu se pot introduce mai mult de %d caractere.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nu se poate introduce mai mult de %d caracter.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nu se pot introduce mai mult de %d caractere.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">Acum %d zile</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Acum %d zi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Acum %d zile</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Derulează rapid înainte cu %d de secunde</item>
+        <item quantity="one">Derulează rapid înainte cu %d secundă</item>
+        <item quantity="few">Derulează rapid înainte cu %d secunde</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Derulează înapoi cu %d de secunde</item>
+        <item quantity="one">Derulează înapoi cu %d secundă</item>
+        <item quantity="few">Derulează înapoi cu %d secunde</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">Următoarea dvs. misiune nouă va apărea peste %d zile.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Următoarea dvs. misiune nouă va apărea peste %d zi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Următoarea dvs. misiune nouă va apărea peste %d zile.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">Trebuie să aveți cel puțin %d ani pentru a utiliza Jocuri instant.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Trebuie să aveți cel puțin %d an pentru a utiliza Jocuri instant.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Trebuie să aveți cel puțin %d ani pentru a utiliza Jocuri instant.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">Ați jucat acest joc de %d ori. Adăugați-l în bibliotecă pentru un acces mai rapid.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ați jucat acest joc %d dată. Adăugați-l în bibliotecă pentru un acces mai rapid.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ați jucat acest joc de %d ori. Adăugați-l în bibliotecă pentru un acces mai rapid.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">S-au eliminat %1$s și încă %2$d jocuri din Gaming Hub.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S-au eliminat %1$s și încă %2$d joc din Gaming Hub.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">S-au eliminat %1$s și încă %2$d jocuri din Gaming Hub.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">Acum %d ore</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Acum %d oră</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Acum %d ore</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">Acum %d minute</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Acum %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Acum %d minute</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d de notificări noi</item>
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">Notificările de la jocuri vor fi afișate aici timp de %d zile.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Notificările de la jocuri vor fi afișate aici timp de %d zi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Notificările de la jocuri vor fi afișate aici timp de %d zile.</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">S-au selectat %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">S-a selectat %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">S-au selectat %d</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">Total de %d jocuri</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Total de %d joc</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Total de %d jocuri</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">Ultimele %d luni</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ultima %d lună</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ultimele %d luni</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d zile</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d zile</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">%d zile rămase</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d zi rămasă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d zile rămase</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d secunde</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d secundă</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d secunde</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">Acum %d zile</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Acum %d zi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Acum %d zile</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">Acum %d ore</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Acum %d oră</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Acum %d ore</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">Acum %d minute</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Acum %d minut</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Acum %d minute</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">Acum %d luni</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Acum %d lună</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Acum %d luni</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">Acum %d săptămâni</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Acum o săptămână</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Acum %d săptămâni</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">Acum %d ani</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Acum %d an</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Acum %d ani</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

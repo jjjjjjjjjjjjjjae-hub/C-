@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/legend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/detail_content_padding_side"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/play_time_graph_legend" android:layout_width="@dimen/detail_daily_play_time_legend_width" android:layout_height="@dimen/detail_daily_play_time_legend_height" android:backgroundTint="@color/detail_daily_play_time_legend_galaxy_gamers" />
+    <TextView android:textSize="@dimen/detail_daily_play_time_legend_text_size" android:textColor="@color/detail_daily_play_time_legend_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/detail_galaxy_gamers" android:importantForAccessibility="no" android:layout_marginStart="@dimen/detail_daily_play_time_legend_text_size_margin_start" />
+    <ImageView android:background="@drawable/play_time_graph_legend" android:layout_width="@dimen/detail_daily_play_time_legend_width" android:layout_height="@dimen/detail_daily_play_time_legend_height" android:layout_marginStart="@dimen/detail_daily_play_time_legend_item_margin" android:backgroundTint="@color/detail_daily_play_time_legend_me" />
+    <TextView android:textSize="@dimen/detail_daily_play_time_legend_text_size" android:textColor="@color/detail_daily_play_time_legend_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/detail_me" android:importantForAccessibility="no" android:layout_marginStart="@dimen/detail_daily_play_time_legend_text_size_margin_start" />
+</LinearLayout>

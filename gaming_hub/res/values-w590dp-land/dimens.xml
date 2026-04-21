@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_recent_game_item_height">104.0dip</dimen>
+    <dimen name="main_recent_game_item_play_time_margin_top">3.0dip</dimen>
+    <dimen name="main_recent_game_item_title_margin_top">14.0dip</dimen>
+    <dimen name="main_recent_game_item_width">248.0dip</dimen>
+</resources>

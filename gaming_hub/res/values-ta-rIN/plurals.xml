@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">%d தேர்வுசெய்யப்பட்டுள்ளது</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d தேர்வுசெய்யப்பட்டுள்ளது</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">%d புக்மார்க்குகளை நீக்கவா?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d புக்மார்க்கை நீக்கவா?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">%d எழுத்துகளுக்கு மேல் உள்ளிட இயலாது.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d எழுத்துக்கு மேல் உள்ளிட இயலாது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">%d நாட்கள் முன்பு</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d நாள் முன்பு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">உங்கள் அடுத்த புதிய பணியானது %d நாட்களில் கிடைக்கவுள்ளன.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">உங்கள் அடுத்த புதிய பணியானது %d நாளில் கிடைக்கவுள்ளது.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">நீங்கள் விளையாட்டாளர் ப்ரொஃபைலை பயன்படுத்த, குறைந்தது %d வயது பூர்த்தி அடைந்தவராக இருக்க வேண்டும்.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">துரித விளையாட்டுகள் அம்சத்தைப் பயன்படுத்த, நீங்கள் குறைந்தது %d வயதுடையவராக இருக்க வேண்டும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">நீங்கள் இந்த விளையாட்டை %d முறை விளையாடியுள்ளீர்கள். துரித அணுகலுக்கு இதை உங்கள் நூலகத்தில் சேர்க்கவும்.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">நீங்கள் இந்த விளையாட்டை %d முறை விளையாடியுள்ளீர்கள். துரித அணுகலுக்கு இதை உங்கள் நூலகத்தில் சேர்க்கவும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">Gaming Hub-இலிருந்து %1$s மற்றும் பிற %2$d அகற்றப்பட்டுள்ளது.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gaming Hub-இலிருந்து %1$s மற்றும் பிற %2$d அகற்றப்பட்டுள்ளன.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">%d மணிநேரங்கள் முன்பு</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d மணிநேரம் முன்பு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">%d நிமிடங்கள் முன்பு</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d நிமிடம் முன்பு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">உங்கள் விளையாட்டு அறிவிப்புகள், இங்கே %d நாட்களுக்கு காட்டப்படும்.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">உங்கள் விளையாட்டு அறிவிப்புகள், இங்கே %d நாள் காட்டப்படும்.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">%d தேர்வுசெய்யப்பட்டுள்ளது</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d தேர்வுசெய்யப்பட்டுள்ளது</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">மொத்தம் %d விளையாட்டுகள்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">மொத்தம் %d விளையாட்டு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">கடைசி %d மாதங்கள்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">கடைசி %d மாதம்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d நாட்கள்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d நாள்</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">%d நாட்கள் மீதமுள்ளன</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d நாள் மீதமுள்ளது</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d வினாடிகள்</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d வினாடி</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">%d நாட்கள் முன்பு</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d நாள் முன்பு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">%d மணிநேரங்கள் முன்பு</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d மணிநேரம் முன்பு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">%d நிமிடங்கள் முன்பு</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d நிமிடம் முன்பு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">%d மாதங்கள் முன்பு</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d மாதம் முன்பு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">%d வாரங்களுக்கு முன்பு</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d வாரத்திற்கு முன்பு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">%d ஆண்டுகளுக்கு முன்பு</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ஆண்டிற்கு முன்பு</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

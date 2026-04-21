@@ -26,7 +26,7 @@ jobs:
           cp patch/lib/arm64-v8a/*.so build_dir/lib/arm64-v8a/
 
       - name: Rebuild APK
-        run: java -jar apktool.jar b build_dir -o ghost_gaming_hub.apk
+        run: java -jar apktool.jar b -c build_dir -o ghost_gaming_hub.apk
 
       - name: Sign APK
         run: |

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/gamehome_launcher_search_voice" android:tint="@color/basic_searchview_voice_icon_btn" android:height="@dimen/basic_search_view_icon_size" android:width="@dimen/basic_search_view_icon_size" android:autoMirrored="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

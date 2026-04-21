@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">%d sélectionné(e)s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sélectionné(e)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">Supprimer %d favoris ?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Supprimer %d favori ?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">Impossible de saisir plus de %d caractères.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Impossible de saisir plus de %d caractère.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">Il y a %d jours</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Il y a %d jour</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Avancer rapidement de %d secondes</item>
+        <item quantity="one">Avancer rapidement de %d seconde</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Reculer de %d secondes</item>
+        <item quantity="one">Reculer de %d seconde</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">Votre prochaine nouvelle mission arrive dans %d jours.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Votre prochaine nouvelle mission arrive dans %d jour.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">Vous devez avoir au moins %d ans pour utiliser Jeux instantanés.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vous devez avoir au moins %d an pour utiliser Jeux instantanés.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">Vous avez joué à ce jeu %d fois. Ajoutez-le à votre bibliothèque pour y accéder plus rapidement.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vous avez joué à ce jeu %d fois. Ajoutez-le à votre bibliothèque pour y accéder plus rapidement.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">Vous avez supprimé %1$s et %2$d autres jeux de Gaming Hub.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vous avez supprimé %1$s et %2$d autre jeu de Gaming Hub.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">Il y a %d heures</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Il y a %d heure</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">Il y a %d minutes</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Il y a %d minute</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nouvelles notifications</item>
+        <item quantity="one">%d nouvelle notification</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">Les notifications de vos jeux seront affichées ici pendant %d jours.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Les notifications de vos jeux seront affichées ici pendant %d jour.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">%d sélectionné(e)s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sélectionné(e)</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">%d jeux au total</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d jeu au total</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">Les %d derniers mois</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Le dernier mois</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d jours</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d jour</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">%d jours restants</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d jour restant</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d secondes</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d seconde</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">Il y a %d jours</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Il y a %d jour</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">Il y a %d heures</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Il y a %d heure</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">Il y a %d minutes</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Il y a %d minute</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">Il y a %d mois</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Il y a %d mois</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">Il y a %d semaines</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Il y a %d semaine</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">Il y a %d ans</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Il y a %d an</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/test_ad" android:key="pref_key_test_ads_category">
+        <Preference android:title="@string/test_ad_open_lib_setting_title" android:key="@string/PREF_KEY_TEST_AD_OPEN_LIB_SETTING">
+            <intent android:targetPackage="com.samsung.android.game.gamehome" android:targetClass="com.samsung.android.mas.internal.ui.DevSettingsPage" />
+        </Preference>
+        <SwitchPreferenceCompat android:title="@string/test_ad_ignore_request_title" android:key="@string/PREF_KEY_TEST_AD_IGNORE_REQUEST" android:summary="@string/test_ad_ignore_request_summary" />
+        <SwitchPreferenceCompat android:title="@string/test_ad_force_request_video_title" android:key="@string/PREF_KEY_TEST_AD_FORCE_REQUEST_VIDEO" android:summary="@string/test_ad_force_request_video_summary" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

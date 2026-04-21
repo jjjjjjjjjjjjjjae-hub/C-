@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph_terms" app:startDestination="@id/TermsFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/terms_fragment_label" android:name="com.samsung.android.game.gamehome.app.setting.terms.TermsFragment" android:id="@id/TermsFragment">
+        <argument android:name="termsType" app:argType="com.samsung.android.game.gamehome.app_domain.subclass.terms.TermsType" />
+        <argument android:name="termsUrl" android:defaultValue="@null" app:argType="string" app:nullable="true" />
+        <argument android:name="fromTermsList" android:defaultValue="false" app:argType="boolean" />
+        <action android:id="@id/action_terms_to_terms_list" app:destination="@id/TermsListFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit">
+            <argument android:name="termsType" app:argType="com.samsung.android.game.gamehome.app_domain.subclass.terms.TermsType" />
+        </action>
+    </fragment>
+    <fragment android:label="@string/terms_list_fragment_label" android:name="com.samsung.android.game.gamehome.app.setting.terms.TermsListFragment" android:id="@id/TermsListFragment">
+        <argument android:name="termsType" app:argType="com.samsung.android.game.gamehome.app_domain.subclass.terms.TermsType" />
+        <action android:id="@id/action_terms_list_to_terms" app:destination="@id/TermsFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit">
+            <argument android:name="termsType" app:argType="com.samsung.android.game.gamehome.app_domain.subclass.terms.TermsType" />
+            <argument android:name="termsUrl" app:argType="string" />
+            <argument android:name="fromTermsList" android:defaultValue="true" app:argType="boolean" />
+        </action>
+    </fragment>
+</navigation>

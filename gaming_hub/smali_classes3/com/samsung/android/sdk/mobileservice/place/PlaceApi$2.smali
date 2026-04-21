@@ -1,0 +1,170 @@
+.class Lcom/samsung/android/sdk/mobileservice/place/PlaceApi$2;
+.super Lcom/samsung/android/sdk/mobileservice/place/IPlaceResultCallback$Stub;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/samsung/android/sdk/mobileservice/place/PlaceApi;->requestPlaceCreation(Lcom/samsung/android/sdk/mobileservice/place/PlaceApi$PlaceRequest;Lcom/samsung/android/sdk/mobileservice/place/PlaceApi$PlaceResultCallback;)I
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/samsung/android/sdk/mobileservice/place/PlaceApi;
+
+.field final synthetic val$callback:Lcom/samsung/android/sdk/mobileservice/place/PlaceApi$PlaceResultCallback;
+
+
+# direct methods
+.method public constructor <init>(Lcom/samsung/android/sdk/mobileservice/place/PlaceApi;Lcom/samsung/android/sdk/mobileservice/place/PlaceApi$PlaceResultCallback;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/samsung/android/sdk/mobileservice/place/PlaceApi$2;->this$0:Lcom/samsung/android/sdk/mobileservice/place/PlaceApi;
+
+    iput-object p2, p0, Lcom/samsung/android/sdk/mobileservice/place/PlaceApi$2;->val$callback:Lcom/samsung/android/sdk/mobileservice/place/PlaceApi$PlaceResultCallback;
+
+    invoke-direct {p0}, Lcom/samsung/android/sdk/mobileservice/place/IPlaceResultCallback$Stub;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onFailure(Ljava/lang/String;Ljava/lang/String;)V
+    .locals 3
+
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v1, "requestPlaceCreation onFailure : code=["
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v1, "], message=["
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v1, "] "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v1, p0, Lcom/samsung/android/sdk/mobileservice/place/PlaceApi$2;->this$0:Lcom/samsung/android/sdk/mobileservice/place/PlaceApi;
+
+    invoke-static {v1}, Lcom/samsung/android/sdk/mobileservice/place/PlaceApi;->access$000(Lcom/samsung/android/sdk/mobileservice/place/PlaceApi;)Lcom/samsung/android/sdk/mobileservice/SeMobileServiceSessionImpl;
+
+    move-result-object v1
+
+    invoke-static {v1}, Lcom/samsung/android/sdk/mobileservice/util/SdkLog;->getReference(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "PlaceApi"
+
+    invoke-static {v1, v0}, Lcom/samsung/android/sdk/mobileservice/util/SdkLog;->d(Ljava/lang/String;Ljava/lang/String;)V
+
+    iget-object p0, p0, Lcom/samsung/android/sdk/mobileservice/place/PlaceApi$2;->val$callback:Lcom/samsung/android/sdk/mobileservice/place/PlaceApi$PlaceResultCallback;
+
+    new-instance v0, Lcom/samsung/android/sdk/mobileservice/place/PlaceResult;
+
+    new-instance v1, Lcom/samsung/android/sdk/mobileservice/common/result/CommonResultStatus;
+
+    const/4 v2, -0x1
+
+    invoke-direct {v1, v2, p2, p1}, Lcom/samsung/android/sdk/mobileservice/common/result/CommonResultStatus;-><init>(ILjava/lang/String;Ljava/lang/String;)V
+
+    const/4 p1, 0x0
+
+    invoke-direct {v0, v1, p1}, Lcom/samsung/android/sdk/mobileservice/place/PlaceResult;-><init>(Lcom/samsung/android/sdk/mobileservice/common/result/CommonResultStatus;Ljava/lang/Object;)V
+
+    invoke-interface {p0, v0}, Lcom/samsung/android/sdk/mobileservice/place/PlaceApi$PlaceResultCallback;->onResult(Lcom/samsung/android/sdk/mobileservice/place/PlaceResult;)V
+
+    return-void
+.end method
+
+.method public onSuccess(Landroid/os/Bundle;)V
+    .locals 3
+
+    new-instance v0, Lcom/samsung/android/sdk/mobileservice/place/Place;
+
+    invoke-direct {v0, p1}, Lcom/samsung/android/sdk/mobileservice/place/Place;-><init>(Landroid/os/Bundle;)V
+
+    new-instance p1, Ljava/lang/StringBuilder;
+
+    invoke-direct {p1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v1, "requestPlaceCreation onSuccess : name=["
+
+    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Lcom/samsung/android/sdk/mobileservice/place/Place;->getName()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v1, "], createTime=["
+
+    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Lcom/samsung/android/sdk/mobileservice/place/Place;->getUpdatedTime()J
+
+    move-result-wide v1
+
+    invoke-virtual {p1, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    const-string v1, "]"
+
+    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v1, p0, Lcom/samsung/android/sdk/mobileservice/place/PlaceApi$2;->this$0:Lcom/samsung/android/sdk/mobileservice/place/PlaceApi;
+
+    invoke-static {v1}, Lcom/samsung/android/sdk/mobileservice/place/PlaceApi;->access$000(Lcom/samsung/android/sdk/mobileservice/place/PlaceApi;)Lcom/samsung/android/sdk/mobileservice/SeMobileServiceSessionImpl;
+
+    move-result-object v1
+
+    invoke-static {v1}, Lcom/samsung/android/sdk/mobileservice/util/SdkLog;->getReference(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {p1, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    const-string v1, "PlaceApi"
+
+    invoke-static {v1, p1}, Lcom/samsung/android/sdk/mobileservice/util/SdkLog;->d(Ljava/lang/String;Ljava/lang/String;)V
+
+    iget-object p0, p0, Lcom/samsung/android/sdk/mobileservice/place/PlaceApi$2;->val$callback:Lcom/samsung/android/sdk/mobileservice/place/PlaceApi$PlaceResultCallback;
+
+    new-instance p1, Lcom/samsung/android/sdk/mobileservice/place/PlaceResult;
+
+    new-instance v1, Lcom/samsung/android/sdk/mobileservice/common/result/CommonResultStatus;
+
+    const/4 v2, 0x1
+
+    invoke-direct {v1, v2}, Lcom/samsung/android/sdk/mobileservice/common/result/CommonResultStatus;-><init>(I)V
+
+    invoke-direct {p1, v1, v0}, Lcom/samsung/android/sdk/mobileservice/place/PlaceResult;-><init>(Lcom/samsung/android/sdk/mobileservice/common/result/CommonResultStatus;Ljava/lang/Object;)V
+
+    invoke-interface {p0, p1}, Lcom/samsung/android/sdk/mobileservice/place/PlaceApi$PlaceResultCallback;->onResult(Lcom/samsung/android/sdk/mobileservice/place/PlaceResult;)V
+
+    return-void
+.end method

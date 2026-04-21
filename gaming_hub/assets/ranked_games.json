@@ -1,0 +1,201 @@
+{
+  "result_code": "000",
+  "description": "success",
+  "curated_result": {
+    "ranked_list": [
+      {
+        "rcu_id": "RCU_GTG_PSNL_GAME",
+        "algo_id": "ALGO_GREEDY",
+        "rcu_type": "recommend",
+        "ab_plan_id": "",
+        "item_id_list": "000006051139|000006121418|000005539821|000006023362|000006027039|000006013861|000005936212|000005769144|000005299213|000004753441|000006210104|000004001833|000005828362|000005827429|000004622654|000005889420|000005354575|000005965303|000005967706|000005794719|000005952949",
+        "display_order": 1,
+        "rcu_title": "더미 히어로",
+        "rcu_short_title": "더미 히어로",
+        "loop_back": "loopBack",
+        "utm_info": "utm_source=GameLauncher&utm_medium=internal_curation_carosel&utm_campaign=recommender|RCU_GTG_PSNL_GAME&utm_content=ALGO_GREEDY|1|%CID"
+      }
+    ],
+    "category_list": []
+  },
+  "games": [
+    {
+      "item_id": "000005300689",
+      "name": "Jewel Academy KR",
+      "link": "http://img.samsungapps.com/instantgame/000005300689/index.html",
+      "company": "CoolGames Publishing bv",
+      "genre": "PUZZLE",
+      "icon_url": "http://img.samsungapps.com/productNew/000005300689/IconImage_20210401073010418_NEW_WEB_ICON_512_512.png",
+      "orientation": "01",
+      "video_urls": {
+        "portrait": "http://img.samsungapps.com/productNew/000005300689/instantgame/Portrait_20210318124158909_p.mp4",
+        "landscape": "http://img.samsungapps.com/productNew/000005300689/instantgame/Landscape_20210318124218955_l.mp4"
+      },
+      "video_thumbnails": {
+        "portrait": "http://img.samsungapps.com/productNew/000005300689/instantgame/Portrait_20210318124125923_p.jpg",
+        "landscape": "http://img.samsungapps.com/productNew/000005300689/instantgame/Landscape_20210318124140695_l.jpg"
+      },
+      "privacy_policy": "https://www.coolgames.com/privacy-policy/",
+      "create_date": 0,
+      "enable_iap": false,
+      "gameType": "01",
+      "restrictedAge": 0,
+      "heroImageUrl": ""
+    }, {
+      "item_id": "000005330382",
+      "name": "Basketball FRVR",
+      "link": "http://img.samsungapps.com/instantgame/000005330382/index.html",
+      "company": "FRVR Limited",
+      "genre": "SPORTS",
+      "icon_url": "http://img.samsungapps.com/productNew/000005330382/IconImage_20210304060910801_NEW_WEB_ICON_512_512.png",
+      "orientation": "01",
+      "video_urls": {
+        "portrait": "http://img.samsungapps.com/productNew/000005330382/instantgame/Portrait_20201030104156726_p.mp4",
+        "landscape": "http://img.samsungapps.com/productNew/000005330382/instantgame/Landscape_20201030104154638_l.mp4"
+      },
+      "video_thumbnails": {
+        "portrait": "http://img.samsungapps.com/productNew/000005330382/instantgame/Portrait_20201030104157514_p.png",
+        "landscape": "http://img.samsungapps.com/productNew/000005330382/instantgame/Landscape_20201030104159209_l.png"
+      },
+      "privacy_policy": "https://frvr.com/legal/#privacy_policy",
+      "create_date": 0,
+      "enable_iap": false,
+      "gameType": "01",
+      "restrictedAge": 0,
+      "heroImageUrl": ""
+    }, {
+      "item_id": "000005343292",
+      "name": "Gold Digger FRVR",
+      "link": "http://img.samsungapps.com/instantgame/000005343292/index.html",
+      "company": "FRVR Limited",
+      "genre": "ARCADE",
+      "icon_url": "http://img.samsungapps.com/productNew/000005343292/IconImage_20210223021047782_NEW_WEB_ICON_512_512.png",
+      "orientation": "01",
+      "video_urls": {
+        "portrait": "http://img.samsungapps.com/productNew/000005343292/instantgame/Portrait_20201106140209970_p.mp4",
+        "landscape": "http://img.samsungapps.com/productNew/000005343292/instantgame/Landscape_20201106140211364_l.mp4"
+      },
+      "video_thumbnails": {
+        "portrait": "http://img.samsungapps.com/productNew/000005343292/instantgame/Portrait_20201106140146360_p.png",
+        "landscape": "http://img.samsungapps.com/productNew/000005343292/instantgame/Landscape_20201106140148342_l.png"
+      },
+      "privacy_policy": "https://frvr.com/legal/#privacy_policy",
+      "create_date": 0,
+      "enable_iap": false,
+      "gameType": "01",
+      "restrictedAge": 0,
+      "heroImageUrl": ""
+    }, {
+      "item_id": "000005343294",
+      "name": "Kickup FRVR",
+      "link": "http://img.samsungapps.com/instantgame/000005343294/index.html",
+      "company": "FRVR Limited",
+      "genre": "SPORTS",
+      "icon_url": "http://img.samsungapps.com/productNew/000005343294/IconImage_20210128080825221_NEW_WEB_ICON_512_512.png",
+      "orientation": "01",
+      "video_urls": {
+        "portrait": "http://img.samsungapps.com/productNew/000005343294/instantgame/Portrait_20201106140710934_p.mp4",
+        "landscape": "http://img.samsungapps.com/productNew/000005343294/instantgame/Landscape_20201106140721564_l.mp4"
+      },
+      "video_thumbnails": {
+        "portrait": "http://img.samsungapps.com/productNew/000005343294/instantgame/Portrait_20201106140659490_p.png",
+        "landscape": "http://img.samsungapps.com/productNew/000005343294/instantgame/Landscape_20201106140702035_l.png"
+      },
+      "privacy_policy": "https://frvr.com/legal/#privacy_policy",
+      "create_date": 0,
+      "enable_iap": false,
+      "gameType": "01",
+      "restrictedAge": 0,
+      "heroImageUrl": ""
+    }, {
+      "item_id": "000005343300",
+      "name": "Mahjong FRVR",
+      "link": "http://img.samsungapps.com/instantgame/000005343300/index.html",
+      "company": "FRVR Limited",
+      "genre": "PUZZLE",
+      "icon_url": "http://img.samsungapps.com/productNew/000005343300/IconImage_20210128080926021_NEW_WEB_ICON_512_512.png",
+      "orientation": "01",
+      "video_urls": {
+        "portrait": "http://img.samsungapps.com/productNew/000005343300/instantgame/Portrait_20201106141221839_p.mp4",
+        "landscape": "http://img.samsungapps.com/productNew/000005343300/instantgame/Landscape_20201106141227095_l.mp4"
+      },
+      "video_thumbnails": {
+        "portrait": "http://img.samsungapps.com/productNew/000005343300/instantgame/Portrait_20201106141201297_p.png",
+        "landscape": "http://img.samsungapps.com/productNew/000005343300/instantgame/Landscape_20201106141203047_l.png"
+      },
+      "privacy_policy": "https://frvr.com/legal/#privacy_policy",
+      "create_date": 0,
+      "enable_iap": false,
+      "gameType": "01",
+      "restrictedAge": 0,
+      "heroImageUrl": ""
+    }, {
+      "item_id": "000004001833",
+      "name": "Stardew Valley",
+      "link": "cloudgame://com.samsung.android.game.cloudgame/closebeta?package=com.chucklefish.stardewvalleysamsung",
+      "company": "ConcernedApe LLC",
+      "genre": "Role Playing",
+      "icon_url": "https://img.samsungapps.com/content/q93y5jw1vh/2019/0311/IconImage_20190311163914624.png",
+      "orientation": "02",
+      "video_urls": {
+        "portrait": "",
+        "landscape": ""
+      },
+      "video_thumbnails": {
+        "portrait": "https://img.samsungapps.com/productNew/000006351709/instantgame/Portrait_20220610111609450_p.jpg",
+        "landscape": "https://img.samsungapps.com/content/q93y5jw1vh/2019/0311/ENG/ScreenImage_20190311164143324.jpg"
+      },
+      "privacy_policy": "",
+      "create_date": 0,
+      "enable_iap": true,
+      "gameType": "02",
+      "restrictedAge": 12,
+      "heroImageUrl": "https://img.samsungapps.com/content/awjbqr94bg/2022/0610/IconImage_20220610111601309.png"
+    }, {
+      "item_id": "000004753441",
+      "name": "Honkai 3rd",
+      "link": "cloudgame://com.samsung.android.game.cloudgame/closebeta?package=com.miHoYo.bh3korea.samsung",
+      "company": "miHoYo Limited",
+      "genre": "Action",
+      "icon_url": "https://img.samsungapps.com/content/vsdytdgh0a/2022/0217/IconImage_20220217123608736.png",
+      "orientation": "02",
+      "video_urls": {
+        "portrait": "",
+        "landscape": ""
+      },
+      "video_thumbnails": {
+        "portrait": "https://img.samsungapps.com/productNew/000006101142/instantgame/Portrait_20220613065722031_p.jpg",
+        "landscape": "https://img.samsungapps.com/content/vsdytdgh0a/2022/0908/KOR/ScreenImage_20220908120411468.jpg"
+      },
+      "privacy_policy": "",
+      "create_date": 0,
+      "enable_iap": true,
+      "gameType": "02",
+      "restrictedAge": 18,
+      "heroImageUrl": "https://img.samsungapps.com/content/qkxefcr9dg/2022/0105/IconImage_20220105085753583.png"
+    }, {
+      "item_id": "000004622654",
+      "name": "Lords Mobile",
+      "link": "cloudgame://com.samsung.android.game.cloudgame/closebeta?package=com.igg.samsung.lordsmobile",
+      "company": "IGG SINGAPORE PTE. LTD.",
+      "genre": "Strategy",
+      "icon_url": "https://img.samsungapps.com/content/bjvlair3uc/2021/0329/IconImage_20210329031230988.png",
+      "orientation": "02",
+      "video_urls": {
+        "portrait": "",
+        "landscape": ""
+      },
+      "video_thumbnails": {
+        "portrait": "https://img.samsungapps.com/productNew/000006262602/instantgame/Portrait_20220902064237132_p.jpg",
+        "landscape": "https://img.samsungapps.com/content/bjvlair3uc/2021/0329/ENG/ScreenImage_20210329031913263.jpg"
+      },
+      "privacy_policy": "",
+      "create_date": 0,
+      "enable_iap": true,
+      "gameType": "02",
+      "restrictedAge": 12,
+      "heroImageUrl": "https://img.samsungapps.com/content/o6xaifza9h/2022/0621/IconImage_20220621015822405.png"
+    }
+  ],
+  "video_auto_play": false
+}

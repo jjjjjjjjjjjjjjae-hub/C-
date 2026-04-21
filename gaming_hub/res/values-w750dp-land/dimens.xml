@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="welcome_app_name_container_padding_bottom">14.0dip</dimen>
+    <dimen name="welcome_app_name_container_padding_top">36.0dip</dimen>
+    <dimen name="welcome_benefit_title_margin_top">14.0dip</dimen>
+    <dimen name="welcome_container_max_width">0.0dip</dimen>
+    <dimen name="welcome_container_padding_horizontal">0.0dip</dimen>
+</resources>

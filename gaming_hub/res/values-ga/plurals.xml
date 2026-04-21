@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">%d roghnaithe</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d roghnaithe</item>
+        <item quantity="two">%d roghnaithe</item>
+        <item quantity="few">%d roghnaithe</item>
+        <item quantity="many">%d roghnaithe</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">Scrios %d leabharmharc?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Scrios %d leabharmharc?</item>
+        <item quantity="two">Scrios %d leabharmharc?</item>
+        <item quantity="few">Scrios %d leabharmharc?</item>
+        <item quantity="many">Scrios %d leabharmharc?</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">Ní féidir níos mó ná %d carachtar a iontráil.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="two">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="few">Ní féidir níos mó ná %d charachtar a iontráil.</item>
+        <item quantity="many">Ní féidir níos mó ná %d gcarachtar a iontráil.</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">%d lá ó shin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d lá ó shin</item>
+        <item quantity="two">%d lá ó shin</item>
+        <item quantity="few">%d lá ó shin</item>
+        <item quantity="many">%d lá ó shin</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">Beidh do chéad mhisean nua eile ag teacht aníos i gceann %d lá.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Beidh do chéad mhisean nua eile ag teacht aníos i gceann %d lae.</item>
+        <item quantity="two">Beidh do chéad mhisean nua eile ag teacht aníos i gceann %d lá.</item>
+        <item quantity="few">Beidh do chéad mhisean nua eile ag teacht aníos i gceann %d lá.</item>
+        <item quantity="many">Beidh do chéad mhisean nua eile ag teacht aníos i gceann %d lá.</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">"Ní foláir duit a bheith %d bliain d'aois ar a laghad le Cluichí Meandracha a úsáid."</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Ní foláir duit a bheith %d bhliain d'aois ar a laghad le Cluichí Meandracha a úsáid."</item>
+        <item quantity="two">"Ní foláir duit a bheith %d bhliain d'aois ar a laghad le Cluichí Meandracha a úsáid."</item>
+        <item quantity="few">"Ní foláir duit a bheith %d bliana d'aois ar a laghad le Cluichí Meandracha a úsáid."</item>
+        <item quantity="many">"Ní foláir duit a bheith %d mbliana d'aois ar a laghad le Cluichí Meandracha a úsáid."</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">Tá an cluiche seo imeartha agat faoi %d. Cuir le do leabharlann é le rochtain níos tapa a fháil air.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tá an cluiche seo imeartha agat faoi %d. Cuir le do leabharlann é le rochtain níos tapa a fháil air.</item>
+        <item quantity="two">Tá an cluiche seo imeartha agat faoi %d. Cuir le do leabharlann é le rochtain níos tapa a fháil air.</item>
+        <item quantity="few">Tá an cluiche seo imeartha agat faoi %d. Cuir le do leabharlann é le rochtain níos tapa a fháil air.</item>
+        <item quantity="many">Tá an cluiche seo imeartha agat faoi %d. Cuir le do leabharlann é le rochtain níos tapa a fháil air.</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">%1$s agus %2$d cluiche eile bainte ó Gaming Hub.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s agus %2$d chluiche eile bainte ó Gaming Hub.</item>
+        <item quantity="two">%1$s agus %2$d chluiche eile bainte ó Gaming Hub.</item>
+        <item quantity="few">%1$s agus %2$d chluiche eile bainte ó Gaming Hub.</item>
+        <item quantity="many">%1$s agus %2$d gcluiche eile bainte ó Gaming Hub.</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">%d ur. ó shin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ur. ó shin</item>
+        <item quantity="two">%d ur. ó shin</item>
+        <item quantity="few">%d ur. ó shin</item>
+        <item quantity="many">%d n-ur. ó shin</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">%d nóiméad ó shin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nóiméad ó shin</item>
+        <item quantity="two">%d nóiméad ó shin</item>
+        <item quantity="few">%d nóiméad ó shin</item>
+        <item quantity="many">%d nóiméad ó shin</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">"Taispeánfar d'fhógraí cluiche anseo go ceann %d lá."</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"Taispeánfar d'fhógraí cluiche anseo go ceann %d lae."</item>
+        <item quantity="two">"Taispeánfar d'fhógraí cluiche anseo go ceann %d lá."</item>
+        <item quantity="few">"Taispeánfar d'fhógraí cluiche anseo go ceann %d lá."</item>
+        <item quantity="many">"Taispeánfar d'fhógraí cluiche anseo go ceann %d lá."</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">%d roghnaithe</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d roghnaithe</item>
+        <item quantity="two">%d roghnaithe</item>
+        <item quantity="few">%d roghnaithe</item>
+        <item quantity="many">%d roghnaithe</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">%d cluiche san iomlán</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d chluiche san iomlán</item>
+        <item quantity="two">%d chluiche san iomlán</item>
+        <item quantity="few">%d chluiche san iomlán</item>
+        <item quantity="many">%d gcluiche san iomlán</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">Le %d mí anuas</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Le %d mhí anuas</item>
+        <item quantity="two">Le %d mhí anuas</item>
+        <item quantity="few">Le %d mhí anuas</item>
+        <item quantity="many">Le %d mí anuas</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d lá</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d lá</item>
+        <item quantity="two">%d lá</item>
+        <item quantity="few">%d lá</item>
+        <item quantity="many">%d lá</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">%d lá fágtha</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d lá fágtha</item>
+        <item quantity="two">%d lá fágtha</item>
+        <item quantity="few">%d lá fágtha</item>
+        <item quantity="many">%d lá fágtha</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d soic</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d soic</item>
+        <item quantity="two">%d shoic</item>
+        <item quantity="few">%d shoic</item>
+        <item quantity="many">%d soic</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">%d lá ó shin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d lá ó shin</item>
+        <item quantity="two">%d lá ó shin</item>
+        <item quantity="few">%d lá ó shin</item>
+        <item quantity="many">%d lá ó shin</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">%d ur. ó shin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ur. ó shin</item>
+        <item quantity="two">%d ur. ó shin</item>
+        <item quantity="few">%d ur. ó shin</item>
+        <item quantity="many">%d n-ur. ó shin</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">%d nóiméad ó shin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nóiméad ó shin</item>
+        <item quantity="two">%d nóiméad ó shin</item>
+        <item quantity="few">%d nóiméad ó shin</item>
+        <item quantity="many">%d nóiméad ó shin</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">%d mí ó shin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mhí ó shin</item>
+        <item quantity="two">%d mhí ó shin</item>
+        <item quantity="few">%d mhí ó shin</item>
+        <item quantity="many">%d mí ó shin</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">%d seachtain ó shin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d seachtain ó shin</item>
+        <item quantity="two">%d sheachtain ó shin</item>
+        <item quantity="few">%d seachtaine ó shin</item>
+        <item quantity="many">%d seachtaine ó shin</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">%d bliain ó shin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bhliain ó shin</item>
+        <item quantity="two">%d bhliain ó shin</item>
+        <item quantity="few">%d bliana ó shin</item>
+        <item quantity="many">%d mbliana ó shin</item>
+    </plurals>
+</resources>

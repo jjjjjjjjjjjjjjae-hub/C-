@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">%d ausgewählt</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ausgewählt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">%d Lesezeichen löschen?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Lesezeichen löschen?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">Es können höchstens %d Zeichen eingegeben werden.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Es kann höchstens %d Zeichen eingegeben werden.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">Vor %d Tagen</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vor %d Tag</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d Sekunden vorspulen</item>
+        <item quantity="one">%d Sekunde vorspulen</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d Sekunden zurückspulen</item>
+        <item quantity="one">%d Sekunde zurückspulen</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">Deine nächste Aufgabe kommt in %d Tagen.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Deine nächste Aufgabe kommt in %d Tag.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">Du musst mindestens %d Jahre alt sein, um Sofortspiele zu verwenden.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Du musst mindestens %d Jahr alt sein, um Sofortspiele zu verwenden.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">Du hast dieses Spiel %d-mal gespielt. Füge es für schnellen Zugriff deiner Bibliothek hinzu.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Du hast dieses Spiel %d-mal gespielt. Füge es für schnellen Zugriff deiner Bibliothek hinzu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">%1$s und %2$d weitere aus Gaming Hub entfernt.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s und %2$d weiteres aus Gaming Hub entfernt.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">Vor %d Stunden</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vor %d Stunde</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">Vor %d Minuten</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vor %d Minute</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d neue Benachrichtigungen</item>
+        <item quantity="one">%d neue Benachrichtigung</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">Deine Spielbenachrichtigungen werden hier %d Tage lang angezeigt.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Deine Spielbenachrichtigungen werden hier %d Tag lang angezeigt.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">%d ausgewählt</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ausgewählt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">Insgesamt %d Spiele</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Insgesamt %d Spiel</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">Letzte %d Monate</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Letzter %d Monat</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d Tage</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Tag</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">Noch %d Tage</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Noch %d Tag</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d Sekunden</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d Sekunde</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">Vor %d Tagen</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vor %d Tag</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">Vor %d Stunden</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vor %d Stunde</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">Vor %d Minuten</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vor %d Minute</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">Vor %d Monaten</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vor %d Monat</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">Vor %d Wochen</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vor %d Woche</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">Vor %d Jahren</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vor %d Jahr</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

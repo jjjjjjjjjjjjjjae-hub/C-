@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/tw_card_type_close_mtrl" android:tint="@color/search_recent_item_icon_tint" android:height="@dimen/search_recent_item_remove_icon_size" android:width="@dimen/search_recent_item_remove_icon_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

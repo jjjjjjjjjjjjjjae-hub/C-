@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/header" android:layout_width="0.0dip" android:layout_height="wrap_content" android:paddingHorizontal="20.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/title_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginEnd="10.0dip" app:layout_constraintBottom_toTopOf="@id/description" app:layout_constraintEnd_toStartOf="@id/more" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed">
+        <ImageView android:layout_gravity="start" android:id="@id/logo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_instantplays_logo" app:tint="@color/basic_common_text_1" />
+        <TextView android:id="@id/title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Home.DefaultCard.Header" />
+    </FrameLayout>
+    <ImageView android:id="@id/more" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_more" app:layout_constraintBottom_toBottomOf="@id/title_layout" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/title_layout" />
+    <TextView android:id="@id/description" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title_layout" app:layout_constraintVertical_chainStyle="packed" style="@style/Home.DefaultCard.Description" />
+</androidx.constraintlayout.widget.ConstraintLayout>

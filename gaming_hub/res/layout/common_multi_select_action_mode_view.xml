@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/toolbar_delete_mode" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/select_all_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/basic_multi_select_check_box_margin_start" android:layout_marginEnd="@dimen/basic_multi_select_check_box_margin_end">
+        <CheckBox android:layout_gravity="center_horizontal" android:id="@id/select_all" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" />
+        <TextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/basic_multi_select_all_margin_top" android:text="@string/all" style="@style/ActionBarMultiSelectionAll" />
+    </LinearLayout>
+    <TextView android:layout_gravity="center_vertical" android:id="@id/selected_count" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ActionBarTitleText" />
+</LinearLayout>

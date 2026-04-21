@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/bookmarks" android:title="@string/bookmark_title" android:showAsAction="never" />
+    <item android:icon="@drawable/ic_promotion" android:id="@id/events" android:visible="false" android:title="@string/more_menu_title_promotions" app:iconTint="@color/more_menu_icon_tint" app:showAsAction="never" />
+    <item android:id="@id/gamebooster" android:visible="false" android:title="@string/more_menu_title_game_booster" android:showAsAction="never" />
+    <item android:id="@id/gameplugin" android:visible="false" android:title="@string/more_menu_title_game_plugins" android:showAsAction="never" />
+    <item android:id="@id/notice" android:title="@string/more_menu_title_notice" android:showAsAction="never" />
+    <item android:id="@id/community" android:visible="false" android:title="@string/more_menu_title_community" android:showAsAction="never" />
+    <item android:id="@id/setting" android:title="@string/more_menu_title_settings" android:showAsAction="never" />
+    <item android:id="@id/game_notification" android:title="@string/more_menu_title_game_notification" android:showAsAction="never" />
+    <item android:id="@id/temp_main" android:title="New Main" android:showAsAction="never" />
+    <item android:id="@id/temp_mygames" android:title="Temp my Games" android:showAsAction="never" />
+    <item android:id="@id/test_settings" android:title="@string/more_menu_title_test_settings" android:showAsAction="never" />
+</menu>

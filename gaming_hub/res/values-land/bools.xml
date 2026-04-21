@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="gmp_hide_status_bar_condition">true</bool>
+    <bool name="gmp_hide_system_ui_condition">true</bool>
+    <bool name="gmp_hide_system_ui_condition_inverse">false</bool>
+    <bool name="hide_status_bar_condition">true</bool>
+    <bool name="main_fits_system_window">true</bool>
+</resources>

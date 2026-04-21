@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="home_hero_card_item_count">1</integer>
+    <integer name="home_hero_youtube_item_text_line">2</integer>
+    <integer name="mtrl_calendar_header_orientation">0</integer>
+    <integer name="mtrl_calendar_selection_text_lines">6</integer>
+</resources>

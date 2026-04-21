@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">%d saýlanyldy</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d saýlanyldy</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">%d bellikçäni öçürmelimi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d bellikçäni öçürmelimi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">%d nyşandan köp girizip bolmaýar.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nyşandan köp girizip bolmaýar.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">%d gün öň</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gün öň</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">Indiki täze missiýaňyz ýene %d günden gelýär.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Indiki täze missiýaňyz ýene %d günden gelýär.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">Dessine oýnalýanlary ulanmak üçin, siz azyndan %d ýaşan bolmaly.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dessine oýnalýanlary ulanmak üçin, siz azyndan %d ýaşan bolmaly.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">Siz bu oýny %d gezek oýnadyňyz. Has çalt giriş üçin ony kitaphanaňyza goşuň.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Siz bu oýny %d gezek oýnadyňyz. Has çalt giriş üçin ony kitaphanaňyza goşuň.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">%1$s we %2$d başgasy Gaming Hub-dan aýryldy.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s we %2$d başgasy Gaming Hub-dan aýryldy.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">%d sagat öň</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sagat öň</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">%d minut öň</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut öň</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">Oýun habarnamalaryňyz bu ýerde %d günläp görkeziler.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Oýun habarnamalaryňyz bu ýerde %d günläp görkeziler.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">%d saýlanyldy</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d saýlanyldy</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">Jemi %d oýun</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jemi %d oýun</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">Soňky %d aý</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Soňky %d aý</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d gün</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gün</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">%d gün galdy</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gün galdy</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d sek</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sek</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">%d gün öň</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gün öň</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">%d sagat öň</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sagat öň</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">%d minut öň</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut öň</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">%d aý öň</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aý öň</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">%d hepde öň</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d hepde öň</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">%d ýyl öň</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ýyl öň</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

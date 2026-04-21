@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:key="@string/labs_preference_key_item_category">
+        <androidx.preference.SeslSwitchPreferenceScreen android:key="@string/labs_preference_key_item_switch" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/basic_theme_ripple_long"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

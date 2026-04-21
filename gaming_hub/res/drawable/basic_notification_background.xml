@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/basic_notification_ripple" />
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/basic_notification_radius" />
+            <padding android:start="@dimen/basic_notification_padding_side" android:end="@dimen/basic_notification_padding_side" />
+            <solid android:color="@color/basic_notification_background" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph_add_library" app:startDestination="@id/ContinuousPlayFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="" android:name="com.samsung.android.game.gamehome.app.continuousplay.ContinuousPlayFragment" android:id="@id/ContinuousPlayFragment" />
+    <activity android:label="" android:name="com.samsung.android.game.gamehome.app.instantdetail.InstantDetailActivity" android:id="@id/InstantDetailActivity" />
+    <activity android:label="" android:name="com.samsung.android.game.gamehome.app.detail.DetailActivity" android:id="@id/DetailActivity" />
+</navigation>

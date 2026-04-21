@@ -1,0 +1,2055 @@
+[
+  {
+    "country_code": "ABW",
+    "country_name": "Aruba",
+    "country_two_digit_code": "aw",
+    "mcc": "363",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "AFG",
+    "country_name": "Afghanistan",
+    "country_two_digit_code": "af",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "AGO",
+    "country_name": "Angola",
+    "country_two_digit_code": "ao",
+    "mcc": "631",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "AIA",
+    "country_name": "Anguilla",
+    "country_two_digit_code": "ai",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "ALA",
+    "country_name": "Aland Islands",
+    "country_two_digit_code": "ax",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "ALB",
+    "country_name": "Albania",
+    "country_two_digit_code": "al",
+    "mcc": "276",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "AND",
+    "country_name": "Andorra",
+    "country_two_digit_code": "ad",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "ARE",
+    "country_name": "United Arab Emirates (the)",
+    "country_two_digit_code": "ae",
+    "mcc": "424",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "ARG",
+    "country_name": "Argentina",
+    "country_two_digit_code": "ar",
+    "mcc": "722",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "ARM",
+    "country_name": "Armenia",
+    "country_two_digit_code": "am",
+    "mcc": "283",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "ASM",
+    "country_name": "American Samoa",
+    "country_two_digit_code": "as",
+    "pp_share_type": "GLB",
+    "pp_type": "US",
+    "tnc_type": "US"
+  },
+  {
+    "country_code": "ATG",
+    "country_name": "Antigua and Barbuda",
+    "country_two_digit_code": "ag",
+    "mcc": "344",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "AUS",
+    "country_name": "Australia",
+    "country_two_digit_code": "au",
+    "mcc": "505",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "AUT",
+    "country_name": "Austria",
+    "country_two_digit_code": "at",
+    "mcc": "232",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "AZE",
+    "country_name": "Azerbaijan",
+    "country_two_digit_code": "az",
+    "mcc": "400",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "BDI",
+    "country_name": "Burundi",
+    "country_two_digit_code": "bi",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "BEL",
+    "country_name": "Belgium",
+    "country_two_digit_code": "be",
+    "mcc": "206",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "BEN",
+    "country_name": "Benin",
+    "country_two_digit_code": "bj",
+    "mcc": "616",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "BES",
+    "country_name": "Bonaire, Sint Eustatius and Saba",
+    "country_two_digit_code": "bq",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "BFA",
+    "country_name": "Burkina Faso",
+    "country_two_digit_code": "bf",
+    "mcc": "613",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "BGD",
+    "country_name": "Bangladesh",
+    "country_two_digit_code": "bd",
+    "mcc": "470",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "BGR",
+    "country_name": "Bulgaria",
+    "country_two_digit_code": "bg",
+    "mcc": "284",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "BHR",
+    "country_name": "Bahrain",
+    "country_two_digit_code": "bh",
+    "mcc": "426",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "BHS",
+    "country_name": "Bahamas (the)",
+    "country_two_digit_code": "bs",
+    "mcc": "364",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "BIH",
+    "country_name": "Bosnia and Herzegovina",
+    "country_two_digit_code": "ba",
+    "mcc": "218",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "BLM",
+    "country_name": "Saint Barthelemy",
+    "country_two_digit_code": "bl",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "BLR",
+    "country_name": "Belarus",
+    "country_two_digit_code": "by",
+    "mcc": "257",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "BLZ",
+    "country_name": "Belize",
+    "country_two_digit_code": "bz",
+    "mcc": "702",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "BMU",
+    "country_name": "Bermuda",
+    "country_two_digit_code": "bm",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "BOL",
+    "country_name": "Bolivia, Plurinational State of",
+    "country_two_digit_code": "bo",
+    "mcc": "736",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "BRA",
+    "country_name": "Brazil",
+    "country_two_digit_code": "br",
+    "mcc": "724",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "BRB",
+    "country_name": "Barbados",
+    "country_two_digit_code": "bb",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "BRN",
+    "country_name": "Brunei Darussalam",
+    "country_two_digit_code": "bn",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "BTN",
+    "country_name": "Bhutan",
+    "country_two_digit_code": "bt",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "BWA",
+    "country_name": "Botswana",
+    "country_two_digit_code": "bw",
+    "mcc": "652",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "CAF",
+    "country_name": "Central African Republic (the)",
+    "country_two_digit_code": "cf",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "CAN",
+    "country_name": "Canada",
+    "country_two_digit_code": "ca",
+    "mcc": "302",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "CHE",
+    "country_name": "Switzerland",
+    "country_two_digit_code": "ch",
+    "mcc": "228",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "CHL",
+    "country_name": "Chile",
+    "country_two_digit_code": "cl",
+    "mcc": "730",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "CHN",
+    "country_name": "China",
+    "country_two_digit_code": "cn",
+    "mcc": "460",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "CIV",
+    "country_name": "Cote d\u0027Ivoire",
+    "country_two_digit_code": "ci",
+    "mcc": "612",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "CMR",
+    "country_name": "Cameroon",
+    "country_two_digit_code": "cm",
+    "mcc": "624",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "COD",
+    "country_name": "Congo (the Democratic Republic of the)",
+    "country_two_digit_code": "cd",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "COG",
+    "country_name": "Congo",
+    "country_two_digit_code": "cg",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "COK",
+    "country_name": "Cook Islands (the)",
+    "country_two_digit_code": "ck",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "COL",
+    "country_name": "Colombia",
+    "country_two_digit_code": "co",
+    "mcc": "732",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "COM",
+    "country_name": "Comoros",
+    "country_two_digit_code": "km",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "CPV",
+    "country_name": "Cabo Verde",
+    "country_two_digit_code": "cv",
+    "mcc": "625",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "CRI",
+    "country_name": "Costa Rica",
+    "country_two_digit_code": "cr",
+    "mcc": "712",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "CUB",
+    "country_name": "Cuba",
+    "country_two_digit_code": "cu",
+    "mcc": "368",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "CUW",
+    "country_name": "Curacao",
+    "country_two_digit_code": "cw",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "CYM",
+    "country_name": "Cayman Islands (the)",
+    "country_two_digit_code": "ky",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "CYP",
+    "country_name": "Cyprus",
+    "country_two_digit_code": "cy",
+    "mcc": "280",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "CZE",
+    "country_name": "Czech Republic (the)",
+    "country_two_digit_code": "cz",
+    "mcc": "230",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "DEU",
+    "country_name": "Germany",
+    "country_two_digit_code": "de",
+    "mcc": "262",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "DJI",
+    "country_name": "Djibouti",
+    "country_two_digit_code": "dj",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "DMA",
+    "country_name": "Dominica",
+    "country_two_digit_code": "dm",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "DNK",
+    "country_name": "Denmark",
+    "country_two_digit_code": "dk",
+    "mcc": "238",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "DOM",
+    "country_name": "Dominican Republic (the)",
+    "country_two_digit_code": "do",
+    "mcc": "370",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "DZA",
+    "country_name": "Algeria",
+    "country_two_digit_code": "dz",
+    "mcc": "603",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "ECU",
+    "country_name": "Ecuador",
+    "country_two_digit_code": "ec",
+    "mcc": "740",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "EGY",
+    "country_name": "Egypt",
+    "country_two_digit_code": "eg",
+    "mcc": "602",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "ERI",
+    "country_name": "Eritrea",
+    "country_two_digit_code": "er",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "ESH",
+    "country_name": "Western Sahara",
+    "country_two_digit_code": "eh",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "ESP",
+    "country_name": "Spain",
+    "country_two_digit_code": "es",
+    "mcc": "214",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "EST",
+    "country_name": "Estonia",
+    "country_two_digit_code": "ee",
+    "mcc": "248",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "ETH",
+    "country_name": "Ethiopia",
+    "country_two_digit_code": "et",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "FIN",
+    "country_name": "Finland",
+    "country_two_digit_code": "fi",
+    "mcc": "244",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "FJI",
+    "country_name": "Fiji",
+    "country_two_digit_code": "fj",
+    "mcc": "542",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "FLK",
+    "country_name": "Falkland Islands (the) [Malvinas]",
+    "country_two_digit_code": "fk",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "FRA",
+    "country_name": "France",
+    "country_two_digit_code": "fr",
+    "mcc": "208",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "FRO",
+    "country_name": "Faroe Islands (the)",
+    "country_two_digit_code": "fo",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "FSM",
+    "country_name": "Micronesia (the Federated States of)",
+    "country_two_digit_code": "fm",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "GAB",
+    "country_name": "Gabon",
+    "country_two_digit_code": "ga",
+    "mcc": "628",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "GBR",
+    "country_name": "United Kingdom (the)",
+    "country_two_digit_code": "gb",
+    "mcc": "234",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "GEO",
+    "country_name": "Georgia",
+    "country_two_digit_code": "ge",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "GGY",
+    "country_name": "Guernsey",
+    "country_two_digit_code": "gg",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "GHA",
+    "country_name": "Ghana",
+    "country_two_digit_code": "gh",
+    "mcc": "620",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "GIB",
+    "country_name": "Gibraltar",
+    "country_two_digit_code": "gi",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "GIN",
+    "country_name": "Guinea",
+    "country_two_digit_code": "gn",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "GLP",
+    "country_name": "Guadeloupe",
+    "country_two_digit_code": "gp",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "GMB",
+    "country_name": "Gambia (The)",
+    "country_two_digit_code": "gm",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "GNB",
+    "country_name": "Guinea-Bissau",
+    "country_two_digit_code": "gw",
+    "mcc": "632",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "GNQ",
+    "country_name": "Equatorial Guinea",
+    "country_two_digit_code": "gq",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "GRC",
+    "country_name": "Greece",
+    "country_two_digit_code": "gr",
+    "mcc": "202",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "GRD",
+    "country_name": "Grenada",
+    "country_two_digit_code": "gd",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "GRL",
+    "country_name": "Greenland",
+    "country_two_digit_code": "gl",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "GTM",
+    "country_name": "Guatemala",
+    "country_two_digit_code": "gt",
+    "mcc": "704",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "GUF",
+    "country_name": "French Guiana",
+    "country_two_digit_code": "gf",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "GUM",
+    "country_name": "Guam",
+    "country_two_digit_code": "gu",
+    "pp_share_type": "GLB",
+    "pp_type": "US",
+    "tnc_type": "US"
+  },
+  {
+    "country_code": "GUY",
+    "country_name": "Guyana",
+    "country_two_digit_code": "gy",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "HKG",
+    "country_name": "Hong Kong",
+    "country_two_digit_code": "hk",
+    "mcc": "454",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "HND",
+    "country_name": "Honduras",
+    "country_two_digit_code": "hn",
+    "mcc": "708",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "HRV",
+    "country_name": "Croatia",
+    "country_two_digit_code": "hr",
+    "mcc": "219",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "HTI",
+    "country_name": "Haiti",
+    "country_two_digit_code": "ht",
+    "mcc": "372",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "HUN",
+    "country_name": "Hungary",
+    "country_two_digit_code": "hu",
+    "mcc": "216",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "IDN",
+    "country_name": "Indonesia",
+    "country_two_digit_code": "id",
+    "mcc": "510",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "IMN",
+    "country_name": "Isle of Man",
+    "country_two_digit_code": "im",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "IND",
+    "country_name": "India",
+    "country_two_digit_code": "in",
+    "mcc": "405",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "IND",
+    "country_name": "India",
+    "country_two_digit_code": "in",
+    "mcc": "404",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "IRL",
+    "country_name": "Ireland",
+    "country_two_digit_code": "ie",
+    "mcc": "272",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "IRN",
+    "country_name": "Iran (the Islamic Republic of)",
+    "country_two_digit_code": "ir",
+    "mcc": "432",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "IRQ",
+    "country_name": "Iraq",
+    "country_two_digit_code": "iq",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "ISL",
+    "country_name": "Iceland",
+    "country_two_digit_code": "is",
+    "mcc": "274",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "ISR",
+    "country_name": "Israel",
+    "country_two_digit_code": "il",
+    "mcc": "425",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "ITA",
+    "country_name": "Italy",
+    "country_two_digit_code": "it",
+    "mcc": "222",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "JAM",
+    "country_name": "Jamaica",
+    "country_two_digit_code": "jm",
+    "mcc": "338",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "JEY",
+    "country_name": "Jersey",
+    "country_two_digit_code": "je",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "JOR",
+    "country_name": "Jordan",
+    "country_two_digit_code": "jo",
+    "mcc": "416",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "JPN",
+    "country_name": "Japan",
+    "country_two_digit_code": "jp",
+    "mcc": "440",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "KAZ",
+    "country_name": "Kazakhstan",
+    "country_two_digit_code": "kz",
+    "mcc": "401",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "KEN",
+    "country_name": "Kenya",
+    "country_two_digit_code": "ke",
+    "mcc": "639",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "KGZ",
+    "country_name": "Kyrgyzstan",
+    "country_two_digit_code": "kg",
+    "mcc": "437",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "KHM",
+    "country_name": "Cambodia",
+    "country_two_digit_code": "kh",
+    "mcc": "456",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "KIR",
+    "country_name": "Kiribati",
+    "country_two_digit_code": "ki",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "KNA",
+    "country_name": "Saint Kitts and Nevis",
+    "country_two_digit_code": "kn",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "KOR",
+    "country_name": "Korea S Republic of",
+    "country_two_digit_code": "kr",
+    "mcc": "450",
+    "pp_share_type": "KR",
+    "pp_type": "KR",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "KWT",
+    "country_name": "Kuwait",
+    "country_two_digit_code": "kw",
+    "mcc": "419",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "LAO",
+    "country_name": "Lao People\u0027s Democratic Republic (the)",
+    "country_two_digit_code": "la",
+    "mcc": "457",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "LBN",
+    "country_name": "Lebanon",
+    "country_two_digit_code": "lb",
+    "mcc": "415",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "LBR",
+    "country_name": "Liberia",
+    "country_two_digit_code": "lr",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "LBY",
+    "country_name": "Libya",
+    "country_two_digit_code": "ly",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "LCA",
+    "country_name": "Saint Lucia",
+    "country_two_digit_code": "lc",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "LIE",
+    "country_name": "Liechtenstein",
+    "country_two_digit_code": "li",
+    "mcc": "295",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "LKA",
+    "country_name": "Sri Lanka",
+    "country_two_digit_code": "lk",
+    "mcc": "413",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "LSO",
+    "country_name": "Lesotho",
+    "country_two_digit_code": "ls",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "LTU",
+    "country_name": "Lithuania",
+    "country_two_digit_code": "lt",
+    "mcc": "246",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "LUX",
+    "country_name": "Luxembourg",
+    "country_two_digit_code": "lu",
+    "mcc": "270",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "LVA",
+    "country_name": "Latvia",
+    "country_two_digit_code": "lv",
+    "mcc": "247",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MAC",
+    "country_name": "Macao",
+    "country_two_digit_code": "mo",
+    "mcc": "455",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MAF",
+    "country_name": "Saint Martin (French part)",
+    "country_two_digit_code": "mf",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MAR",
+    "country_name": "Morocco",
+    "country_two_digit_code": "ma",
+    "mcc": "604",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MCO",
+    "country_name": "Monaco",
+    "country_two_digit_code": "mc",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MDA",
+    "country_name": "Moldova (the Republic of)",
+    "country_two_digit_code": "md",
+    "mcc": "259",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MDG",
+    "country_name": "Madagascar",
+    "country_two_digit_code": "mg",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MDV",
+    "country_name": "Maldives",
+    "country_two_digit_code": "mv",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MEX",
+    "country_name": "Mexico",
+    "country_two_digit_code": "mx",
+    "mcc": "334",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MHL",
+    "country_name": "Marshall Islands (the)",
+    "country_two_digit_code": "mh",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MKD",
+    "country_name": "Macedonia (the former Yugoslav Republic of)",
+    "country_two_digit_code": "mk",
+    "mcc": "294",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MLI",
+    "country_name": "Mali",
+    "country_two_digit_code": "ml",
+    "mcc": "610",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MLT",
+    "country_name": "Malta",
+    "country_two_digit_code": "mt",
+    "mcc": "278",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MMR",
+    "country_name": "Myanmar",
+    "country_two_digit_code": "mm",
+    "mcc": "414",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MNE",
+    "country_name": "Montenegro",
+    "country_two_digit_code": "me",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MNG",
+    "country_name": "Mongolia",
+    "country_two_digit_code": "mn",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MNP",
+    "country_name": "Northern Mariana Islands (the)",
+    "country_two_digit_code": "mp",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MOZ",
+    "country_name": "Mozambique",
+    "country_two_digit_code": "mz",
+    "mcc": "643",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MRT",
+    "country_name": "Mauritania",
+    "country_two_digit_code": "mr",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MSR",
+    "country_name": "Montserrat",
+    "country_two_digit_code": "ms",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MTQ",
+    "country_name": "Martinique",
+    "country_two_digit_code": "mq",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MUS",
+    "country_name": "Mauritius",
+    "country_two_digit_code": "mu",
+    "mcc": "617",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MWI",
+    "country_name": "Malawi",
+    "country_two_digit_code": "mw",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MYS",
+    "country_name": "Malaysia",
+    "country_two_digit_code": "my",
+    "mcc": "502",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "MYT",
+    "country_name": "Mayotte",
+    "country_two_digit_code": "yt",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "NAM",
+    "country_name": "Namibia",
+    "country_two_digit_code": "na",
+    "mcc": "649",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "NCL",
+    "country_name": "New Caledonia",
+    "country_two_digit_code": "nc",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "NER",
+    "country_name": "Niger (the)",
+    "country_two_digit_code": "ne",
+    "mcc": "614",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "NFK",
+    "country_name": "Norfolk Island",
+    "country_two_digit_code": "nf",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "NGA",
+    "country_name": "Nigeria",
+    "country_two_digit_code": "ng",
+    "mcc": "621",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "NIC",
+    "country_name": "Nicaragua",
+    "country_two_digit_code": "ni",
+    "mcc": "710",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "NIU",
+    "country_name": "Niue",
+    "country_two_digit_code": "nu",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "NLD",
+    "country_name": "Netherlands (the)",
+    "country_two_digit_code": "nl",
+    "mcc": "204",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "NOR",
+    "country_name": "Norway",
+    "country_two_digit_code": "no",
+    "mcc": "242",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "NPL",
+    "country_name": "Nepal",
+    "country_two_digit_code": "np",
+    "mcc": "429",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "NRU",
+    "country_name": "Nauru",
+    "country_two_digit_code": "nr",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "NZL",
+    "country_name": "New Zealand",
+    "country_two_digit_code": "nz",
+    "mcc": "530",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "OMN",
+    "country_name": "Oman",
+    "country_two_digit_code": "om",
+    "mcc": "422",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "PAK",
+    "country_name": "Pakistan",
+    "country_two_digit_code": "pk",
+    "mcc": "410",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "PAN",
+    "country_name": "Panama",
+    "country_two_digit_code": "pa",
+    "mcc": "714",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "PCN",
+    "country_name": "Pitcairn",
+    "country_two_digit_code": "pn",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "PER",
+    "country_name": "Peru",
+    "country_two_digit_code": "pe",
+    "mcc": "716",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "PHL",
+    "country_name": "Philippines (the)",
+    "country_two_digit_code": "ph",
+    "mcc": "515",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "PLW",
+    "country_name": "Palau",
+    "country_two_digit_code": "pw",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "PNG",
+    "country_name": "Papua New Guinea",
+    "country_two_digit_code": "pg",
+    "mcc": "537",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "POL",
+    "country_name": "Poland",
+    "country_two_digit_code": "pl",
+    "mcc": "260",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "PRI",
+    "country_name": "Puerto Rico",
+    "country_two_digit_code": "pr",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "PRK",
+    "country_name": "Korea (the Democratic People\u0027s Republic of)",
+    "country_two_digit_code": "kp",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "PRT",
+    "country_name": "Portugal",
+    "country_two_digit_code": "pt",
+    "mcc": "268",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "PRY",
+    "country_name": "Paraguay",
+    "country_two_digit_code": "py",
+    "mcc": "744",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "PSE",
+    "country_name": "Palestine, State of",
+    "country_two_digit_code": "ps",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "PYF",
+    "country_name": "French Polynesia",
+    "country_two_digit_code": "pf",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "QAT",
+    "country_name": "Qatar",
+    "country_two_digit_code": "qa",
+    "mcc": "427",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "REU",
+    "country_name": "Reunion",
+    "country_two_digit_code": "re",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "ROU",
+    "country_name": "Romania",
+    "country_two_digit_code": "ro",
+    "mcc": "226",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "RUS",
+    "country_name": "Russian Federation (the)",
+    "country_two_digit_code": "ru",
+    "mcc": "250",
+    "pp_share_type": "GLB",
+    "pp_type": "RUS",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "RWA",
+    "country_name": "Rwanda",
+    "country_two_digit_code": "rw",
+    "mcc": "635",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "SAU",
+    "country_name": "Saudi Arabia",
+    "country_two_digit_code": "sa",
+    "mcc": "420",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "SDN",
+    "country_name": "Sudan (the)",
+    "country_two_digit_code": "sd",
+    "mcc": "634",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "SEN",
+    "country_name": "Senegal",
+    "country_two_digit_code": "sn",
+    "mcc": "608",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "SGP",
+    "country_name": "Singapore",
+    "country_two_digit_code": "sg",
+    "mcc": "525",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "SHN",
+    "country_name": "Saint Helena, Ascension and Tristan da Cunha",
+    "country_two_digit_code": "sh",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "SJM",
+    "country_name": "Svalbard and Jan Mayen",
+    "country_two_digit_code": "sj",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "SLB",
+    "country_name": "Solomon Islands (the)",
+    "country_two_digit_code": "sb",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "SLE",
+    "country_name": "Sierra Leone",
+    "country_two_digit_code": "sl",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "SLV",
+    "country_name": "El Salvador",
+    "country_two_digit_code": "sv",
+    "mcc": "706",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "SMR",
+    "country_name": "San Marino",
+    "country_two_digit_code": "sm",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "SOM",
+    "country_name": "Somalia",
+    "country_two_digit_code": "so",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "SPM",
+    "country_name": "Saint Pierre and Miquelon",
+    "country_two_digit_code": "pm",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "SRB",
+    "country_name": "Serbia",
+    "country_two_digit_code": "rs",
+    "mcc": "220",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "SSD",
+    "country_name": "South Sudan",
+    "country_two_digit_code": "ss",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "STP",
+    "country_name": "Sao Tome and Principe",
+    "country_two_digit_code": "st",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "SUR",
+    "country_name": "Suriname",
+    "country_two_digit_code": "sr",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "SVK",
+    "country_name": "Slovakia",
+    "country_two_digit_code": "sk",
+    "mcc": "231",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "SWE",
+    "country_name": "Sweden",
+    "country_two_digit_code": "se",
+    "mcc": "240",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "SWZ",
+    "country_name": "Swaziland",
+    "country_two_digit_code": "sz",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "SXM",
+    "country_name": "Sint Maarten (Dutch part)",
+    "country_two_digit_code": "sx",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "SYC",
+    "country_name": "Seychelles",
+    "country_two_digit_code": "sc",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "SYR",
+    "country_name": "Syrian Arab Republic (the)",
+    "country_two_digit_code": "sy",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "TCA",
+    "country_name": "Turks and Caicos Islands (the)",
+    "country_two_digit_code": "tc",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "TCD",
+    "country_name": "Chad",
+    "country_two_digit_code": "td",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "TGO",
+    "country_name": "Togo",
+    "country_two_digit_code": "tg",
+    "mcc": "615",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "THA",
+    "country_name": "Thailand",
+    "country_two_digit_code": "th",
+    "mcc": "520",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "TJK",
+    "country_name": "Tajikistan",
+    "country_two_digit_code": "tj",
+    "mcc": "436",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "TKL",
+    "country_name": "Tokelau",
+    "country_two_digit_code": "tk",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "TKM",
+    "country_name": "Turkmenistan",
+    "country_two_digit_code": "tm",
+    "mcc": "438",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "TLS",
+    "country_name": "Timor-Leste",
+    "country_two_digit_code": "tl",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "TON",
+    "country_name": "Tonga",
+    "country_two_digit_code": "to",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "TTO",
+    "country_name": "Trinidad and Tobago",
+    "country_two_digit_code": "tt",
+    "mcc": "374",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "TUN",
+    "country_name": "Tunisia",
+    "country_two_digit_code": "tn",
+    "mcc": "605",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "TUR",
+    "country_name": "Turkey",
+    "country_two_digit_code": "tr",
+    "mcc": "286",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "TUV",
+    "country_name": "Tuvalu",
+    "country_two_digit_code": "tv",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "TWN",
+    "country_name": "Taiwan (Province of China)",
+    "country_two_digit_code": "tw",
+    "mcc": "466",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "TZA",
+    "country_name": "Tanzania, United Republic of",
+    "country_two_digit_code": "tz",
+    "mcc": "640",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "UGA",
+    "country_name": "Uganda",
+    "country_two_digit_code": "ug",
+    "mcc": "641",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "UKR",
+    "country_name": "Ukraine",
+    "country_two_digit_code": "ua",
+    "mcc": "255",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "URY",
+    "country_name": "Uruguay",
+    "country_two_digit_code": "uy",
+    "mcc": "748",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "USA",
+    "country_name": "United States",
+    "country_two_digit_code": "us",
+    "mcc": "313",
+    "pp_share_type": "GLB",
+    "pp_type": "US",
+    "tnc_type": "US"
+  },
+  {
+    "country_code": "UZB",
+    "country_name": "Uzbekistan",
+    "country_two_digit_code": "uz",
+    "mcc": "434",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "VCT",
+    "country_name": "Saint Vincent and the Grenadines",
+    "country_two_digit_code": "vc",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "VEN",
+    "country_name": "Venezuela, Bolivarian Republic of",
+    "country_two_digit_code": "ve",
+    "mcc": "734",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "VGB",
+    "country_name": "Virgin Islands (British)",
+    "country_two_digit_code": "vg",
+    "pp_share_type": "GLB",
+    "pp_type": "EU",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "VIR",
+    "country_name": "Virgin Islands (U.S.)",
+    "country_two_digit_code": "vi",
+    "pp_share_type": "GLB",
+    "pp_type": "US",
+    "tnc_type": "US"
+  },
+  {
+    "country_code": "VNM",
+    "country_name": "Viet Nam",
+    "country_two_digit_code": "vn",
+    "mcc": "452",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "VUT",
+    "country_name": "Vanuatu",
+    "country_two_digit_code": "vu",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "WLF",
+    "country_name": "Wallis and Futuna",
+    "country_two_digit_code": "wf",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "WSM",
+    "country_name": "Samoa",
+    "country_two_digit_code": "ws",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "YEM",
+    "country_name": "Yemen",
+    "country_two_digit_code": "ye",
+    "mcc": "421",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "ZAF",
+    "country_name": "South Africa",
+    "country_two_digit_code": "za",
+    "mcc": "655",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "ZMB",
+    "country_name": "Zambia",
+    "country_two_digit_code": "zm",
+    "mcc": "645",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  },
+  {
+    "country_code": "ZWE",
+    "country_name": "Zimbabwe",
+    "country_two_digit_code": "zw",
+    "mcc": "648",
+    "pp_share_type": "GLB",
+    "pp_type": "GLB",
+    "tnc_type": "GLB"
+  }
+]

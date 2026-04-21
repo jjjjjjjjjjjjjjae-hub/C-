@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.game.gamehome.app.setting.preference.DescriptionPreference android:title="@string/notificationlist_manage_game_notifications_description" android:selectable="false" android:key="@string/notification_settings_preference_key_description_dummy" />
+    <com.samsung.android.game.gamehome.app.setting.preference.RadioButtonPreference android:title="@string/notificationlist_in_game_launcher" android:key="@string/notification_settings_preference_key_radio_button_first_dummy" />
+    <com.samsung.android.game.gamehome.app.setting.preference.RadioButtonPreference android:title="@string/notificationlist_in_the_notification_panel" android:key="@string/notification_settings_preference_key_radio_button_second_dummy" />
+    <com.samsung.android.game.gamehome.app.setting.preference.RadioButtonPreference android:title="@string/notificationlist_both" android:key="@string/notification_settings_preference_key_radio_button_third_dummy" />
+</androidx.preference.PreferenceScreen>

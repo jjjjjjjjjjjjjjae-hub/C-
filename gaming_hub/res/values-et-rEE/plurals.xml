@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">%d on valitud</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d on valitud</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">Kas kustutada %d järjehoidjat?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kas kustutada %d järjehoidja?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">Ei saa sisestada üle %d tähemärgi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ei saa sisestada üle %d tähemärgi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">%d päeva tagasi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d päev tagasi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">Teie järgmine missioon jõuab kätte %d päeva pärast.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Teie järgmine missioon jõuab kätte %d päeva pärast.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">Kiirmängimise kasutamiseks peate olema vähemalt %d-aastane.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kiirmängimise kasutamiseks peate olema vähemalt %d-aastane.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">Olete seda mängu mänginud %d korda. Lisage see oma teeki kiirema juurdepääsu jaoks.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Olete seda mängu mänginud %d kord. Lisage see oma teeki kiirema juurdepääsu jaoks.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">%1$s ja veel %2$d eemaldati Gaming Hubist.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ja veel %2$d eemaldati Gaming Hubist.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">%d tundi tagasi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tund tagasi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">%d minutit tagasi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut tagasi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">Teie mängu teavitusi hoitakse siin %d päeva.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Teie mängu teavitusi hoitakse siin %d päev.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">%d on valitud</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d on valitud</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">Kokku %d mängu</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kokku %d mäng</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">Viimased %d kuud</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Viimane %d kuu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d päeva</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d päev</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">%d päeva jäänud</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d päev jäänud</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">%d päeva tagasi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d päev tagasi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">%d tundi tagasi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tund tagasi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">%d minutit tagasi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut tagasi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">%d kuud tagasi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kuu tagasi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">%d nädalat tagasi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nädal tagasi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">%d aastat tagasi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d aasta tagasi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

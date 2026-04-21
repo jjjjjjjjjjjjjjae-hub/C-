@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="Network Param Setting" android:key="pref_key_test_sim_category">
+        <SwitchPreferenceCompat android:title="Enable Custom Network Param" android:key="@string/PREF_KEY_TEST_ENABLE_SERVER_SETTING" android:summary="In case of enabled, below values are applied" android:defaultValue="false" />
+        <EditTextPreference android:title="MCC" android:key="@string/PREF_KEY_TEST_SERVER_MCC" android:summary="Country Code" android:dependency="@string/PREF_KEY_TEST_ENABLE_SERVER_SETTING" android:defaultValue="450" android:inputType="number" />
+        <EditTextPreference android:title="MNC" android:key="@string/PREF_KEY_TEST_SERVER_MNC" android:summary="Network Code" android:dependency="@string/PREF_KEY_TEST_ENABLE_SERVER_SETTING" android:defaultValue="5" android:inputType="number" />
+        <EditTextPreference android:title="CSC" android:key="@string/PREF_KEY_TEST_SERVER_CSC" android:summary="Sales Code" android:dependency="@string/PREF_KEY_TEST_ENABLE_SERVER_SETTING" android:defaultValue="SKC" android:inputType="textVisiblePassword" />
+        <EditTextPreference android:title="Device Model Name" android:key="@string/PREF_KEY_TEST_SERVER_DM" android:summary="Device Model" android:dependency="@string/PREF_KEY_TEST_ENABLE_SERVER_SETTING" android:defaultValue="SM-N950N" android:inputType="textVisiblePassword" />
+        <EditTextPreference android:title="OS Version" android:key="@string/PREF_KEY_TEST_SERVER_OV" android:summary="OS Version" android:dependency="@string/PREF_KEY_TEST_ENABLE_SERVER_SETTING" android:defaultValue="29" android:inputType="number" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

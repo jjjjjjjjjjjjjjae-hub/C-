@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/library_popup_item_secondary" android:pathData="M16.277,12.6867L7.4113,12.6867C6.9664,12.6867 6.6054,12.3256 6.6054,11.8807C6.6054,11.4358 6.9664,11.0747 7.4113,11.0747L16.277,11.0747C16.7219,11.0747 17.083,11.4358 17.083,11.8807C17.083,12.3256 16.7219,12.6867 16.277,12.6867M12,3C7.0363,3 3,7.0374 3,12C3,16.9626 7.0363,21 12,21C16.9637,21 21,16.9626 21,12C21,7.0374 16.9637,3 12,3" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+</vector>

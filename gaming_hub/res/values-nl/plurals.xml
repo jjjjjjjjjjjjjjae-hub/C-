@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">%d geselecteerd</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d geselecteerd</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">%d favorieten verwijderen?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d favoriet verwijderen?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">Kan niet meer dan %d tekens invoeren.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kan niet meer dan %d teken invoeren.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">%d dagen geleden</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dag geleden</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d seconden vooruitspoelen</item>
+        <item quantity="one">%d seconde vooruitspoelen</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d seconden terugspoelen</item>
+        <item quantity="one">%d seconde terugspoelen</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">Uw volgende nieuwe opdracht komt over %d dagen.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uw volgende nieuwe opdracht komt over %d dag.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">U moet ten minste %d jaar zijn om Instant games te gebruiken.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">U moet ten minste %d jaar zijn om Instant games te gebruiken.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">U hebt deze game %d keer gespeeld. Voeg deze toe aan uw bibliotheek voor snellere toegang.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">U hebt deze game %d keer gespeeld. Voeg deze toe aan uw bibliotheek voor snellere toegang.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">%1$s en nog %2$d andere verwijderd uit Gaming Hub.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s en nog %2$d andere verwijderd uit Gaming Hub.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">%d uur geleden</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d uur geleden</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">%d minuten geleden</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuut geleden</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nieuwe meldingen</item>
+        <item quantity="one">%d nieuwe melding</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">Uw gamemeldingen worden hier %d dagen lang weergegeven.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Uw gamemeldingen worden hier %d dag lang weergegeven.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">%d geselecteerd</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d geselecteerd</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">Totaal van %d games</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Totaal van %d game</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">Afgelopen %d maanden</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Afgelopen %d maand</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d dagen</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dag</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">%d dagen over</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dag over</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d sec</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sec</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">%d dagen geleden</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dag geleden</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">%d uur geleden</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d uur geleden</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">%d minuten geleden</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuut geleden</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">%d maanden geleden</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d maand geleden</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">%d weken geleden</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d week geleden</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">%d jaar geleden</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d jaar geleden</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

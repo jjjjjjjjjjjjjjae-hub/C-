@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="banner_ad_media_slim_view_adBadge_marginStart">31.0dip</dimen>
+    <dimen name="banner_ad_media_slim_view_infoBtn_size">16.0dip</dimen>
+    <dimen name="banner_ad_media_slim_view_minHeight">198.0dip</dimen>
+    <dimen name="banner_ad_media_slim_view_title_marginBottom">14.0dip</dimen>
+    <dimen name="banner_ad_media_slim_view_title_marginHorizontal">350.0dip</dimen>
+    <dimen name="common_image_description_preference_image_max_width">424.0dip</dimen>
+    <dimen name="common_image_preference_background_radius">33.0dip</dimen>
+    <dimen name="edit_profile_expanded_preset_container_width">800.0dip</dimen>
+    <item type="dimen" name="library_width_percent">1.0</item>
+    <dimen name="masm_native_app_icon_width_height">34.0dip</dimen>
+    <dimen name="masm_native_cta_height">32.0dip</dimen>
+    <dimen name="masm_native_cta_max_width">516.0dip</dimen>
+    <dimen name="masm_native_headline_largescreen_min_text_size">13.0dip</dimen>
+    <dimen name="masm_native_headline_largescreen_width">236.0dip</dimen>
+    <dimen name="masm_native_headline_margin_vertical">6.0dip</dimen>
+    <dimen name="masm_native_headline_text_size">20.0dip</dimen>
+    <dimen name="masm_native_holder_margin_start">44.0dip</dimen>
+    <dimen name="masm_native_large_headline_margin_bottom">14.0dip</dimen>
+    <dimen name="masm_native_large_headline_margin_top">50.0dip</dimen>
+    <dimen name="masm_native_left_margin_bottom">16.0dip</dimen>
+    <dimen name="masm_native_left_margin_top">16.0dip</dimen>
+    <dimen name="masm_native_media_fixed_height">198.0dip</dimen>
+    <item type="dimen" name="sesl_config_prefSnackWidth">37.5%</item>
+    <dimen name="sesl_floating_max_content_width">840.0dip</dimen>
+    <item type="dimen" name="sesl_floating_pane_floating_mode_default_width">0.32</item>
+    <dimen name="sesl_floating_pane_floating_mode_max_width">840.0dip</dimen>
+    <dimen name="sesl_floating_pane_side_mode_max_width">840.0dip</dimen>
+    <item type="dimen" name="sesl_floating_pane_side_mode_min_width">0.32</item>
+    <item type="dimen" name="sesl_sliding_layout_default_open">true</item>
+    <dimen name="sesl_sliding_pane_contents_width">840.0dip</dimen>
+    <dimen name="videoAdSlimView_adBadge_marginStart">31.0dip</dimen>
+    <dimen name="videoAdSlimView_adBadge_minHeight">19.0dip</dimen>
+    <dimen name="videoAdSlimView_adBadge_textSize">14.0dip</dimen>
+    <dimen name="videoAdSlimView_duration_marginStart">20.0dip</dimen>
+    <dimen name="videoAdSlimView_playPauseReplay_marginStart">20.0dip</dimen>
+    <dimen name="videoAdSlimView_root_height">198.0dip</dimen>
+    <dimen name="videoAdSlimView_title_marginEnd">794.0dip</dimen>
+    <dimen name="videoAdSlimView_title_view_marginStart">20.0dip</dimen>
+</resources>

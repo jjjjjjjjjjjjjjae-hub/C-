@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="fraction" name="welcome_common_guide_percent_end">0.75</item>
+    <item type="fraction" name="welcome_common_guide_percent_start">0.25</item>
+    <item type="fraction" name="welcome_common_guide_percent_top">0.14</item>
+</resources>

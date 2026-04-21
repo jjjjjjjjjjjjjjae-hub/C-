@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="@bool/hide_system_ui_condition" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/basic_round_and_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SeslAppbarLayout">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_app_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="scroll|exitUntilCollapsed" style="@style/SeslCollapsingToolbarLayout">
+                <androidx.appcompat.widget.Toolbar android:layout_gravity="bottom" android:id="@id/collapsing_toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_collapseMode="pin" style="@style/SeslToolbar" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <fragment android:name="com.samsung.android.game.gamehome.app.setting.showGames.ShowGamesPrefFragment" android:id="@id/fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</FrameLayout>

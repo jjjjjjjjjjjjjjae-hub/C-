@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/my_games_activity" app:startDestination="@id/MyGamesFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="" android:name="com.samsung.android.game.gamehome.app.mygames.MyGamesFragment" android:id="@id/MyGamesFragment">
+        <argument android:name="locatePackage" android:defaultValue="" app:argType="string" />
+        <argument android:name="uninstallPackage" android:defaultValue="" app:argType="string" />
+        <action android:id="@id/action_my_games_to_game_sound_dialog" app:destination="@id/GameSoundDialog" />
+        <action android:id="@id/action_my_games_to_continuous_play_activity" app:destination="@id/ContinuousPlayActivity" />
+        <action android:id="@id/action_my_games_to_remove_one_item_dialog" app:destination="@id/RemoveOneGameDialogFragment" />
+        <action android:id="@id/action_my_games_to_remove_multi_items_dialog" app:destination="@id/RemoveMultiGamesDialogFragment" />
+    </fragment>
+    <dialog android:label="" android:name="com.samsung.android.game.gamehome.app.mygames.dialog.GameSoundDialogFragment" android:id="@id/GameSoundDialog" />
+    <activity android:label="" android:name="com.samsung.android.game.gamehome.app.continuousplay.ContinuousPlayActivity" android:id="@id/ContinuousPlayActivity" />
+    <activity android:label="" android:name="com.samsung.android.game.gamehome.app.detail.DetailActivity" android:id="@id/DetailActivity" />
+    <activity android:label="" android:name="com.samsung.android.game.gamehome.app.instantdetail.InstantDetailActivity" android:id="@id/InstantDetailActivity" />
+    <dialog android:label="" android:name="com.samsung.android.game.gamehome.app.mygames.dialog.RemoveOneGameDialogFragment" android:id="@id/RemoveOneGameDialogFragment">
+        <argument android:name="packageName" app:argType="string" />
+        <argument android:name="isGame" app:argType="boolean" />
+    </dialog>
+    <dialog android:label="" android:name="com.samsung.android.game.gamehome.app.mygames.dialog.RemoveMultiGamesDialogFragment" android:id="@id/RemoveMultiGamesDialogFragment">
+        <argument android:name="packageNameList" app:argType="string[]" />
+        <argument android:name="doneMessage" app:argType="string" />
+    </dialog>
+</navigation>

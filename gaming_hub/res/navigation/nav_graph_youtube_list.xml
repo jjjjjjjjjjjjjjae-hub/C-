@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph_youtube_list" app:startDestination="@id/YoutubeListFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="" android:name="com.samsung.android.game.gamehome.app.main.curation.youtube.YoutubeListFragment" android:id="@id/YoutubeListFragment">
+        <argument android:name="rcuId" app:argType="string" />
+        <argument android:name="rcuTitle" app:argType="string" />
+        <argument android:name="rcuSubTitle" app:argType="string" />
+        <argument android:name="cardPosition" app:argType="string" />
+    </fragment>
+</navigation>

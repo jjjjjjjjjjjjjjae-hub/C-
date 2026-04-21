@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mas_basic_button_body_corner_radius">26.0dip</dimen>
+    <dimen name="mas_basic_button_body_minHeight">52.0dip</dimen>
+    <dimen name="mas_basic_button_body_textSize">17.0dip</dimen>
+    <dimen name="mas_basic_button_list_corner_radius">20.0dip</dimen>
+    <dimen name="mas_basic_button_list_minHeight">40.0dip</dimen>
+    <dimen name="switch_margin_end">22.0dip</dimen>
+</resources>

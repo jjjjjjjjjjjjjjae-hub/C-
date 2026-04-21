@@ -1,0 +1,13 @@
+.class public Lcom/google/android/gms/ads/mediation/o;
+.super Lcom/google/android/gms/ads/mediation/c;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;Landroid/os/Bundle;ZLandroid/location/Location;IILjava/lang/String;Ljava/lang/String;)V
+    .locals 0
+
+    invoke-direct/range {p0 .. p10}, Lcom/google/android/gms/ads/mediation/c;-><init>(Landroid/content/Context;Ljava/lang/String;Landroid/os/Bundle;Landroid/os/Bundle;ZLandroid/location/Location;IILjava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:background="@color/mas_basic_window_background" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.mas.internal.cmpui.ExpandableAppBarView android:id="@id/app_bar" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_behavior="com.samsung.android.mas.internal.cmpui.TopOnlyExpandBehavior" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/vendor_detail_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <LinearLayout android:orientation="vertical" android:id="@id/consent_status_container" android:background="@drawable/setting_list_bg_round_corner_with_ripple" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tcf_vendor_detail_consent_status_container_margin_top" android:layout_marginHorizontal="@dimen/tcf_vendor_detail_margin_horizontal" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <include android:id="@id/consent_status" layout="@layout/tcf_consent_status_item_view" />
+            <include android:id="@id/legitimate_interest_status" layout="@layout/tcf_consent_status_item_view" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/vendor_detail_recycler_view" android:background="@drawable/setting_list_bg_round_corner" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/tcf_vendor_detail_recycler_view_margin_top" android:layout_marginBottom="@dimen/tcf_vendor_detail_recycler_view_margin_bottom" android:layout_marginHorizontal="@dimen/tcf_vendor_detail_margin_horizontal" android:paddingHorizontal="@dimen/tcf_vendor_detail_recycler_view_padding_horizontal" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/consent_status_container" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

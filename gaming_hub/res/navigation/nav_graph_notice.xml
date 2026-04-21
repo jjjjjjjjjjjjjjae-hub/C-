@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph_notice" app:startDestination="@id/NoticeFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/notice_fragment_label" android:name="com.samsung.android.game.gamehome.app.notice.list.NoticeFragment" android:id="@id/NoticeFragment">
+        <action android:id="@id/action_notice_to_noticeDetail" app:destination="@id/NoticeDetailFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit">
+            <argument android:name="title" app:argType="string" />
+            <argument android:name="date" app:argType="string" />
+            <argument android:name="description" app:argType="string" />
+            <argument android:name="isTextType" app:argType="boolean" />
+        </action>
+    </fragment>
+    <fragment android:label="@string/notice_detail_fragment_label" android:name="com.samsung.android.game.gamehome.app.notice.detail.NoticeDetailFragment" android:id="@id/NoticeDetailFragment">
+        <argument android:name="title" app:argType="string" />
+        <argument android:name="date" app:argType="string" />
+        <argument android:name="description" app:argType="string" />
+        <argument android:name="isTextType" app:argType="boolean" />
+    </fragment>
+</navigation>

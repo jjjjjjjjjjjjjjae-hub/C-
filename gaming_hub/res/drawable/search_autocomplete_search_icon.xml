@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/gamehome_launcher_search" android:tint="@color/search_autocomplete_icon_tint" android:height="@dimen/search_autocomplete_search_icon_size" android:width="@dimen/search_autocomplete_search_icon_size" android:autoMirrored="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

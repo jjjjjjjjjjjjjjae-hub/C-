@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">%d valittu</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d valittu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">Poistetaanko %d kirjanmerkkiä?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Poistetaanko %d kirjanmerkki?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">Yli %d merkkiä ei voi kirjoittaa.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yli %d merkkiä ei voi kirjoittaa.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">%d päivää sitten</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d päivä sitten</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Siirry eteenpäin %d sekuntia</item>
+        <item quantity="one">Siirry eteenpäin %d sekunti</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Siirry taaksepäin %d sekuntia</item>
+        <item quantity="one">Siirry taaksepäin %d sekunti</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">Seuraava uusi tehtäväsi on tulossa %d päivän kuluttua.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Seuraava uusi tehtäväsi on tulossa %d päivän kuluttua.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">Sinun on oltava vähintään %d-vuotias, jotta voit käyttää pikapelejä.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sinun on oltava vähintään %d-vuotias, jotta voit käyttää pikapelejä.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">Olet pelannut tätä peliä %d kertaa. Lisää se kirjastoosi, jotta voit käyttää sitä nopeammin.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Olet pelannut tätä peliä %d kerran. Lisää se kirjastoosi, jotta voit käyttää sitä nopeammin.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">Poistettu %1$s ja %2$d muuta Gaming Hubista.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Poistettu %1$s ja %2$d muu Gaming Hubista.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">%d tuntia sitten</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tunti sitten</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">%d minuuttia sitten</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuutti sitten</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d uutta ilmoitusta</item>
+        <item quantity="one">%d uusi ilmoitus</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">Peli-ilmoituksesi näytetään täällä %d päivän ajan.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Peli-ilmoituksesi näytetään täällä %d päivän ajan.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">%d valittu</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d valittu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">Yhteensä %d peliä</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Yhteensä %d peli</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">Edelliset %d kuukautta</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Edellinen %d kuukausi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d päivää</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d päivä</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">%d päivää jäljellä</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d päivä jäljellä</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">%d päivää sitten</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d päivä sitten</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">%d tuntia sitten</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tunti sitten</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">%d minuuttia sitten</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuutti sitten</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">%d kuukautta sitten</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kuukausi sitten</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">%d viikkoa sitten</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d viikko sitten</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">%d vuotta sitten</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d vuosi sitten</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="ETC" android:key="pref_key_test_etc_category">
+        <Preference android:title="@string/test_db_extract_game_apk" android:key="@string/PREF_KEY_TEST_EXTRACT_GAME_APK" />
+        <Preference android:title="@string/test_db_open_app_data_folder" android:key="@string/PREF_KEY_TEST_OPEN_APP_DATA_FOLDER" />
+        <EditTextPreference android:title="@string/test_reset_game_alarm_interval" android:key="@string/PREF_KEY_TEST_ALARM_INTERVAL_TEXT" android:defaultValue="60" android:inputType="number" />
+        <Preference android:title="Open App Info" android:key="pref_key_test_open_app_info" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="GOS UUID">
+        <Preference android:key="@string/PREF_KEY_UUID" android:summary="blabla" />
+    </androidx.preference.PreferenceCategory>
+    <com.samsung.android.game.gamehome.app.setting.preference.EmptyPreferenceCategory />
+    <Preference android:title="@string/test_deactivate_test_mode" android:key="@string/PREF_KEY_DEACTIVATE_TEST_MODE" />
+</androidx.preference.PreferenceScreen>

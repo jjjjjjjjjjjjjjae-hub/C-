@@ -1,0 +1,95 @@
+.class final Landroidx/navigation/NavDeepLink$mimeTypePattern$2;
+.super Lkotlin/jvm/internal/Lambda;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Landroidx/navigation/NavDeepLink;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/Lambda;",
+        "Lkotlin/jvm/functions/a;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u0010\u0001\u001a\u0004\u0018\u00010\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
+    }
+    d2 = {
+        "Ljava/util/regex/Pattern;",
+        "a",
+        "()Ljava/util/regex/Pattern;"
+    }
+    k = 0x3
+    mv = {
+        0x1,
+        0x6,
+        0x0
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic b:Landroidx/navigation/NavDeepLink;
+
+
+# direct methods
+.method public constructor <init>(Landroidx/navigation/NavDeepLink;)V
+    .locals 0
+
+    iput-object p1, p0, Landroidx/navigation/NavDeepLink$mimeTypePattern$2;->b:Landroidx/navigation/NavDeepLink;
+
+    const/4 p1, 0x0
+
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Ljava/util/regex/Pattern;
+    .locals 0
+
+    iget-object p0, p0, Landroidx/navigation/NavDeepLink$mimeTypePattern$2;->b:Landroidx/navigation/NavDeepLink;
+
+    invoke-static {p0}, Landroidx/navigation/NavDeepLink;->a(Landroidx/navigation/NavDeepLink;)Ljava/lang/String;
+
+    move-result-object p0
+
+    if-eqz p0, :cond_0
+
+    invoke-static {p0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+
+    move-result-object p0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p0, 0x0
+
+    :goto_0
+    return-object p0
+.end method
+
+.method public bridge synthetic d()Ljava/lang/Object;
+    .locals 0
+
+    invoke-virtual {p0}, Landroidx/navigation/NavDeepLink$mimeTypePattern$2;->a()Ljava/util/regex/Pattern;
+
+    move-result-object p0
+
+    return-object p0
+.end method

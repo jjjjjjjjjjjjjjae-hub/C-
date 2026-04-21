@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/main_home_recent_related_no_data_text_size" android:textColor="@color/detail_item_error" android:gravity="center" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/detail_no_data" style="@style/RobotoRegular"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 0;
+            background-color: black;
+        }
+
+        #player {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="player"></div>
+
+<script>
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    var player;
+    var isPlayerReady = false;
+
+    function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+            height: '100%',
+            width: '100%',
+            videoId: '',
+            playerVars: {
+                autoplay: 1,
+                controls: 1,
+                rel: 0,
+                modestbranding: 0,
+                fs: 0
+            },
+            events: {
+                'onReady': onPlayerReady,
+                'onStateChange': onPlayerStateChange
+            }
+        });
+    }
+
+    function onPlayerReady(event) {
+        isPlayerReady = true;
+        Android.onPlayerReady();
+    }
+
+    function onPlayerStateChange(event) {
+        switch(event.data) {
+            case YT.PlayerState.ENDED:
+                if (isPlayerReady && player && player.getCurrentTime) {
+                    var currentTime = player.getCurrentTime();
+                    Android.onVideoEnded(currentTime);
+                }
+                break;
+            case YT.PlayerState.PAUSED:
+                if (isPlayerReady && player && player.getCurrentTime) {
+                    var currentTime = player.getCurrentTime();
+                    Android.onVideoPaused(currentTime);
+                }
+                break;
+        }
+    }
+
+    function loadVideo(videoId, startTime, shouldAutoPlay, isMuted) {
+        if (isPlayerReady && player && player.loadVideoById) {
+            if (shouldAutoPlay) {
+                player.loadVideoById({
+                    videoId: videoId,
+                    startSeconds: startTime || 0
+                });
+            } else {
+                player.cueVideoById({
+                    videoId: videoId,
+                    startSeconds: startTime || 0
+                });
+            }
+
+            if (isMuted) {
+                player.mute();
+            } else {
+                player.unMute();
+            }
+        } else {
+            setTimeout(function () {
+                loadVideo(videoId, startTime, shouldAutoPlay, isMuted);
+            }, 300);
+        }
+    }
+    
+    function mute() {
+        if (isPlayerReady && player && player.mute) {
+            player.mute();
+        }
+    }
+    
+    function unMute() {
+        if (isPlayerReady && player && player.unMute) {
+            player.unMute();
+        }
+    }
+
+    function getCurrentTime() {
+        if (isPlayerReady && player && player.getCurrentTime) {
+            var currentTime = player.getCurrentTime();
+            Android.onCurrentTimeReceived(currentTime);
+        }
+    }
+</script>
+</body>
+</html>

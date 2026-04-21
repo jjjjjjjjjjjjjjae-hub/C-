@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_coupon" android:id="@id/gmp_coupons" android:title="@string/promotions_coupons_title" android:contentDescription="@string/promotions_coupons_title" app:iconTint="@color/gmp_oneui_color_text1" app:showAsAction="always" />
+</menu>

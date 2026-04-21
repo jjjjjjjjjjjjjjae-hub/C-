@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="CloudGame Setting" android:key="pref_key_test_cloudgame_category">
+        <Preference android:title="@string/test_cloudgame_restore_with_file_open" android:key="@string/PREF_KEY_TEST_CLOUDGAME_RESTORE_WITH_FILE_OPEN" />
+        <Preference android:title="@string/test_cloudgame_restore_show_history" android:key="@string/PREF_KEY_TEST_CLOUDGAME_RESTORE_SHOW_HISTORY" />
+        <EditTextPreference android:title="@string/test_cloudgame_restore_package_name" android:key="@string/PREF_KEY_TEST_CLOUDGAME_RESTORE_PACKAGE_NAME" android:inputType="text" />
+        <SwitchPreferenceCompat android:title="@string/test_cloudgame_restore_call_delete_title" android:key="@string/PREF_KEY_TEST_CLOUDGAME_RESTORE_CALL_DELETE" android:summary="@string/test_cloudgame_restore_call_delete_title" android:defaultValue="true" />
+        <Preference android:title="@string/test_cloudgame_restore_begin_title" android:key="@string/PREF_KEY_TEST_CLOUDGAME_RESTORE_BEGIN" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

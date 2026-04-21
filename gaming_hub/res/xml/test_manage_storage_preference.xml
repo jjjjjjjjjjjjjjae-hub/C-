@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/test_settings_title_manage_data">
+        <Preference android:title="@string/test_settings_title_clear_data" android:key="@string/PREF_KEY_CLEAR_DATA" />
+        <Preference android:title="@string/test_settings_title_clear_cache" android:key="@string/PREF_KEY_TEST_CLEAR_CACHE" />
+        <Preference android:title="@string/test_uninstall_gamelauncher_title" android:key="@string/PREF_KEY_TEST_UNINSTALL_GAMELAUNCHER" android:summary="@string/test_uninstall_gamelauncher_summary" />
+        <Preference android:title="@string/test_clear_access_token" android:key="@string/PREF_KEY_TEST_CLEAR_ACCESS_TOKEN" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/test_settings_title_version">
+        <Preference android:key="@string/PREF_KEY_VERSION" android:summary="000000000 / 0.0.00.0" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

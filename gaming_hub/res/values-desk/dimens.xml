@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="detail_chart_date_height">176.0dip</dimen>
+    <dimen name="detail_chart_height">150.0dip</dimen>
+</resources>

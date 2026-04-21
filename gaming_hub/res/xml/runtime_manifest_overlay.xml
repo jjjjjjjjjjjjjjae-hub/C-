@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<runtime-manifest
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <policy android:icon="@mipmap/ic_game_launcher_8_5" android:enabled="true" android:priority="1" minValue="80500" type="ONEUI" />
+    </application>
+    <activity android:name="com.samsung.android.game.gamehome.app.MainActivity">
+        <policy android:icon="@mipmap/ic_game_launcher_8_5" android:enabled="true" android:priority="1" minValue="80500" type="ONEUI" />
+    </activity>
+</runtime-manifest>

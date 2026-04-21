@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginVertical="20.0dip" app:cardCornerRadius="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.media3.ui.PlayerView android:id="@id/exo_player" android:layout_width="310.0dip" android:layout_height="0.0dip" app:controller_layout_id="@layout/instant_detail_player_view_custom_controller" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="h,16:9" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:use_controller="true" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+    <ImageView app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/DetailDivider" />
+</androidx.constraintlayout.widget.ConstraintLayout>

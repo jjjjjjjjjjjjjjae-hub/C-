@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="@dimen/detail_chart_date_bottom" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout android:id="@id/chart_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:contentDescription="@string/dashboard_chart" android:importantForAccessibility="yes" android:paddingHorizontal="@dimen/detail_content_padding_side" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/detail_chart_date_height" android:layoutDirection="ltr">
+                <TextView android:id="@id/date1" android:importantForAccessibility="no" android:accessibilityTraversalBefore="@id/date2" style="@style/Detail.Chart.Date" />
+                <TextView android:id="@id/date2" android:importantForAccessibility="no" android:accessibilityTraversalBefore="@id/date3" style="@style/Detail.Chart.Date" />
+                <TextView android:id="@id/date3" android:importantForAccessibility="no" android:accessibilityTraversalBefore="@id/date4" style="@style/Detail.Chart.Date" />
+                <TextView android:id="@id/date4" android:importantForAccessibility="no" android:accessibilityTraversalBefore="@id/date5" style="@style/Detail.Chart.Date" />
+                <TextView android:id="@id/date5" android:importantForAccessibility="no" style="@style/Detail.Chart.Date" />
+            </FrameLayout>
+            <com.github.mikephil.charting.charts.LineChart android:id="@id/chart" android:layout_width="fill_parent" android:layout_height="@dimen/detail_chart_height" />
+        </FrameLayout>
+        <Spinner android:id="@id/period_spinner" android:background="@drawable/detail_spinner_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/detail_item_padding_top" android:layout_marginEnd="@dimen/detail_chart_padding_end" android:accessibilityTraversalAfter="@id/header" app:layout_constraintBottom_toBottomOf="@id/header" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/header" style="@style/Spinner" />
+        <include android:id="@id/header" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/detail_default_padding_side" app:layout_constraintEnd_toStartOf="@id/period_spinner" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/detail_sub_header" />
+        <TextView android:textSize="@dimen/main_home_recent_related_no_data_text_size" android:textColor="@color/detail_item_error" android:gravity="center" android:id="@id/message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/detail_no_data" android:layout_marginStart="@dimen/detail_chart_padding_end" android:layout_marginEnd="@dimen/detail_chart_padding_end" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header" style="@style/RobotoRegular" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/DetailDivider" />
+</androidx.constraintlayout.widget.ConstraintLayout>

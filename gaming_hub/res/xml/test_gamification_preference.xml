@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="Gamification Setting" android:key="pref_key_test_gamification_category">
+        <EditTextPreference android:title="@string/test_gamification_set_hatchery_percentage" android:key="@string/PREF_KEY_TEST_GAMIFICATION_SET_HATCHERY_PERCENTAGE" android:inputType="number" />
+        <EditTextPreference android:title="@string/test_gamification_set_accelerator_value" android:key="@string/PREF_KEY_TEST_GAMIFICATION_SET_ACCELERATOR_VALUE" android:inputType="number" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,30 @@
+.class public abstract Lcom/google/android/gms/internal/ads/hq1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/android/gms/internal/ads/y54;
+
+
+# direct methods
+.method public static a(JLandroid/content/Context;Lcom/google/android/gms/internal/ads/zp1;Lcom/google/android/gms/internal/ads/um0;Ljava/lang/String;)Lcom/google/android/gms/internal/ads/gq1;
+    .locals 8
+
+    new-instance v7, Lcom/google/android/gms/internal/ads/gq1;
+
+    move-object v0, v7
+
+    move-wide v1, p0
+
+    move-object v3, p2
+
+    move-object v4, p3
+
+    move-object v5, p4
+
+    move-object v6, p5
+
+    invoke-direct/range {v0 .. v6}, Lcom/google/android/gms/internal/ads/gq1;-><init>(JLandroid/content/Context;Lcom/google/android/gms/internal/ads/zp1;Lcom/google/android/gms/internal/ads/um0;Ljava/lang/String;)V
+
+    return-object v7
+.end method

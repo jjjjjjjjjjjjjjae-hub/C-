@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.CollapsingToolbarLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="scroll|exitUntilCollapsed"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/collapsing_app_bar_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/mas_expandable_action_bar_text_margin_horizontal" app:layout_collapseMode="pin" style="@style/mas_expandable_action_bar_text_style" />
+    <androidx.appcompat.widget.Toolbar android:layout_gravity="bottom" android:id="@id/toolbar" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/mas_action_bar_height" android:layout_marginTop="@dimen/mas_action_bar_margin_top" android:backgroundTint="@color/mas_basic_app_bar_color" app:contentInsetEnd="0.0dip" app:contentInsetStart="0.0dip" app:layout_collapseMode="pin">
+        <FrameLayout android:theme="@style/MasDeviceDefaultTheme" android:id="@id/toolbar_back_container" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/navigate_up" android:importantForAccessibility="yes" android:layout_marginStart="@dimen/mas_action_bar_back_key_margin_start" android:layout_marginEnd="@dimen/mas_action_bar_back_key_margin_end">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/toolbar_back" android:background="@drawable/ripple_navigate_up_bg" android:padding="@dimen/mas_tool_bar_back_icon_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tw_ic_ab_back_mtrl" />
+        </FrameLayout>
+        <TextView android:ellipsize="end" android:id="@id/toolbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginEnd="@dimen/mas_action_bar_text_margin_end" style="@style/mas_folded_action_bar_text_style" />
+    </androidx.appcompat.widget.Toolbar>
+</com.google.android.material.appbar.CollapsingToolbarLayout>

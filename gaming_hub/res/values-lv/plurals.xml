@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">Izvēlēti %d vienumi</item>
+        <item quantity="zero">Izvēlēti %d</item>
+        <item quantity="one">Izvēlēts %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">Vai izdzēst %d grāmatzīmes?</item>
+        <item quantity="zero">Vai izdzēst %d grāmatzīmes?</item>
+        <item quantity="one">Vai izdzēst %d grāmatzīmi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">Var ievadīt ne vairāk kā %d rakstzīmes.</item>
+        <item quantity="zero">Var ievadīt ne vairāk kā %d rakstzīmes.</item>
+        <item quantity="one">Var ievadīt ne vairāk kā %d rakstzīmi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">Pirms %d dienām</item>
+        <item quantity="zero">Pirms %d dienām</item>
+        <item quantity="one">Pirms %d dienas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Pārtīt uz priekšu par %d sekundēm</item>
+        <item quantity="zero">Pārtīt uz priekšu par %d sekundēm</item>
+        <item quantity="one">Pārtīt uz priekšu par %d sekundi</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Attīt atpakaļ par %d sekundēm</item>
+        <item quantity="zero">Attīt atpakaļ par %d sekundēm</item>
+        <item quantity="one">Attīt atpakaļ par %d sekundi</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">Jūsu nākamā jaunā misija sāksies pēc %d dienām.</item>
+        <item quantity="zero">Jūsu nākamā jaunā misija sāksies pēc %d dienām.</item>
+        <item quantity="one">Jūsu nākamā jaunā misija sāksies pēc %d dienas.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">Lai izmantotu tūlītējās spēles, jums jābūt vismaz %d gadus vecam.</item>
+        <item quantity="zero">Lai izmantotu tūlītējās spēles, jums jābūt vismaz %d gadus vecam.</item>
+        <item quantity="one">Lai izmantotu tūlītējās spēles, jums jābūt vismaz %d gadu vecam.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">Jūs spēlējāt šo spēli %d reizes. Pievienojiet to savai bibliotēkai, lai iegūtu ātrāku piekļuvi.</item>
+        <item quantity="zero">Jūs spēlējāt šo spēli %d reizes. Pievienojiet to savai bibliotēkai, lai iegūtu ātrāku piekļuvi.</item>
+        <item quantity="one">Jūs spēlējāt šo spēli %d reizi. Pievienojiet to savai bibliotēkai, lai iegūtu ātrāku piekļuvi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">Spēle %1$s un vēl %2$d spēles ir noņemtas no Gaming Hub.</item>
+        <item quantity="zero">Spēle %1$s un vēl %2$d spēles ir noņemtas no Gaming Hub.</item>
+        <item quantity="one">Spēle %1$s un vēl %2$d spēle ir noņemtas no Gaming Hub.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">Pirms %d stundām</item>
+        <item quantity="zero">Pirms %d stundām</item>
+        <item quantity="one">Pirms %d stundas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">Pirms %d minūtēm</item>
+        <item quantity="zero">Pirms %d minūtēm</item>
+        <item quantity="one">Pirms %d minūtes</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d jauni paziņojumi</item>
+        <item quantity="zero">%d jaunu paziņojumu</item>
+        <item quantity="one">%d jauns paziņojums</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">Jūsu spēļu paziņojumi tiks parādīti šeit %d dienas.</item>
+        <item quantity="zero">Jūsu spēļu paziņojumi tiks parādīti šeit %d dienas.</item>
+        <item quantity="one">Jūsu spēļu paziņojumi tiks parādīti šeit %d dienu.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">Izvēlēti %d vienumi</item>
+        <item quantity="zero">Izvēlēti %d</item>
+        <item quantity="one">Izvēlēts %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">Kopā no %d spēlēm</item>
+        <item quantity="zero">Kopā no %d spēlēm</item>
+        <item quantity="one">Kopā no %d spēles</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">Pēdējie %d mēneši</item>
+        <item quantity="zero">Pēdējie %d mēneši</item>
+        <item quantity="one">Pēdējais %d mēnesis</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d dienas</item>
+        <item quantity="zero">%d dienas</item>
+        <item quantity="one">%d diena</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">Atlikušas %d dienas</item>
+        <item quantity="zero">Atlikušas %d dienas</item>
+        <item quantity="one">Atlikusi %d diena</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d sek.</item>
+        <item quantity="zero">%d sek.</item>
+        <item quantity="one">%d sek.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">Pirms %d dienām</item>
+        <item quantity="zero">Pirms %d dienām</item>
+        <item quantity="one">Pirms %d dienas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">Pirms %d stundām</item>
+        <item quantity="zero">Pirms %d stundām</item>
+        <item quantity="one">Pirms %d stundas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">Pirms %d minūtēm</item>
+        <item quantity="zero">Pirms %d minūtēm</item>
+        <item quantity="one">Pirms %d minūtes</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">Pirms %d mēnešiem</item>
+        <item quantity="zero">Pirms %d mēnešiem</item>
+        <item quantity="one">Pirms %d mēneša</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">Pirms %d nedēļām</item>
+        <item quantity="zero">Pirms %d nedēļām</item>
+        <item quantity="one">Pirms %d nedēļas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">Pirms %d gadiem</item>
+        <item quantity="zero">Pirms %d gadiem</item>
+        <item quantity="one">Pirms %d gada</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

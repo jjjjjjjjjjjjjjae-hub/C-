@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">%d kijelölve</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kijelölve</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">Töröl %d könyvjelzőt?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Töröl %d könyvjelzőt?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">Legfeljebb %d karaktert írhat be.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Legfeljebb %d karaktert írhat be.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">%d napja</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d napja</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Előretekerés %d másodperccel</item>
+        <item quantity="one">Előretekerés %d másodperccel</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Visszatekerés %d másodperccel</item>
+        <item quantity="one">Visszatekerés %d másodperccel</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">Következő küldetése %d nap múlva indul.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Következő küldetése %d nap múlva indul.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">Az azonnali játékok használatához legalább %d évesnek kell lennie.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Az azonnali játékok használatához legalább %d évesnek kell lennie.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">%d alkalommal játszott ezzel a játékkal. Ha felveszi a könyvtárába, gyorsabban hozzáférhet.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d alkalommal játszott ezzel a játékkal. Ha felveszi a könyvtárába, gyorsabban hozzáférhet.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">%1$s és %2$d további eltávolítva a Gaming Hubból.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s és %2$d további eltávolítva a Gaming Hubból.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">%d órája</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d órája</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">%d perce</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d perce</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d új értesítés</item>
+        <item quantity="one">%d új értesítés</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">A játékok értesítései itt fognak megjelenni %d napig.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">A játékok értesítései itt fognak megjelenni %d napig.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">%d kijelölve</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kijelölve</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">Összesen %d játék</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Összesen %d játék</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">Elmúlt %d hónap</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Elmúlt %d hónap</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d nap</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nap</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">%d nap maradt</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d nap maradt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d mp</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d mp</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">%d napja</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d napja</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">%d órája</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d órája</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">%d perce</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d perce</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">%d hónapja</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d hónapja</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">%d héttel ezelőtt</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d héttel ezelőtt</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">%d éve</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d éve</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

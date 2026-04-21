@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">%d ta tanlandi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ta tanlandi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">%d ta xatcho‘p o‘chirilsinmi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ta xatcho‘p o‘chirilsinmi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">%d tadan ortiq belgi kiritib bo‘lmaydi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d tadan ortiq belgi kiritib bo‘lmaydi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">%d kun avval</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kun avval</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">Keyingi yangi vazifangiz %d kundan so‘ng keladi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Keyingi yangi vazifangiz %d kundan so‘ng keladi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">Lahzali oʻyinlardan foydalanish uchun %d yoshga to‘lgan bo‘lishingiz zarur.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Lahzali oʻyinlardan foydalanish uchun %d yoshga to‘lgan bo‘lishingiz zarur.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">Bu o‘yinni %d marta o‘ynadingiz. Tezkor kirish uchun uni kutubxonangizga qo‘shing.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu o‘yinni %d marta o‘ynadingiz. Tezkor kirish uchun uni kutubxonangizga qo‘shing.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">Gaming Hub’dan %1$s va yana %2$d tasi olib tashlandi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Gaming Hub’dan %1$s va yana %2$d tasi olib tashlandi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">%d soat avval</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d soat avval</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">%d daqiqa avval</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d daqiqa avval</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">O‘yin bildirishnomalari %d kun davomida bu yerda ko‘rsatiladi.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">O‘yin bildirishnomalari %d kun davomida bu yerda ko‘rsatiladi.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">%d ta tanlandi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ta tanlandi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">Jami %d ta o‘yin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Jami %d ta o‘yin</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">Oxirgi %d oy</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Oxirgi %d oy</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d kun</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kun</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">%d kun qoldi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kun qoldi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d soniya</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d soniya</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">%d kun avval</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d kun avval</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">%d soat avval</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d soat avval</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">%d daqiqa avval</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d daqiqa avval</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">%d oy avval</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d oy avval</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">%d hafta oldin</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d hafta oldin</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">%d yil avval</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d yil avval</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

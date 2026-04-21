@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="OOBE Never Run Scenario Test" android:key="pref_key_test_oobe_never_run_category">
+        <Preference android:title="@string/test_oobe_never_run_foldering_status_init" android:key="@string/PREF_KEY_TEST_OOBE_NEVER_RUN_FOLDERING_STATUS_INIT" />
+        <Preference android:title="@string/test_oobe_never_run_hun_force_show" android:key="@string/PREF_KEY_TEST_OOBE_NEVER_RUN_HUN_FORCE_SHOW" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

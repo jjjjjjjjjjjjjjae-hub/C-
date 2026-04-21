@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="Server Setting" android:key="pref_key_test_server_category">
+        <ListPreference android:entries="@array/pref_test_server_select" android:title="Select GameLauncher Server" android:key="@string/PREF_KEY_TEST_SELECT_SERVER" android:defaultValue="0" android:entryValues="@array/pref_test_server_select_values" />
+        <SwitchPreferenceCompat android:title="Select GalaxyApps Server" android:key="@string/PREF_KEY_TEST_ENABLE_GALAXYAPPS_TEST" android:summary="In case of enabled, test server is used" android:defaultValue="false" />
+        <SwitchPreferenceCompat android:title="Select Instant Plays Test" android:key="@string/PREF_KEY_TEST_ENABLE_INSTANT_PLAYS_TEST" android:summary="In case of enabled, test instant plays url is used" android:defaultValue="false" />
+        <SwitchPreferenceCompat android:title="Select GMP Server" android:key="@string/PREF_KEY_TEST_ENABLE_GMP_TEST" android:summary="In case of enabled, test server is used" android:defaultValue="false" />
+        <Preference android:title="Check parameters of network request" android:key="@string/PREF_KEY_TEST_CHECK_NETWORK_PARAM" />
+        <Preference android:title="Print Network call count log" android:key="@string/PREF_KEY_TEST_NETWORK_CALL_COUNT_MANAGER" />
+        <SwitchPreferenceCompat android:title="Log network request information" android:key="@string/PREF_KEY_TEST_ENABLE_NETWORK_LOGGING" android:summary="Network request information will be logged to file" android:defaultValue="true" />
+        <Preference android:title="Export logged network request information" android:key="@string/PREF_KEY_TEST_EXPORT_NETWORK_LOG" />
+        <Preference android:title="Remove logged network request information" android:key="@string/PREF_KEY_TEST_REMOVE_NETWORK_LOG" />
+        <Preference android:title="Upload account playtime" android:key="@string/PREF_KEY_TEST_UPLOAD_PLAYTIME" />
+        <Preference android:title="Upload daily playtime" android:key="@string/PREF_KEY_TEST_UPLOAD_DAILY_PLAYTIME" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

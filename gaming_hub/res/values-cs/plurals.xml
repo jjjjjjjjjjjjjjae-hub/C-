@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">Vybráno: %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vybráno: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vybráno: %d</item>
+        <item quantity="many">Vybráno: %d</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">Odstranit %d záložek?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Odstranit %d záložku?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Odstranit %d záložky?</item>
+        <item quantity="many">Odstranit %d záložek?</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">Nelze zadat více než %d znaků.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nelze zadat více než %d znak.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nelze zadat více než %d znaky.</item>
+        <item quantity="many">Nelze zadat více než %d znaků.</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">Před %d dny</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Před %d dnem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Před %d dny</item>
+        <item quantity="many">Před %d dny</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Posunout vpřed o %d sekund</item>
+        <item quantity="one">Posunout vpřed o %d sekundu</item>
+        <item quantity="few">Posunout vpřed o %d sekundy</item>
+        <item quantity="many">Posunout vpřed o %d sekundy</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Přetočit zpět o %d sekund</item>
+        <item quantity="one">Přetočit zpět o %d sekundu</item>
+        <item quantity="few">Přetočit zpět o %d sekundy</item>
+        <item quantity="many">Přetočit zpět o %d sekundy</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">Vaše příští nová mise přijde za %d dnů.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vaše příští nová mise přijde za %d den.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vaše příští nová mise přijde za %d dny.</item>
+        <item quantity="many">Vaše příští nová mise přijde za %d dnů.</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">Abyste mohli používat Okamžité hry, musí vám být alespoň %d let.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Abyste mohli používat Okamžité hry, musí vám být alespoň %d rok.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Abyste mohli používat Okamžité hry, musí vám být alespoň %d roky.</item>
+        <item quantity="many">Abyste mohli používat Okamžité hry, musí vám být alespoň %d let.</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">Tuto hru jste hráli %dkrát. Přidejte ji do knihovny, abyste k ní měli rychlejší přístup.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tuto hru jste hráli %dkrát. Přidejte ji do knihovny, abyste k ní měli rychlejší přístup.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Tuto hru jste hráli %dkrát. Přidejte ji do knihovny, abyste k ní měli rychlejší přístup.</item>
+        <item quantity="many">Tuto hru jste hráli %dkrát. Přidejte ji do knihovny, abyste k ní měli rychlejší přístup.</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">Hra %1$s a %2$d dalších bylo odebráno z aplikace Gaming Hub.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hra %1$s a %2$d další byly odebrány z aplikace Gaming Hub.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Hra %1$s a %2$d další byly odebrány z aplikace Gaming Hub.</item>
+        <item quantity="many">Hra %1$s a %2$d dalších bylo odebráno z aplikace Gaming Hub.</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">Před %d hodinami</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Před %d hodinou</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Před %d hodinami</item>
+        <item quantity="many">Před %d hodinami</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">Před %d minutami</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Před %d minutou</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Před %d minutami</item>
+        <item quantity="many">Před %d minutami</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nových oznámení</item>
+        <item quantity="one">%d nové oznámení</item>
+        <item quantity="few">%d nová oznámení</item>
+        <item quantity="many">%d nového oznámení</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">Zde se zobrazí oznámení her po dobu %d dnů.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zde se zobrazí oznámení her po dobu %d dne.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zde se zobrazí oznámení her po dobu %d dnů.</item>
+        <item quantity="many">Zde se zobrazí oznámení her po dobu %d dnů.</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">Vybráno: %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vybráno: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Vybráno: %d</item>
+        <item quantity="many">Vybráno: %d</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">Celkem %d her</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Celkem %d hra</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Celkem %d hry</item>
+        <item quantity="many">Celkem %d her</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">Posledních %d měsíců</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Poslední %d měsíc</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Poslední %d měsíce</item>
+        <item quantity="many">Posledních %d měsíců</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d dnů</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d den</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d dny</item>
+        <item quantity="many">%d dnů</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">Zbývá %d dnů</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Zbývá %d den</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Zbývají %d dny</item>
+        <item quantity="many">Zbývá %d dnů</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d s</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d s</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d s</item>
+        <item quantity="many">%d s</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">Před %d dny</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Před %d dnem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Před %d dny</item>
+        <item quantity="many">Před %d dny</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">Před %d hodinami</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Před %d hodinou</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Před %d hodinami</item>
+        <item quantity="many">Před %d hodinami</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">Před %d minutami</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Před %d minutou</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Před %d minutami</item>
+        <item quantity="many">Před %d minutami</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">Před %d měsíci</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Před %d měsícem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Před %d měsíci</item>
+        <item quantity="many">Před %d měsíci</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">Před %d týdny</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Před %d týdnem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Před %d týdny</item>
+        <item quantity="many">Před %d týdny</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">Před %d lety</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Před %d rokem</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Před %d lety</item>
+        <item quantity="many">Před %d lety</item>
+    </plurals>
+</resources>

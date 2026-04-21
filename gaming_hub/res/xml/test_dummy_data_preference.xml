@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="DUMMY DATA MAKER" android:key="pref_key_test_dummy_data_category">
+        <Preference android:title="@string/test_make_fake_game_notification" android:key="@string/PREF_KEY_TEST_MAKE_FAKE_GAME_NOTIFICATION" />
+        <Preference android:title="@string/test_delete_all_game_notification" android:key="@string/PREF_KEY_TEST_DELETE_ALL_FAKE_GAME_NOTIFICATION" />
+        <Preference android:title="@string/test_generate_random_daily_playtime" android:key="@string/PREF_KEY_TEST_GENERATE_RANDOM_DAILY_PLAYTIME" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

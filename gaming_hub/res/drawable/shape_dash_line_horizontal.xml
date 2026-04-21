@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="line"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/main_home_recent_related_playtime_line_width" android:color="@color/detail_daily_play_time_dot_line" android:dashWidth="@dimen/main_home_recent_related_playtime_line_width" android:dashGap="@dimen/main_home_recent_related_playtime_line_gap" />
+</shape>

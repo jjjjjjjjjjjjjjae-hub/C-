@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="basic_common_background_2">#fff6f6f8</color>
+    <color name="sesl_popup_menu_blur_background_dark">#1affffff</color>
+</resources>

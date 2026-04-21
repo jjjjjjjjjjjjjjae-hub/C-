@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="@bool/hide_system_ui_condition" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/basic_round_and_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/content_layout" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/bottom_bar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SeslAppbarLayout">
+                <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="scroll|exitUntilCollapsed|snap" app:title="@string/bookmark_title" style="@style/SeslCollapsingToolbarLayout">
+                    <androidx.appcompat.widget.Toolbar android:layout_gravity="bottom" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:importantForAccessibility="no" app:layout_collapseMode="pin" app:title="@string/bookmark_title" style="@style/SeslToolbar" />
+                    <androidx.appcompat.widget.Toolbar android:layout_gravity="bottom" android:id="@id/toolbar_action_mode" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" app:contentInsetStart="0.0dip" app:layout_collapseMode="pin" style="@style/SeslToolbar">
+                        <include android:id="@id/action_mode_view" layout="@layout/common_multi_select_action_mode_view" />
+                    </androidx.appcompat.widget.Toolbar>
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+            <androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/tips_container" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/bookmark_list_tips_view" />
+                    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/bookmark_list_min_height">
+                        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:background="?android:windowBackground" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="@dimen/bookmark_list_recycler_view_margin_top" android:layout_marginBottom="@dimen/basic_list_subheader_layout_min_height" android:paddingHorizontal="@dimen/bookmark_list_recycler_view_padding_horizontal" android:paddingVertical="@dimen/bookmark_list_recycler_view_padding_vertical" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:layout_constrainedHeight="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHeight_min="wrap" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_goneMarginTop="0.0dip" />
+                        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/no_item" android:background="@color/basic_round_and_bg_color" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                            <include android:id="@id/no_item_layout" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/common_no_item_view" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <com.google.android.material.bottomnavigation.BottomNavigationView android:id="@id/bottom_bar" android:layout_width="0.0dip" android:layout_height="wrap_content" app:itemBackground="@drawable/sesl_bottom_navigation_background_text" app:itemTextColor="@color/selector_bottom_bar_menu_text_color" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:menu="@menu/menu_bookmark_list_bottom" style="@style/BottomNavigationView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

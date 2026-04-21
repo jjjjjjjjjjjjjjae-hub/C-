@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/basic_flat_button_text_ripple" />
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:start="@dimen/basic_raised_button_padding" android:end="@dimen/basic_raised_button_padding" />
+        </shape>
+    </item>
+</layer-list>

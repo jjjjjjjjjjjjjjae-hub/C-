@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:resource="@style/tcf_vendors_list_tab_enable_text_style" android:state_selected="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/mas_basic_sub_tab_selected_color" />
+            <corners android:radius="@dimen/tcf_vendor_list_main_tab_selector_radius" />
+        </shape>
+    </item>
+    <item android:state_selected="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/mas_basic_sub_tab_unselected_color" />
+            <corners android:radius="@dimen/tcf_vendor_list_main_tab_selector_radius" />
+        </shape>
+    </item>
+</selector>

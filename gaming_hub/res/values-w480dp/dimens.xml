@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="banner_ad_media_slim_view_adBadge_marginStart">32.0dip</dimen>
+    <dimen name="banner_ad_media_slim_view_adBadge_marginTop">10.0dip</dimen>
+    <dimen name="banner_ad_media_slim_view_adBadge_textSize">12.0dip</dimen>
+    <dimen name="banner_ad_media_slim_view_infoBtn_marginStart">4.0dip</dimen>
+    <dimen name="banner_ad_media_slim_view_minHeight">126.0dip</dimen>
+    <dimen name="banner_ad_media_slim_view_title_marginBottom">12.0dip</dimen>
+    <dimen name="banner_ad_media_slim_view_title_marginHorizontal">68.0dip</dimen>
+    <item type="dimen" name="masm_native_ad_text_shadow_radius">1.7</item>
+    <dimen name="masm_native_cta_height">28.0dip</dimen>
+    <dimen name="masm_native_cta_max_width">268.0dip</dimen>
+    <dimen name="masm_native_cta_text_size">12.0dip</dimen>
+    <dimen name="masm_native_holder_margin_end">24.0dip</dimen>
+    <dimen name="masm_native_holder_margin_start">32.0dip</dimen>
+    <dimen name="masm_native_media_fixed_height">126.0dip</dimen>
+    <dimen name="multi_ad_slim_view_cornerRadius">18.0dip</dimen>
+    <dimen name="native_ad_app_icon_corner_radius">7.5dip</dimen>
+    <item type="dimen" name="sesl_config_prefSnackWidth">68.00001%</item>
+    <dimen name="videoAdSlimView_adBadge_marginStart">32.0dip</dimen>
+    <dimen name="videoAdSlimView_adBadge_marginTop">10.0dip</dimen>
+    <dimen name="videoAdSlimView_adBadge_minHeight">16.0dip</dimen>
+    <dimen name="videoAdSlimView_adBadge_textSize">12.0dip</dimen>
+    <dimen name="videoAdSlimView_duration_marginBottom">4.0dip</dimen>
+    <dimen name="videoAdSlimView_duration_marginStart">18.0dip</dimen>
+    <dimen name="videoAdSlimView_duration_minHeight">16.0dip</dimen>
+    <dimen name="videoAdSlimView_infoBtn_marginStart">4.0dip</dimen>
+    <dimen name="videoAdSlimView_playPauseReplay_marginBottom">2.0dip</dimen>
+    <dimen name="videoAdSlimView_playPauseReplay_marginStart">22.0dip</dimen>
+    <dimen name="videoAdSlimView_playPauseReplay_size">36.0dip</dimen>
+    <dimen name="videoAdSlimView_root_height">126.0dip</dimen>
+    <dimen name="videoAdSlimView_title_marginEnd">228.0dip</dimen>
+    <dimen name="videoAdSlimView_title_view_marginBottom">12.0dip</dimen>
+    <dimen name="videoAdSlimView_title_view_marginStart">18.0dip</dimen>
+    <dimen name="videoAdSlimView_volume_onOffBtn_marginStart">8.0dip</dimen>
+    <dimen name="welcome_bottom_sheet_continue_button_width">296.0dip</dimen>
+    <dimen name="welcome_bottom_sheet_width">412.0dip</dimen>
+</resources>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">%d مورد انتخاب شد</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مورد انتخاب شد</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">%d نشانک حذف شود؟</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d نشانک حذف شود؟</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">وارد کردن بیشتر از %d نویسه ممکن نیست.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">وارد کردن بیشتر از %d نویسه ممکن نیست.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">%d روز قبل</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d روز قبل</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d ثانیه سریع به‌جلو بردن</item>
+        <item quantity="one">%d ثانیه سریع به‌جلو بردن</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d ثانیه به‌عقب بردن</item>
+        <item quantity="one">%d ثانیه به‌عقب بردن</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">ماموریت جدید بعدی شما ظرف %d روز ارائه می‌شود.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ماموریت جدید بعدی شما ظرف %d روز ارائه می‌شود.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">برای استفاده از ”بازی‌های فوری“، باید حداقل %d سال سن داشته باشید.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">برای استفاده از ”بازی‌های فوری“، باید حداقل %d سال سن داشته باشید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">شما این بازی را %d بار انجام داده‌اید. برای دسترسی سریعتر، آن را به کتابخانه خود اضافه کنید.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">شما این بازی را %d بار انجام داده‌اید. برای دسترسی سریعتر، آن را به کتابخانه خود اضافه کنید.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">%1$s و %2$d مورد دیگر از Gaming Hub حذف شدند.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s و %2$d مورد دیگر از Gaming Hub حذف شدند.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">%d ساعت قبل</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ساعت قبل</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">%d دقیقه قبل</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d دقیقه قبل</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d اعلان جدید</item>
+        <item quantity="one">%d اعلان جدید</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">اعلان‌های بازی شما به مدت %d روز در اینجا نشان داده می‌شوند.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">اعلان‌های بازی شما به مدت %d روز در اینجا نشان داده می‌شوند.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">%d مورد انتخاب شد</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d مورد انتخاب شد</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">در مجموع %d بازی</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">در مجموع %d بازی</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">%d ماه گذشته</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ماه گذشته</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d روز</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d روز</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">%d روز باقی مانده</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d روز باقی مانده</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d ثانیه</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ثانیه</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">%d روز قبل</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d روز قبل</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">%d ساعت قبل</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ساعت قبل</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">%d دقیقه قبل</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d دقیقه قبل</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">%d ماه پیش</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ماه پیش</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">%d هفته قبل</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d هفته قبل</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">%d سال پیش</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d سال پیش</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

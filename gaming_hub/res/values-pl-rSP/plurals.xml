@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">%d ôbranych</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ôbrane</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d ôbrane</item>
+        <item quantity="many">%d ôbranych</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">Wyciepnōńć %d zŏkłŏdkōw?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Wyciepnōńć %d zŏkłŏdka?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Wyciepnōńć %d zŏkłŏdki?</item>
+        <item quantity="many">Wyciepnōńć %d zŏkłŏdkōw?</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">Idzie podać co nojwyżyj %d znakōw.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Idzie podać co nojwyżyj %d znak.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Idzie podać co nojwyżyj %d znaki.</item>
+        <item quantity="many">Idzie podać co nojwyżyj %d znakōw.</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">%d dni tymu</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dziyń tymu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d dni tymu</item>
+        <item quantity="many">%d dni tymu</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">Twoja następna misja będzie dostępna za %d dnia.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Twoja następna misja będzie dostępna za %d dzień.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Twoja następna misja będzie dostępna za %d dni.</item>
+        <item quantity="many">Twoja następna misja będzie dostępna za %d dni.</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">Aby grać w Błyskawiczne gry, musisz mieć co najmniej %d roku.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Aby grać w Błyskawiczne gry, musisz mieć co najmniej %d rok.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Aby grać w Błyskawiczne gry, musisz mieć co najmniej %d lata.</item>
+        <item quantity="many">Aby grać w Błyskawiczne gry, musisz mieć co najmniej %d lat.</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">W tę grę grano %d raza. Dodaj ją do biblioteki, aby ją szybciej otwierać.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">W tę grę grano %d raz. Dodaj ją do biblioteki, aby ją szybciej otwierać.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">W tę grę grano %d razy. Dodaj ją do biblioteki, aby ją szybciej otwierać.</item>
+        <item quantity="many">W tę grę grano %d razy. Dodaj ją do biblioteki, aby ją szybciej otwierać.</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">Usunięto grę %1$s i %2$d innej z Gaming Hub.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Usunięto grę %1$s i %2$d inną z Gaming Hub.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Usunięto grę %1$s i %2$d inne z Gaming Hub.</item>
+        <item quantity="many">Usunięto grę %1$s i %2$d innych z Gaming Hub.</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">%d godzin tymu</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d godzina tymu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d godziny tymu</item>
+        <item quantity="many">%d godzin tymu</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">%d minut tymu</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuta tymu</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d minuty tymu</item>
+        <item quantity="many">%d minut tymu</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">Nowiny z gry bydōm widzalne tukej bez %d dni.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nowiny z gry bydōm widzalne tukej bez %d dziyń.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Nowiny z gry bydōm widzalne tukej bez %d dni.</item>
+        <item quantity="many">Nowiny z gry bydōm widzalne tukej bez %d dni.</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">%d ôbranych</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ôbrane</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d ôbrane</item>
+        <item quantity="many">%d ôbranych</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">Cuzamyn %d szpilōw</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Cuzamyn %d szpil</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Cuzamyn %d szpile</item>
+        <item quantity="many">Cuzamyn %d szpilōw</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">Pozostało %d dnia</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Pozostał %d dzień</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Pozostały %d dni</item>
+        <item quantity="many">Pozostało %d dni</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d sek.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sek.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d sek.</item>
+        <item quantity="many">%d sek.</item>
+    </plurals>
+</resources>

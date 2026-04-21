@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="360.0dip" android:width="360.0dip" android:viewportWidth="360.0" android:viewportHeight="360.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#fff6d486" android:pathData="M0,0h360v360h-360z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M79,180.5a48.5,62.5 0,1 0,97 0a48.5,62.5 0,1 0,-97 0z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M185,180.5a48.5,62.5 0,1 0,97 0a48.5,62.5 0,1 0,-97 0z" android:fillType="evenOdd" />
+    <path android:fillColor="#ff7f9ef8" android:pathData="M128,180m-31,0a31,31 0,1 1,62 0a31,31 0,1 1,-62 0" android:fillType="evenOdd" />
+    <path android:fillColor="#ff7f9ef8" android:pathData="M234,180m-31,0a31,31 0,1 1,62 0a31,31 0,1 1,-62 0" android:fillType="evenOdd" />
+    <path android:fillColor="#fff7d486" android:pathData="M70,211a57.5,22 0,1 0,115 0a57.5,22 0,1 0,-115 0z" android:fillType="evenOdd" />
+    <path android:fillColor="#fff7d486" android:pathData="M176,211a57.5,22 0,1 0,115 0a57.5,22 0,1 0,-115 0z" android:fillType="evenOdd" />
+    <path android:fillColor="#fff6d486" android:pathData="M78,211h207v51h-207z" android:fillType="evenOdd" />
+</vector>

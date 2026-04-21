@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_recent_game_item_app_icon_container_margin_end">10.0dip</dimen>
+    <dimen name="main_recent_game_item_play_time_margin_bottom">17.0dip</dimen>
+    <dimen name="main_recent_game_item_title_gone_margin_bottom">20.0dip</dimen>
+</resources>

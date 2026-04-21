@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/gameluncher_noti_ic" android:tint="@color/common_fafafa_80" android:height="@dimen/basic_notification_item_delete_button_size" android:width="@dimen/basic_notification_item_delete_button_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

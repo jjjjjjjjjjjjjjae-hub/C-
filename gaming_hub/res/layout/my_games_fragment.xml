@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="@bool/hide_system_ui_condition" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/sesl_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="0.0dip" android:layout_height="0.0dip" android:animateLayoutChanges="true" app:layout_constraintBottom_toTopOf="@id/bottom_bar" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <include android:id="@id/my_games_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/home_my_games_layout" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <com.google.android.material.bottomnavigation.BottomNavigationView android:id="@id/bottom_bar" android:layout_width="0.0dip" android:layout_height="wrap_content" app:itemBackground="@drawable/sesl_bottom_navigation_background_text" app:itemTextColor="@color/selector_bottom_bar_menu_text_color" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:menu="@menu/menu_library_bottom" style="@style/BottomNavigationView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

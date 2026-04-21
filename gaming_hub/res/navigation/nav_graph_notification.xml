@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph_notification" app:startDestination="@id/NotificationListFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="" android:name="com.samsung.android.game.gamehome.app.notification.NotificationListFragment" android:id="@id/NotificationListFragment">
+        <action android:id="@id/action_notification_to_notificationsetting" app:destination="@id/NotificationListSettingFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" />
+    </fragment>
+    <fragment android:label="" android:name="com.samsung.android.game.gamehome.app.notification.notificationsetting.NotificationSettingFragment" android:id="@id/NotificationListSettingFragment" />
+</navigation>

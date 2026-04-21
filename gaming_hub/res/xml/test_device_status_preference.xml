@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="Device Status" android:key="pref_key_test_device_status">
+        <Preference android:title="@string/test_get_gos_game_list" android:key="@string/PREF_KEY_TEST_GET_GOS_GAME_LIST" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

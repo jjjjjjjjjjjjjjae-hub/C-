@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:fitsSystemWindows="@bool/hide_system_ui_condition" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/background" android:background="@color/basic_round_and_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="?actionBarSize" android:focusedByDefault="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:titleTextColor="@color/transparent" />
+        <androidx.core.widget.NestedScrollView android:id="@id/scrollview" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:fillViewport="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar">
+            <LinearLayout android:orientation="vertical" android:paddingBottom="41.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include android:id="@id/overview" layout="@layout/instant_detail_overview_item_view" />
+                <include android:id="@id/playtime" layout="@layout/detail_play_time_item_view" />
+                <include android:id="@id/video" layout="@layout/instant_detail_video_item_view" />
+                <include android:id="@id/developer_info" layout="@layout/instant_detail_developer_info_item_view" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <include android:id="@id/progress" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="?actionBarSize" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/common_progress_view" />
+        <TextView android:textSize="17.0sp" android:gravity="center" android:id="@id/no_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="?actionBarSize" android:paddingStart="@dimen/basic_list_item_padding_side" android:paddingEnd="@dimen/basic_list_item_padding_side" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/NoItem.Text.Title" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

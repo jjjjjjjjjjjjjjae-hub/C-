@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="Dashboard Notification Setting" android:key="pref_key_test_dashboard_category">
+        <EditTextPreference android:title="@string/test_dashboard_notification_register_with_offset" android:key="@string/PREF_KEY_TEST_DASHBOARD_REGISTER_NOTIFICATION_WITH_OFFSET" android:inputType="numberDecimal" />
+        <Preference android:title="@string/test_dashboard_notification_history" android:key="@string/PREF_KEY_TEST_SHOW_DASHBOARD_NOTIFICATION_HISTORY" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

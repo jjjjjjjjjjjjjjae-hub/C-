@@ -1,0 +1,26 @@
+.class public interface abstract Landroidx/datastore/preferences/protobuf/c0$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroidx/datastore/preferences/protobuf/d0;
+.implements Ljava/lang/Cloneable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/datastore/preferences/protobuf/c0;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "a"
+.end annotation
+
+
+# virtual methods
+.method public abstract L(Landroidx/datastore/preferences/protobuf/c0;)Landroidx/datastore/preferences/protobuf/c0$a;
+.end method
+
+.method public abstract y()Landroidx/datastore/preferences/protobuf/c0;
+.end method

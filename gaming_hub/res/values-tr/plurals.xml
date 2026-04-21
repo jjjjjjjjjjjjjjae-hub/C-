@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">%d seçili</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d seçili</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">%d yer imi silinsin mi?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d yer imi silinsin mi?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">En fazla %d karakter girilebilir.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">En fazla %d karakter girilebilir.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">%d gün önce</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gün önce</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d saniye ileri sar</item>
+        <item quantity="one">%d saniye ileri sar</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d saniye geri sar</item>
+        <item quantity="one">%d saniye geri sar</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">Bir sonraki yeni göreviniz %d gün içinde gelecek.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bir sonraki yeni göreviniz %d gün içinde gelecek.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">Hazır Oyunları kullanabilmek için en az %d yaşında olmanız gerekir.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hazır Oyunları kullanabilmek için en az %d yaşında olmanız gerekir.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">Bu oyunu %d kez oynadınız. Daha hızlı erişmek için kütüphanenize ekleyin.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Bu oyunu %d kez oynadınız. Daha hızlı erişmek için kütüphanenize ekleyin.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">"%1$s ve %2$d diğer oyun Gaming Hub'dan kaldırıldı."</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"%1$s ve %2$d diğer oyun Gaming Hub'dan kaldırıldı."</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">%d saat önce</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d saat önce</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">%d dakika önce</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dakika önce</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d yeni bildirim</item>
+        <item quantity="one">%d yeni bildirim</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">%d günlük oyun bildirimlerinizi burada görüntüleyebilirsiniz.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d günlük oyun bildirimlerinizi burada görüntüleyebilirsiniz.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">%d seçili</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d seçili</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">Toplamda %d oyun</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Toplamda %d oyun</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">Son %d ay</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Son %d ay</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d gün</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gün</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">%d gün kaldı</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gün kaldı</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d sn.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sn.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">%d gün önce</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d gün önce</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">%d saat önce</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d saat önce</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">%d dakika önce</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dakika önce</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">%d ay önce</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ay önce</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">%d hafta önce</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d hafta önce</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">%d yıl önce</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d yıl önce</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

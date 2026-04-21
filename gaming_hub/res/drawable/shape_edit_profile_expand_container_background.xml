@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/edit_profile_preset_image_container_color" />
+    <corners android:radius="@dimen/gamer_profile_profile_container_radius" />
+</shape>

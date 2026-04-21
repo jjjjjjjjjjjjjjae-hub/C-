@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mas_basic_app_bar_color">#ff010102</color>
+    <color name="mas_basic_button_default_background">#ff2d2d30</color>
+    <color name="mas_basic_button_text">#fffafaff</color>
+    <color name="mas_basic_colorControlNormal">#ff929295</color>
+    <color name="mas_basic_status_bar_color">#ff010102</color>
+    <color name="mas_basic_sub_tab_selected_color">#ff2d2d30</color>
+    <color name="mas_basic_sub_tab_selected_text_color">#ffeaeaeb</color>
+    <color name="mas_basic_sub_tab_unselected_text_color">#ff99999e</color>
+    <color name="mas_basic_window_background">#ff010102</color>
+</resources>

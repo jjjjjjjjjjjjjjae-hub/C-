@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.samsung.android.game.gamehome.app.setting.preference.DescriptionPreference android:selectable="false" android:key="@string/library_settings_preference_key_description_dummy" />
+    <com.samsung.android.game.gamehome.app.setting.preference.RadioButtonPreference android:key="@string/library_settings_preference_key_radio_button_first_dummy" />
+    <com.samsung.android.game.gamehome.app.setting.preference.RadioButtonPreference android:key="@string/library_settings_preference_key_radio_button_second_dummy" />
+</androidx.preference.PreferenceScreen>

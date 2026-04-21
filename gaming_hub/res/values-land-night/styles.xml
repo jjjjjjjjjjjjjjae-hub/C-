@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppCompat.Main" parent="@style/SeslAppcompat">
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="actionMenuTextColor">@color/common_fafafa_100</item>
+    </style>
+</resources>

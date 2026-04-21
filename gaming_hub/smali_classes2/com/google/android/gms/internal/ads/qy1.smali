@@ -1,0 +1,68 @@
+.class public final Lcom/google/android/gms/internal/ads/qy1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/android/gms/internal/ads/cd1;
+
+
+# instance fields
+.field public a:Landroid/os/Message;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/google/android/gms/internal/ads/oz1;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()V
+    .locals 1
+
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/qy1;->a:Landroid/os/Message;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-virtual {v0}, Landroid/os/Message;->sendToTarget()V
+
+    const/4 v0, 0x0
+
+    iput-object v0, p0, Lcom/google/android/gms/internal/ads/qy1;->a:Landroid/os/Message;
+
+    invoke-static {p0}, Lcom/google/android/gms/internal/ads/o02;->b(Lcom/google/android/gms/internal/ads/qy1;)V
+
+    return-void
+.end method
+
+.method public final b(Landroid/os/Message;Lcom/google/android/gms/internal/ads/o02;)Lcom/google/android/gms/internal/ads/qy1;
+    .locals 0
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/ads/qy1;->a:Landroid/os/Message;
+
+    return-object p0
+.end method
+
+.method public final c(Landroid/os/Handler;)Z
+    .locals 1
+
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/qy1;->a:Landroid/os/Message;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-virtual {p1, v0}, Landroid/os/Handler;->sendMessageAtFrontOfQueue(Landroid/os/Message;)Z
+
+    move-result p1
+
+    const/4 v0, 0x0
+
+    iput-object v0, p0, Lcom/google/android/gms/internal/ads/qy1;->a:Landroid/os/Message;
+
+    invoke-static {p0}, Lcom/google/android/gms/internal/ads/o02;->b(Lcom/google/android/gms/internal/ads/qy1;)V
+
+    return p1
+.end method

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph_youtube_player" app:startDestination="@id/YoutubePlayerFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.samsung.android.game.gamehome.app.main.curation.youtube.YoutubePlayerFragment" android:id="@id/YoutubePlayerFragment">
+        <argument android:name="video_id" app:argType="string" />
+        <argument android:name="video_id_list" app:argType="string[]" />
+        <argument android:name="display_order" android:defaultValue="0" app:argType="integer" />
+        <argument android:name="card_position" android:defaultValue="0" app:argType="integer" />
+        <argument android:name="video_position" android:defaultValue="0" app:argType="integer" />
+        <argument android:name="rcu_id" android:defaultValue="" app:argType="string" />
+        <argument android:name="algo_id" android:defaultValue="" app:argType="string" />
+        <argument android:name="loopback" android:defaultValue="" app:argType="string" />
+        <argument android:name="utmInfo" android:defaultValue="" app:argType="string" />
+        <argument android:name="slot_id" android:defaultValue="" app:argType="string" />
+        <argument android:name="pc_algo_id" android:defaultValue="" app:argType="string" />
+    </fragment>
+</navigation>

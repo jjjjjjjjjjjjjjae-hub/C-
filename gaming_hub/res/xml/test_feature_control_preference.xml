@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.PreferenceCategory android:title="@string/test_feature_control" android:key="@string/PREF_KEY_TEST_FEATURE_CONTROL_CATEGORY">
+        <SwitchPreferenceCompat android:title="@string/test_feature_control_enable_title" android:key="@string/PREF_KEY_TEST_FEATURE_CONTROL_ENABLE" android:summaryOn="@string/test_feature_control_enable_summary_on" android:summaryOff="@string/test_feature_control_enable_summary_off" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

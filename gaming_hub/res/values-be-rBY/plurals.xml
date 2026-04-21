@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">Выбрана: %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выбрана: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выбрана: %d</item>
+        <item quantity="many">Выбрана: %d</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">Выдаліць %d закладак?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выдаліць %d закладку?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выдаліць %d закладкі?</item>
+        <item quantity="many">Выдаліць %d закладак?</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">Немагчыма ўвесці больш %d сімвалаў.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Немагчыма ўвесці больш %d сімвала.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Немагчыма ўвесці больш %d сімвалаў.</item>
+        <item quantity="many">Немагчыма ўвесці больш %d сімвалаў.</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">%d дзён таму</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d дзень таму</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d дні таму</item>
+        <item quantity="many">%d дзён таму</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">Ваша новая наступная місія пачнецца праз %d дзён.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ваша новая наступная місія пачнецца праз %d дзень.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Ваша новая наступная місія пачнецца праз %d дні.</item>
+        <item quantity="many">Ваша новая наступная місія пачнецца праз %d дзён.</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">Каб выкарыстоўваць імгненныя гульні, вам павінна быць мінімум %d гадоў.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Каб выкарыстоўваць імгненныя гульні, вам павінен быць мінімум %d год.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Каб выкарыстоўваць імгненныя гульні, вам павінна быць мінімум %d гады.</item>
+        <item quantity="many">Каб выкарыстоўваць імгненныя гульні, вам павінна быць мінімум %d гадоў.</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">Вы гулялі ў гэту гульню %d разоў. Дадайце яе ў сваю бібліятэку для хутчэйшага доступу.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Вы гулялі ў гэту гульню %d раз. Дадайце яе ў сваю бібліятэку для хутчэйшага доступу.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Вы гулялі ў гэту гульню %d разы. Дадайце яе ў сваю бібліятэку для хутчэйшага доступу.</item>
+        <item quantity="many">Вы гулялі ў гэту гульню %d разоў. Дадайце яе ў сваю бібліятэку для хутчэйшага доступу.</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">%1$s і %2$d іншых выдалена з Gaming Hub.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s і %2$d іншая выдалена з Gaming Hub.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%1$s і %2$d іншыя выдалены з Gaming Hub.</item>
+        <item quantity="many">%1$s і %2$d іншых выдалена з Gaming Hub.</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">%d гадзін таму</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d гадзіну таму</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d гадзіны таму</item>
+        <item quantity="many">%d гадзін таму</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">%d хвілін таму</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хвіліну таму</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d хвіліны таму</item>
+        <item quantity="many">%d хвілін таму</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">Апавяшчэнні ад гульні будуць паказвацца тут на працягу %d дзён.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Апавяшчэнні ад гульні будуць паказвацца тут на працягу %d дня.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Апавяшчэнні ад гульні будуць паказвацца тут на працягу %d дзён.</item>
+        <item quantity="many">Апавяшчэнні ад гульні будуць паказвацца тут на працягу %d дзён.</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">Выбрана: %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Выбрана: %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Выбрана: %d</item>
+        <item quantity="many">Выбрана: %d</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">Усяго %d гульняў</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Усяго %d гульня</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Усяго %d гульні</item>
+        <item quantity="many">Усяго %d гульняў</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">Апошнія %d месяцаў</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Апошні %d месяц</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Апошнія %d месяцы</item>
+        <item quantity="many">Апошнія %d месяцаў</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d дзён</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d дзень</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d дні</item>
+        <item quantity="many">%d дзён</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">Засталося %d дзён</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Застаўся %d дзень</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">Засталіся %d дні</item>
+        <item quantity="many">Засталося %d дзён</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d секунд</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">%d дзён таму</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d дзень таму</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d дні таму</item>
+        <item quantity="many">%d дзён таму</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">%d гадзін таму</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d гадзіну таму</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d гадзіны таму</item>
+        <item quantity="many">%d гадзін таму</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">%d хвілін таму</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d хвіліну таму</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d хвіліны таму</item>
+        <item quantity="many">%d хвілін таму</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">%d месяцаў таму</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d месяц таму</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d месяцы таму</item>
+        <item quantity="many">%d месяцаў таму</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">%d тыдняў таму</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d тыдзень таму</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d тыдні таму</item>
+        <item quantity="many">%d тыдняў таму</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">%d гадоў таму</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d год таму</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">%d гады таму</item>
+        <item quantity="many">%d гадоў таму</item>
+    </plurals>
+</resources>

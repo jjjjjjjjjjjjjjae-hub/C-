@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">არჩეულია %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">არჩეულია %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">წაიშალოს %d სანიშნე?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">წაიშალოს %d სანიშნე?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">%d სიმბოლოზე მეტის შეყვანა შეუძლებელია.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d სიმბოლოზე მეტის შეყვანა შეუძლებელია.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">%d დღის წინ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d დღის წინ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">თქვენს შემდეგ ახალ მისიამდე დარჩა %d დღე.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">თქვენს შემდეგ ახალ მისიამდე დარჩა %d დღე.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">მინიმუმ %d წლის უნდა იყოთ, რომ გამოიყენოთ მომენტალური თამაშები.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">მინიმუმ %d წლის უნდა იყოთ, რომ გამოიყენოთ მომენტალური თამაშები.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">თქვენ %d-ჯერ ითამაშეთ ეს თამაში. დაამატეთ ბიბლიოთეკაში, რომ სწრაფად გახსნათ.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">თქვენ %d-ხელ ითამაშეთ ეს თამაში. დაამატეთ ბიბლიოთეკაში, რომ სწრაფად გახსნათ.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">%1$s და %2$d სხვა წაიშალა Gaming Hub-იდან.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s და %2$d სხვა წაიშალა Gaming Hub-იდან.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">%d საათის წინ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d საათის წინ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">%d წუთის წინ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d წუთის წინ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">თამაშის შეტყობინებები აქ ნაჩვენები იქნება %d დღე.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">თამაშის შეტყობინებები აქ ნაჩვენები იქნება %d დღე.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">არჩეულია %d</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">არჩეულია %d</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">სულ %d თამაში</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">სულ %d თამაში</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">ბოლო %d თვე</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ბოლო %d თვე</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d დღე</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d დღე</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">დარჩა %d დღე</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">დარჩა %d დღე</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d წმ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d წმ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">%d დღის წინ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d დღის წინ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">%d საათის წინ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d საათის წინ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">%d წუთის წინ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d წუთის წინ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">%d თვის წინ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d თვის წინ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">%d კვირის წინ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d კვირის წინ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">%d წლის წინ</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d წლის წინ</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

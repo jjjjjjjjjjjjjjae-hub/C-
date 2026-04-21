@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.mas.internal.cmpui.ExpandableAppBarView android:id="@id/app_bar" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_behavior="com.samsung.android.mas.internal.cmpui.TopOnlyExpandBehavior" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/tcf_setting_recyclerView_margin_bottom" android:layout_marginHorizontal="@dimen/tcf_setting_recyclerView_margin_horizontal" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <FrameLayout android:layout_gravity="bottom" android:background="@color/mas_basic_window_background" android:paddingTop="@dimen/tcf_setting_confirm_button_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/tcf_setting_confirm_button_padding_horizontal">
+        <androidx.appcompat.widget.AppCompatButton android:layout_gravity="center_horizontal" android:id="@id/confirm_my_choices" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/tcf_setting_button_height" android:layout_marginBottom="@dimen/tcf_setting_confirm_button_margin_bottom" android:textAllCaps="false" style="@style/MasStyle.RoundedButton.Body.EuConsent.Colored" />
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

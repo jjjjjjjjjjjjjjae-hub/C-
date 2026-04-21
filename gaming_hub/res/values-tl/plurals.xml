@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">%d ang napili</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ang napili</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">Tanggalin ang %d bookmark?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tanggalin ang %d bookmark?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">Hindi makapagpasok ng higit sa %d character.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Hindi makapagpasok ng higit sa %d character.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">%d araw ang nakalipas</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d araw ang nakalipas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">I-fast forward nang %d na segundo</item>
+        <item quantity="one">I-fast forward nang %d segundo</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">I-rewind nang %d na segundo</item>
+        <item quantity="one">I-rewind nang %d segundo</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">Darating sa loob ng %d araw ang susunod na bagong misyon mo.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Darating sa loob ng %d araw ang susunod na bagong misyon mo.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">Kailangang %d taong gulang ka man lang para magamit ang Mga Instant Play.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kailangang %d taong gulang ka man lang para magamit ang Mga Instant Play.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">Naglaro ka ng game na ito ng %d beses. Idagdag ito sa iyong library para sa mas mabilis na access.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Naglaro ka ng game na ito ng %d beses. Idagdag ito sa iyong library para sa mas mabilis na access.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">Inalis ang %1$s at %2$d iba pa mula sa Gaming Hub.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Inalis ang %1$s at %2$d iba pa mula sa Gaming Hub.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">%d oras ang nakalipas</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d oras ang nakalipas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">%d minuto ang nakalipas</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuto ang nakalipas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d na bagong notification</item>
+        <item quantity="one">%d bagong notification</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">Ipapakita rito ang mga notification mo sa laro sa loob ng %d araw.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ipapakita rito ang mga notification mo sa laro sa loob ng %d araw.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">%d ang napili</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d ang napili</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">Kabuuan na %d game</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Kabuuan na %d game</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">Nakalipas na %d buwan</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Nakalipas na %d buwan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d araw</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d araw</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">%d araw ang nalalabi</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d araw ang nalalabi</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d seg</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d seg</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">%d araw ang nakalipas</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d araw ang nakalipas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">%d oras ang nakalipas</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d oras ang nakalipas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">%d minuto ang nakalipas</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minuto ang nakalipas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">%d buwan ang nakalipas</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d buwan ang nakalipas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">%d linggo ang nakalipas</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d linggo ang nakalipas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">%d taon nang nakalipas</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d taon nang nakalipas</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

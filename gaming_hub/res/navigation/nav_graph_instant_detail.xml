@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph_instant_detail" app:startDestination="@id/InstantDetailFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="" android:name="com.samsung.android.game.gamehome.app.instantdetail.InstantDetailFragment" android:id="@id/InstantDetailFragment">
+        <argument android:name="id" app:argType="string" />
+    </fragment>
+    <dialog android:label="" android:name="com.samsung.android.game.gamehome.app.dialog.AgeDialogFragment" android:id="@id/AgeDialogFragment">
+        <argument android:name="intent" app:argType="android.content.Intent" />
+    </dialog>
+    <action android:id="@id/action_global_to_age_dialog" app:destination="@id/AgeDialogFragment" app:launchSingleTop="true" />
+</navigation>

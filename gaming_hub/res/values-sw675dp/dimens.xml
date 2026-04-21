@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_default_card_item_space_vertical">20.0dip</dimen>
+    <dimen name="home_my_games_card_header_text">21.599976dip</dimen>
+    <dimen name="main_my_games_action_mode_height">60.0dip</dimen>
+    <dimen name="main_my_games_bottom_padding_for_home_list">116.19998dip</dimen>
+    <dimen name="main_my_games_expand_height">111.599976dip</dimen>
+    <dimen name="main_my_games_item_checkbox_size">24.0dip</dimen>
+    <dimen name="main_my_games_item_collapse_margin_end">8.109985dip</dimen>
+    <dimen name="main_my_games_item_collapse_margin_start">11.0dip</dimen>
+    <dimen name="main_my_games_item_grid_horizontal_margin">4.799988dip</dimen>
+    <dimen name="main_my_games_item_handle_margin_end">19.199982dip</dimen>
+    <dimen name="main_my_games_item_radius">26.0dip</dimen>
+    <dimen name="main_my_games_item_sub_text_size">12.0dip</dimen>
+    <dimen name="main_my_games_item_title_text_size">14.399994dip</dimen>
+    <dimen name="main_my_games_item_vertical_margin">24.0dip</dimen>
+    <dimen name="main_my_games_margin_bottom">10.199982dip</dimen>
+    <dimen name="main_my_games_more_icon_space">15.599976dip</dimen>
+    <dimen name="main_my_games_second_category_height_max">417.59375dip</dimen>
+    <dimen name="main_my_games_second_min_height">115.19998dip</dimen>
+</resources>

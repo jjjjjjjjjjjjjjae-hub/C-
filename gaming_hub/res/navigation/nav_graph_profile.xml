@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph_profile" app:startDestination="@id/GamerProfileFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/gamer_profile_title" android:name="com.samsung.android.game.gamehome.app.profile.GamerProfileFragment" android:id="@id/GamerProfileFragment">
+        <action android:id="@id/action_profile_to_profile_no_network_fragment" app:destination="@id/ProfileNoNetworkFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" />
+        <action android:id="@id/action_profile_to_each_play_log_detail" app:destination="@id/EachPlayLogDetailFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit">
+            <argument android:name="detailType" app:argType="com.samsung.android.game.gamehome.app_domain.model.profile.eachplaylogdetail.EachPlayLogDetailType" />
+        </action>
+        <action android:id="@id/action_profile_to_my_play_log_detail" app:destination="@id/MyPlayLogDetailFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit">
+            <argument android:name="detailType" app:argType="com.samsung.android.game.gamehome.app_domain.model.profile.myplaylogdetail.MyPlayLogDetailType" />
+        </action>
+        <action android:id="@id/action_profile_to_NoNetworkDialog" app:destination="@id/NoNetworkDialog" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" />
+        <action android:id="@id/action_profile_to_SomethingWentWrongDialog" app:destination="@id/SomethingWentWrongDialog" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" />
+    </fragment>
+    <dialog android:label="" android:name="com.samsung.android.game.gamehome.app.oobe.usagedata.UsageDataPermissionDialogFragment" android:id="@id/UsageDataPrimissionDialogFragment">
+        <argument android:name="fromMain" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="type" app:argType="integer" />
+    </dialog>
+    <fragment android:label="" android:name="com.samsung.android.game.gamehome.app.profile.ProfileNoNetworkFragment" android:id="@id/ProfileNoNetworkFragment">
+        <action android:id="@id/action_profile_no_network_to_profile_fragment" app:destination="@id/GamerProfileFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:launchSingleTop="true" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" app:popUpTo="@id/ProfileNoNetworkFragment" app:popUpToInclusive="true" />
+        <action android:id="@id/action_profile_no_network_to_each_play_log_detail_fragment" app:destination="@id/EachPlayLogDetailFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:launchSingleTop="true" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" app:popUpTo="@id/ProfileNoNetworkFragment" app:popUpToInclusive="true" />
+        <action android:id="@id/action_profile_no_network_to_my_play_log_detail_fragment" app:destination="@id/MyPlayLogDetailFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:launchSingleTop="true" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" app:popUpTo="@id/ProfileNoNetworkFragment" app:popUpToInclusive="true" />
+        <argument android:name="fromWhere" app:argType="com.samsung.android.game.gamehome.app.profile.model.NoNetworkPageType" />
+        <argument android:name="eachPlayLogDetailType" android:defaultValue="PLAYED_THE_MOST" app:argType="com.samsung.android.game.gamehome.app_domain.model.profile.eachplaylogdetail.EachPlayLogDetailType" />
+    </fragment>
+    <fragment android:label="" android:name="com.samsung.android.game.gamehome.app.profile.myplaylogdetail.MyPlayLogDetailFragment" android:id="@id/MyPlayLogDetailFragment">
+        <action android:id="@id/action_my_profile_to_profile_no_network_fragment" app:destination="@id/ProfileNoNetworkFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" />
+        <argument android:name="detailType" app:argType="com.samsung.android.game.gamehome.app_domain.model.profile.myplaylogdetail.MyPlayLogDetailType" />
+    </fragment>
+    <fragment android:label="" android:name="com.samsung.android.game.gamehome.app.profile.eachplaylogdetail.EachPlayLogDetailFragment" android:id="@id/EachPlayLogDetailFragment">
+        <action android:id="@id/action_each_profile_to_profile_no_network_fragment" app:destination="@id/ProfileNoNetworkFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" />
+        <argument android:name="detailType" app:argType="com.samsung.android.game.gamehome.app_domain.model.profile.eachplaylogdetail.EachPlayLogDetailType" />
+    </fragment>
+    <activity android:label="" android:name="com.samsung.android.game.gamehome.app.detail.DetailActivity" android:id="@id/DetailActivity">
+        <argument android:name="gameType" android:defaultValue="UNKNOWN" app:argType="com.samsung.android.game.gamehome.network.gamelauncher.model.instantplays.constant.GameType" />
+        <argument android:name="packageName" android:defaultValue="" app:argType="string" />
+        <argument android:name="gameId" android:defaultValue="" app:argType="string" />
+        <argument android:name="storeType" android:defaultValue="" app:argType="string" />
+        <argument android:name="downloadLink" android:defaultValue="" app:argType="string" />
+    </activity>
+    <activity android:label="" android:name="com.samsung.android.game.gamehome.app.instantdetail.InstantDetailActivity" android:id="@id/InstantDetailActivity" />
+</navigation>

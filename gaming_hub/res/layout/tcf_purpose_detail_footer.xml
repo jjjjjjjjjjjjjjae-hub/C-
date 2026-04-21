@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/tcf_detail_footer_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="no" android:paddingHorizontal="@dimen/tcf_detail_text_item_additional_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/tcf_detail_link_text_size" android:textColor="@color/tcf_detail_link_text_color" android:id="@id/view_illustrations_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/tcf_detail_footer_purpose_illustration_link_margin_bottom" android:lineHeight="@dimen/tcf_detail_link_line_height" style="@style/MasSec600" />
+    <TextView android:textSize="@dimen/tcf_detail_link_text_size" android:textColor="@color/tcf_detail_link_text_color" android:id="@id/iab_vendor_list_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineHeight="@dimen/tcf_detail_link_line_height" style="@style/MasSec600" />
+</LinearLayout>

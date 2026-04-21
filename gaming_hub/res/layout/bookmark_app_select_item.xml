@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/common_list_item_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/bookmark_app_select_item_padding_horizontal" android:paddingVertical="@dimen/bookmark_app_select_item_padding_vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.game.gamehome.utility.image.SquircleImageView android:id="@id/icon" android:layout_width="@dimen/bookmark_app_select_item_icon_size" android:layout_height="@dimen/bookmark_app_select_item_icon_size" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@id/text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/bookmark_app_select_item_text_margin_start" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/icon" app:layout_constraintTop_toTopOf="parent" style="@style/Bookmark.App.Select.Item" />
+</androidx.constraintlayout.widget.ConstraintLayout>

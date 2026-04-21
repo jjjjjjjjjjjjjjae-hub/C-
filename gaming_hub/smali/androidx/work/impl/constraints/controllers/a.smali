@@ -1,0 +1,75 @@
+.class public final Landroidx/work/impl/constraints/controllers/a;
+.super Landroidx/work/impl/constraints/controllers/BaseConstraintController;
+.source "SourceFile"
+
+
+# instance fields
+.field public final b:I
+
+
+# direct methods
+.method public constructor <init>(Landroidx/work/impl/constraints/trackers/h;)V
+    .locals 1
+
+    const-string v0, "tracker"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/i;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-direct {p0, p1}, Landroidx/work/impl/constraints/controllers/BaseConstraintController;-><init>(Landroidx/work/impl/constraints/trackers/h;)V
+
+    const/4 p1, 0x6
+
+    iput p1, p0, Landroidx/work/impl/constraints/controllers/a;->b:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public c(Landroidx/work/impl/model/u;)Z
+    .locals 0
+
+    const-string p0, "workSpec"
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/i;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object p0, p1, Landroidx/work/impl/model/u;->j:Landroidx/work/d;
+
+    invoke-virtual {p0}, Landroidx/work/d;->i()Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public e()I
+    .locals 0
+
+    iget p0, p0, Landroidx/work/impl/constraints/controllers/a;->b:I
+
+    return p0
+.end method
+
+.method public bridge synthetic f(Ljava/lang/Object;)Z
+    .locals 0
+
+    check-cast p1, Ljava/lang/Boolean;
+
+    invoke-virtual {p1}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p1
+
+    invoke-virtual {p0, p1}, Landroidx/work/impl/constraints/controllers/a;->g(Z)Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public g(Z)Z
+    .locals 0
+
+    xor-int/lit8 p0, p1, 0x1
+
+    return p0
+.end method

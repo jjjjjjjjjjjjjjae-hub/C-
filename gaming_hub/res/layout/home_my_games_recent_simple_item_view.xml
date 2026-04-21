@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root_container" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.game.gamehome.utility.image.SquircleImageView android:id="@id/image" android:background="@drawable/library_item_ripple" android:layout_width="@dimen/main_my_games_item_icon_size" android:layout_height="@dimen/main_my_games_item_icon_size" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/type_badge" android:visibility="gone" android:layout_width="@dimen/main_my_games_item_store_icon_size" android:layout_height="@dimen/main_my_games_item_store_icon_size" app:layout_constraintBottom_toBottomOf="@id/image" app:layout_constraintEnd_toEndOf="@id/image" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/basic_list_height_one_line" android:paddingEnd="@dimen/basic_list_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RadioButton android:id="@android:id/checkbox" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="@dimen/basic_radio_button_width" android:layout_height="@dimen/basic_radio_button_height" android:layout_marginStart="@dimen/basic_radio_button_margin_start" android:layout_marginEnd="@dimen/basic_radio_button_margin_end" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/basic_list_padding_top" android:paddingBottom="@dimen/basic_list_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/Library.Settings.Description" android:textSize="@dimen/basic_list_summary_text_size" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

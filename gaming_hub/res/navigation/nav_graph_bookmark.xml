@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph_bookmark" app:startDestination="@id/BookmarkListFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="@string/bookmark_list_fragment_label" android:name="com.samsung.android.game.gamehome.app.bookmark.list.BookmarkListFragment" android:id="@id/BookmarkListFragment">
+        <action android:id="@id/action_bookmark_list_to_selectType" app:destination="@id/BookmarkSelectTypeFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" />
+        <action android:id="@id/action_bookmark_list_to_addImage" app:destination="@id/BookmarkAddImageFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" />
+        <action android:id="@id/action_bookmark_list_to_addApp" app:destination="@id/BookmarkAddAppFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" />
+        <action android:id="@id/action_bookmark_list_to_addWeb" app:destination="@id/BookmarkAddWebFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" />
+    </fragment>
+    <fragment android:label="@string/bookmark_add_fragment_label" android:name="com.samsung.android.game.gamehome.app.bookmark.selectType.BookmarkSelectTypeFragment" android:id="@id/BookmarkSelectTypeFragment">
+        <action android:id="@id/action_bookmark_selectType_to_addImage" app:destination="@id/BookmarkAddImageFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" />
+        <action android:id="@id/action_bookmark_selectType_to_selectApp" app:destination="@id/BookmarkSelectAppFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" />
+        <action android:id="@id/action_bookmark_selectType_to_addWeb" app:destination="@id/BookmarkAddWebFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" />
+    </fragment>
+    <fragment android:label="@string/bookmark_add_image_fragment_label" android:name="com.samsung.android.game.gamehome.app.bookmark.addImage.BookmarkAddImageFragment" android:id="@id/BookmarkAddImageFragment">
+        <argument android:name="isEditMode" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="editModeBookmarkId" android:defaultValue="0L" app:argType="long" />
+        <argument android:name="imageUri" app:argType="android.net.Uri" />
+    </fragment>
+    <fragment android:label="@string/bookmark_app_select_fragment_label" android:name="com.samsung.android.game.gamehome.app.bookmark.selectApp.BookmarkSelectAppFragment" android:id="@id/BookmarkSelectAppFragment">
+        <argument android:name="isEditMode" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="editModeBookmarkId" android:defaultValue="0L" app:argType="long" />
+        <action android:id="@id/action_bookmark_selectApp_to_addApp" app:destination="@id/BookmarkAddAppFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" />
+    </fragment>
+    <fragment android:label="@string/bookmark_add_app_fragment_label" android:name="com.samsung.android.game.gamehome.app.bookmark.addApp.BookmarkAddAppFragment" android:id="@id/BookmarkAddAppFragment">
+        <argument android:name="isEditMode" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="isEditSelectMode" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="editModeBookmarkId" android:defaultValue="0L" app:argType="long" />
+        <argument android:name="packageName" android:defaultValue="" app:argType="string" />
+        <argument android:name="bookmarkName" android:defaultValue="" app:argType="string" />
+    </fragment>
+    <fragment android:label="@string/bookmark_add_app_fragment_label" android:name="com.samsung.android.game.gamehome.app.bookmark.addWeb.BookmarkAddWebFragment" android:id="@id/BookmarkAddWebFragment">
+        <argument android:name="isInAppDeeplink" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="isEditMode" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="editModeBookmarkId" android:defaultValue="0L" app:argType="long" />
+        <argument android:name="webAdr" android:defaultValue="" app:argType="string" />
+        <argument android:name="bookmarkName" android:defaultValue="" app:argType="string" />
+    </fragment>
+    <action android:id="@id/action_bookmark_global_to_selectApp" app:destination="@id/BookmarkSelectAppFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" app:popUpTo="@id/BookmarkAddAppFragment" app:popUpToInclusive="true" />
+    <action android:id="@id/action_bookmark_global_to_editApp" app:destination="@id/BookmarkAddAppFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" />
+    <action android:id="@id/action_bookmark_global_to_addWeb" app:destination="@id/BookmarkAddWebFragment" app:enterAnim="@anim/sesl_fragment_open_enter" app:exitAnim="@anim/sesl_fragment_open_exit" app:popEnterAnim="@anim/sesl_fragment_close_enter" app:popExitAnim="@anim/sesl_fragment_close_exit" />
+</navigation>

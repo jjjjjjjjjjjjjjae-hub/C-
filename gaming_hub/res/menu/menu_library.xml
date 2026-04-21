@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/custom_background_menu" android:visible="false" android:title="@string/labs_item_librarybackground_title" app:showAsAction="always" />
+    <item android:id="@id/add_apps" android:title="@string/library_menu_add_games" android:showAsAction="never" />
+    <item android:id="@id/sort_games" android:title="@string/library_menu_sort_games" android:showAsAction="never" />
+</menu>

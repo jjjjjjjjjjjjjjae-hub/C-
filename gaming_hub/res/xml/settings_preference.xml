@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:title="@string/samsung_account_locale_default" android:key="@string/settings_preference_key_sync_samsung_account" android:summary="@string/settings_samsung_account_summary" />
+    <androidx.preference.PreferenceCategory android:title="@string/settings_subheader_display_and_notifications" app:layout="@layout/settings_preference_category_custom">
+        <androidx.preference.DropDownPreference android:title="@string/settings_theme_title" android:key="@string/settings_preference_key_theme" />
+        <androidx.preference.Preference android:title="@string/settings_hide_games_on_home_and_apps_title" android:key="@string/settings_preference_key_hide_games" />
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_autoplay_videos_using_mobile_data" android:key="@string/settings_preference_key_autoplay_videos_using_mobile_data" android:defaultValue="false" />
+        <androidx.preference.Preference android:title="@string/settings_notification" android:key="@string/settings_preference_key_notification" android:defaultValue="true" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/settings_privacy_title" android:key="@string/settings_privacy_preference_category_key" app:layout="@layout/settings_preference_category_custom">
+        <androidx.preference.Preference android:title="@string/settings_privacy_notice" android:key="@string/settings_privacy_preference_key_privacy_notice" />
+        <com.samsung.android.game.gamehome.app.setting.preference.RippleSwitchPreference android:title="@string/settings_data_processing_title" android:key="@string/settings_privacy_preference_key_data_processing" />
+        <com.samsung.android.game.gamehome.app.setting.preference.RippleSwitchPreference android:title="@string/settings_marketing_information" android:key="@string/settings_privacy_preference_key_marketing_information" />
+        <androidx.preference.Preference android:title="@string/settings_get_news_and_special_offers" android:key="@string/settings_privacy_preference_key_about_news_offers" />
+        <androidx.preference.Preference android:title="@string/settings_permissions" android:key="@string/settings_privacy_preference_key_permissions" />
+        <androidx.preference.Preference android:title="@string/settings_erase_personal_data" android:key="@string/settings_preference_key_erase_personal_data" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/settings_other_category_title" android:key="@string/settings_preference_key_other_pref_category_key" app:layout="@layout/settings_preference_category_custom">
+        <androidx.preference.SwitchPreferenceCompat android:title="@string/settings_ip2_auto_hybrid" android:key="@string/settings_preference_key_ip2_auto_hybrid_setting" android:summary="@string/settings_ip2_auto_hybrid_summary" android:defaultValue="true" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="@string/settings_ads_subheader" android:key="@string/settings_preference_category_key_ads" app:layout="@layout/settings_preference_category_custom">> <androidx.preference.Preference android:title="@string/settings_ads_settings" android:key="@string/settings_preference_key_ads_settings" />
+        <androidx.preference.Preference android:title="@string/settings_ads_notice" android:key="@string/settings_preference_key_ads_notice" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory>
+        <androidx.preference.Preference android:title="@string/settings_about_game_launcher" android:key="@string/settings_preference_key_about" />
+        <androidx.preference.Preference android:title="@string/contact_us_title" android:key="@string/settings_preference_key_contact_us" />
+    </androidx.preference.PreferenceCategory>
+    <com.samsung.android.game.gamehome.app.setting.preference.EmptyPreferenceCategory />
+</androidx.preference.PreferenceScreen>

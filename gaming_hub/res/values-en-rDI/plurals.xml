@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">PLURAL_OTHER_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="zero">PLURAL_ZERO_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="one">PLURAL_ONE_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="two">PLURAL_TWO_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="few">PLURAL_FEW_IDLE_HEADER_PD_SELECTED %d</item>
+        <item quantity="many">PLURAL_MANY_IDLE_HEADER_PD_SELECTED %d</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">PLURAL_OTHER_GH_BODY_DELETE_PD_BOOKMARKS_Q %d</item>
+        <item quantity="zero">PLURAL_ZERO_GH_BODY_DELETE_PD_BOOKMARKS_Q %d</item>
+        <item quantity="one">PLURAL_ONE_GH_BODY_DELETE_PD_BOOKMARKS_Q %d</item>
+        <item quantity="two">PLURAL_TWO_GH_BODY_DELETE_PD_BOOKMARKS_Q %d</item>
+        <item quantity="few">PLURAL_FEW_GH_BODY_DELETE_PD_BOOKMARKS_Q %d</item>
+        <item quantity="many">PLURAL_MANY_GH_BODY_DELETE_PD_BOOKMARKS_Q %d</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">PLURAL_OTHER_GH_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="zero">PLURAL_ZERO_GH_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="one">PLURAL_ONE_GH_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="two">PLURAL_TWO_GH_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="few">PLURAL_FEW_GH_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+        <item quantity="many">PLURAL_MANY_GH_BODY_CANT_ENTER_MORE_THAN_PD_CHARACTERS %d</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">PLURAL_OTHER_GH_BODY_PD_DAYS_AGO %d</item>
+        <item quantity="zero">PLURAL_ZERO_GH_BODY_PD_DAYS_AGO %d</item>
+        <item quantity="one">PLURAL_ONE_GH_BODY_PD_DAYS_AGO %d</item>
+        <item quantity="two">PLURAL_TWO_GH_BODY_PD_DAYS_AGO %d</item>
+        <item quantity="few">PLURAL_FEW_GH_BODY_PD_DAYS_AGO %d</item>
+        <item quantity="many">PLURAL_MANY_GH_BODY_PD_DAYS_AGO %d</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">PLURAL_OTHER_GH_BODY_YOUR_NEXT_NEW_MISSION_IS_COMING_IN_PD_DAYS %d</item>
+        <item quantity="zero">PLURAL_ZERO_GH_BODY_YOUR_NEXT_NEW_MISSION_IS_COMING_IN_PD_DAYS %d</item>
+        <item quantity="one">PLURAL_ONE_GH_BODY_YOUR_NEXT_NEW_MISSION_IS_COMING_IN_PD_DAYS %d</item>
+        <item quantity="two">PLURAL_TWO_GH_BODY_YOUR_NEXT_NEW_MISSION_IS_COMING_IN_PD_DAYS %d</item>
+        <item quantity="few">PLURAL_FEW_GH_BODY_YOUR_NEXT_NEW_MISSION_IS_COMING_IN_PD_DAYS %d</item>
+        <item quantity="many">PLURAL_MANY_GH_BODY_YOUR_NEXT_NEW_MISSION_IS_COMING_IN_PD_DAYS %d</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">PLURAL_OTHER_GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS %d</item>
+        <item quantity="zero">PLURAL_ZERO_GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS %d</item>
+        <item quantity="one">PLURAL_ONE_GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS %d</item>
+        <item quantity="two">PLURAL_TWO_GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS %d</item>
+        <item quantity="few">PLURAL_FEW_GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS %d</item>
+        <item quantity="many">PLURAL_MANY_GH_BODY_YOU_NEED_TO_BE_AT_LEAST_PD_YEARS_OLD_TO_USE_INSTANT_PLAYS %d</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">PLURAL_OTHER_GH_BODY_YOUVE_PLAYED_THIS_GAME_PD_TIMES_ADD_IT_TO_YOUR_LIBRARY_FOR_QUICKER_ACCESS %d</item>
+        <item quantity="zero">PLURAL_ZERO_GH_BODY_YOUVE_PLAYED_THIS_GAME_PD_TIMES_ADD_IT_TO_YOUR_LIBRARY_FOR_QUICKER_ACCESS %d</item>
+        <item quantity="one">PLURAL_ONE_GH_BODY_YOUVE_PLAYED_THIS_GAME_PD_TIMES_ADD_IT_TO_YOUR_LIBRARY_FOR_QUICKER_ACCESS %d</item>
+        <item quantity="two">PLURAL_TWO_GH_BODY_YOUVE_PLAYED_THIS_GAME_PD_TIMES_ADD_IT_TO_YOUR_LIBRARY_FOR_QUICKER_ACCESS %d</item>
+        <item quantity="few">PLURAL_FEW_GH_BODY_YOUVE_PLAYED_THIS_GAME_PD_TIMES_ADD_IT_TO_YOUR_LIBRARY_FOR_QUICKER_ACCESS %d</item>
+        <item quantity="many">PLURAL_MANY_GH_BODY_YOUVE_PLAYED_THIS_GAME_PD_TIMES_ADD_IT_TO_YOUR_LIBRARY_FOR_QUICKER_ACCESS %d</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">PLURAL_OTHER_GH_BODY_REMOVED_P1SS_AND_P2SD_OTHERS_FROM_GAMING_HUB %1$s %2$d</item>
+        <item quantity="zero">PLURAL_ZERO_GH_BODY_REMOVED_P1SS_AND_P2SD_OTHERS_FROM_GAMING_HUB %1$s %2$d</item>
+        <item quantity="one">PLURAL_ONE_GH_BODY_REMOVED_P1SS_AND_P2SD_OTHERS_FROM_GAMING_HUB %1$s %2$d</item>
+        <item quantity="two">PLURAL_TWO_GH_BODY_REMOVED_P1SS_AND_P2SD_OTHERS_FROM_GAMING_HUB %1$s %2$d</item>
+        <item quantity="few">PLURAL_FEW_GH_BODY_REMOVED_P1SS_AND_P2SD_OTHERS_FROM_GAMING_HUB %1$s %2$d</item>
+        <item quantity="many">PLURAL_MANY_GH_BODY_REMOVED_P1SS_AND_P2SD_OTHERS_FROM_GAMING_HUB %1$s %2$d</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">PLURAL_OTHER_GH_BODY_PD_HOURS_AGO_ABB %d</item>
+        <item quantity="zero">PLURAL_ZERO_GH_BODY_PD_HOURS_AGO_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_GH_BODY_PD_HOURS_AGO_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_GH_BODY_PD_HOURS_AGO_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_GH_BODY_PD_HOURS_AGO_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_GH_BODY_PD_HOURS_AGO_ABB %d</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">PLURAL_OTHER_GH_BODY_PD_MINUTES_AGO_ABB %d</item>
+        <item quantity="zero">PLURAL_ZERO_GH_BODY_PD_MINUTES_AGO_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_GH_BODY_PD_MINUTES_AGO_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_GH_BODY_PD_MINUTES_AGO_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_GH_BODY_PD_MINUTES_AGO_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_GH_BODY_PD_MINUTES_AGO_ABB %d</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">PLURAL_OTHER_GH_BODY_YOUR_GAME_NOTIFICATIONS_WILL_BE_SHOWN_HERE_FOR_PD_DAYS %d</item>
+        <item quantity="zero">PLURAL_ZERO_GH_BODY_YOUR_GAME_NOTIFICATIONS_WILL_BE_SHOWN_HERE_FOR_PD_DAYS %d</item>
+        <item quantity="one">PLURAL_ONE_GH_BODY_YOUR_GAME_NOTIFICATIONS_WILL_BE_SHOWN_HERE_FOR_PD_DAYS %d</item>
+        <item quantity="two">PLURAL_TWO_GH_BODY_YOUR_GAME_NOTIFICATIONS_WILL_BE_SHOWN_HERE_FOR_PD_DAYS %d</item>
+        <item quantity="few">PLURAL_FEW_GH_BODY_YOUR_GAME_NOTIFICATIONS_WILL_BE_SHOWN_HERE_FOR_PD_DAYS %d</item>
+        <item quantity="many">PLURAL_MANY_GH_BODY_YOUR_GAME_NOTIFICATIONS_WILL_BE_SHOWN_HERE_FOR_PD_DAYS %d</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">PLURAL_OTHER_GH_HEADER_PD_SELECTED %d</item>
+        <item quantity="zero">PLURAL_ZERO_GH_HEADER_PD_SELECTED %d</item>
+        <item quantity="one">PLURAL_ONE_GH_HEADER_PD_SELECTED %d</item>
+        <item quantity="two">PLURAL_TWO_GH_HEADER_PD_SELECTED %d</item>
+        <item quantity="few">PLURAL_FEW_GH_HEADER_PD_SELECTED %d</item>
+        <item quantity="many">PLURAL_MANY_GH_HEADER_PD_SELECTED %d</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">PLURAL_OTHER_GH_TBBODY_TOTAL_OF_PD_GAMES %d</item>
+        <item quantity="zero">PLURAL_ZERO_GH_TBBODY_TOTAL_OF_PD_GAMES %d</item>
+        <item quantity="one">PLURAL_ONE_GH_TBBODY_TOTAL_OF_PD_GAMES %d</item>
+        <item quantity="two">PLURAL_TWO_GH_TBBODY_TOTAL_OF_PD_GAMES %d</item>
+        <item quantity="few">PLURAL_FEW_GH_TBBODY_TOTAL_OF_PD_GAMES %d</item>
+        <item quantity="many">PLURAL_MANY_GH_TBBODY_TOTAL_OF_PD_GAMES %d</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">PLURAL_OTHER_GH_OPT_LAST_PD_MONTHS_ABB %d</item>
+        <item quantity="zero">PLURAL_ZERO_GH_OPT_LAST_PD_MONTHS_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_GH_OPT_LAST_PD_MONTHS_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_GH_OPT_LAST_PD_MONTHS_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_GH_OPT_LAST_PD_MONTHS_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_GH_OPT_LAST_PD_MONTHS_ABB %d</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">PLURAL_OTHER_GH_BODY_PD_DAYS %d</item>
+        <item quantity="zero">PLURAL_ZERO_GH_BODY_PD_DAYS %d</item>
+        <item quantity="one">PLURAL_ONE_GH_BODY_PD_DAYS %d</item>
+        <item quantity="two">PLURAL_TWO_GH_BODY_PD_DAYS %d</item>
+        <item quantity="few">PLURAL_FEW_GH_BODY_PD_DAYS %d</item>
+        <item quantity="many">PLURAL_MANY_GH_BODY_PD_DAYS %d</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">PLURAL_OTHER_GH_STATUS_PD_DAYS_LEFT %d</item>
+        <item quantity="zero">PLURAL_ZERO_GH_STATUS_PD_DAYS_LEFT %d</item>
+        <item quantity="one">PLURAL_ONE_GH_STATUS_PD_DAYS_LEFT %d</item>
+        <item quantity="two">PLURAL_TWO_GH_STATUS_PD_DAYS_LEFT %d</item>
+        <item quantity="few">PLURAL_FEW_GH_STATUS_PD_DAYS_LEFT %d</item>
+        <item quantity="many">PLURAL_MANY_GH_STATUS_PD_DAYS_LEFT %d</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">PLURAL_OTHER_SAMSUNGADS_BUTTON_PD_SECS_10 %d</item>
+        <item quantity="zero">PLURAL_ZERO_SAMSUNGADS_BUTTON_PD_SECS_10 %d</item>
+        <item quantity="one">PLURAL_ONE_SAMSUNGADS_BUTTON_PD_SECS_10 %d</item>
+        <item quantity="two">PLURAL_TWO_SAMSUNGADS_BUTTON_PD_SECS_10 %d</item>
+        <item quantity="few">PLURAL_FEW_SAMSUNGADS_BUTTON_PD_SECS_10 %d</item>
+        <item quantity="many">PLURAL_MANY_SAMSUNGADS_BUTTON_PD_SECS_10 %d</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">PLURAL_OTHER_GH_BODY_PD_DAYS_AGO %d</item>
+        <item quantity="zero">PLURAL_ZERO_GH_BODY_PD_DAYS_AGO %d</item>
+        <item quantity="one">PLURAL_ONE_GH_BODY_PD_DAYS_AGO %d</item>
+        <item quantity="two">PLURAL_TWO_GH_BODY_PD_DAYS_AGO %d</item>
+        <item quantity="few">PLURAL_FEW_GH_BODY_PD_DAYS_AGO %d</item>
+        <item quantity="many">PLURAL_MANY_GH_BODY_PD_DAYS_AGO %d</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">PLURAL_OTHER_GH_BODY_PD_HOURS_AGO_ABB %d</item>
+        <item quantity="zero">PLURAL_ZERO_GH_BODY_PD_HOURS_AGO_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_GH_BODY_PD_HOURS_AGO_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_GH_BODY_PD_HOURS_AGO_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_GH_BODY_PD_HOURS_AGO_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_GH_BODY_PD_HOURS_AGO_ABB %d</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">PLURAL_OTHER_GH_BODY_PD_MINUTES_AGO_ABB %d</item>
+        <item quantity="zero">PLURAL_ZERO_GH_BODY_PD_MINUTES_AGO_ABB %d</item>
+        <item quantity="one">PLURAL_ONE_GH_BODY_PD_MINUTES_AGO_ABB %d</item>
+        <item quantity="two">PLURAL_TWO_GH_BODY_PD_MINUTES_AGO_ABB %d</item>
+        <item quantity="few">PLURAL_FEW_GH_BODY_PD_MINUTES_AGO_ABB %d</item>
+        <item quantity="many">PLURAL_MANY_GH_BODY_PD_MINUTES_AGO_ABB %d</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">PLURAL_OTHER_GH_OPT_PD_MONTHS_AGO %d</item>
+        <item quantity="zero">PLURAL_ZERO_GH_OPT_PD_MONTHS_AGO %d</item>
+        <item quantity="one">PLURAL_ONE_GH_OPT_PD_MONTHS_AGO %d</item>
+        <item quantity="two">PLURAL_TWO_GH_OPT_PD_MONTHS_AGO %d</item>
+        <item quantity="few">PLURAL_FEW_GH_OPT_PD_MONTHS_AGO %d</item>
+        <item quantity="many">PLURAL_MANY_GH_OPT_PD_MONTHS_AGO %d</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">PLURAL_OTHER_QP_OPT_PD_WEEKS_AGO %d</item>
+        <item quantity="zero">PLURAL_ZERO_QP_OPT_PD_WEEKS_AGO %d</item>
+        <item quantity="one">PLURAL_ONE_QP_OPT_PD_WEEKS_AGO %d</item>
+        <item quantity="two">PLURAL_TWO_QP_OPT_PD_WEEKS_AGO %d</item>
+        <item quantity="few">PLURAL_FEW_QP_OPT_PD_WEEKS_AGO %d</item>
+        <item quantity="many">PLURAL_MANY_QP_OPT_PD_WEEKS_AGO %d</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">PLURAL_OTHER_GALLERY_OPT_PD_YEARS_AGO %d</item>
+        <item quantity="zero">PLURAL_ZERO_GALLERY_OPT_PD_YEARS_AGO %d</item>
+        <item quantity="one">PLURAL_ONE_GALLERY_OPT_PD_YEARS_AGO %d</item>
+        <item quantity="two">PLURAL_TWO_GALLERY_OPT_PD_YEARS_AGO %d</item>
+        <item quantity="few">PLURAL_FEW_GALLERY_OPT_PD_YEARS_AGO %d</item>
+        <item quantity="many">PLURAL_MANY_GALLERY_OPT_PD_YEARS_AGO %d</item>
+    </plurals>
+</resources>

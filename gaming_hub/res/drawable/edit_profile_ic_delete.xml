@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="32.0dip" android:width="32.0dip" android:viewportWidth="32.0" android:viewportHeight="32.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/edit_profile_close_button_bg_color" android:pathData="M16,16m-15.75,0a15.75,15.75 0,1 1,31.5 0a15.75,15.75 0,1 1,-31.5 0" android:strokeColor="@color/edit_profile_close_button_stroke_color" android:strokeWidth="0.5" android:strokeAlpha="0.3" android:fillType="nonZero" />
+    <path android:fillColor="#ffdb332a" android:pathData="M8.125,16.75L23.875,16.75C24.289,16.75 24.625,16.414 24.625,16C24.625,15.586 24.289,15.25 23.875,15.25L8.125,15.25C7.711,15.25 7.375,15.586 7.375,16C7.375,16.414 7.711,16.75 8.125,16.75" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+</vector>

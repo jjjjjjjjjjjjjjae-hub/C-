@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">%d נבחר/ו</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d נבחר/ו</item>
+        <item quantity="two">%d נבחר/ו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d נבחר/ו</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">האם למחוק %d סימניות?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">האם למחוק %d סימנייה?</item>
+        <item quantity="two">האם למחוק %d סימניות?</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">האם למחוק %d סימניות?</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">לא ניתן להזין יותר מ-%d תווים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לא ניתן להזין יותר מ-%d תו.</item>
+        <item quantity="two">ניתן להזין לכל היותר %d תווים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לא ניתן להזין יותר מ-%d תווים.</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">לפני %d ימים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לפני %d יום</item>
+        <item quantity="two">לפני %d ימים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לפני %d ימים</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">המשימה הבאה תגיע בעוד %d ימים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">המשימה הבאה תגיע בעוד יום %d.</item>
+        <item quantity="two">המשימה הבאה תגיע בעוד %d ימים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">המשימה הבאה תגיע בעוד %d ימים.</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">"עליך להיות בן %d‏‎ לפחות כדי להשתמש ב'משחקים מיידיים'."</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">"עליך להיות בן %d לפחות כדי להשתמש ב'משחקים מיידיים‬'."</item>
+        <item quantity="two">"עליך להיות בן %d‏‎ לפחות כדי להשתמש ב'משחקים מיידיים'."</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">"עליך להיות בן %d‏‎ לפחות כדי להשתמש ב'משחקים מיידיים'."</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">שיחקת במשחק זה %d פעמים. הוסף אותו לספרייה שלך לקבלת גישה מהירה יותר.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">שיחקת במשחק זה פעם %d. הוסף אותו לספרייה שלך לקבלת גישה מהירה יותר.</item>
+        <item quantity="two">שיחקת במשחק זה %d פעמים. הוסף אותו לספרייה שלך לקבלת גישה מהירה יותר.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">שיחקת במשחק זה %d פעמים. הוסף אותו לספרייה שלך לקבלת גישה מהירה יותר.</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">%1$s ו-%2$d הוסרו מ-Gaming Hub.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%1$s ו-%2$d הוסרו מ-Gaming Hub.</item>
+        <item quantity="two">%1$s ו-%2$d הוסרו מ-Gaming Hub.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%1$s ו-%2$d הוסרו מ-Gaming Hub.</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">לפני %d שעות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לפני %d שעה</item>
+        <item quantity="two">לפני %d שעות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לפני %d שעות</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">לפני %d דקות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לפני %d דקה</item>
+        <item quantity="two">לפני %d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לפני %d דקות</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">התראות המשחקים שלך יוצגו כאן במשך %d ימים.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">התראות המשחקים שלך יוצגו כאן במשך %d יום.</item>
+        <item quantity="two">התראות המשחקים שלך יוצגו כאן במשך %d ימים.</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">התראות המשחקים שלך יוצגו כאן במשך %d ימים.</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">%d נבחר/ו</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d נבחר/ו</item>
+        <item quantity="two">%d נבחר/ו</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d נבחר/ו</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">סה״כ %d משחקים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">סה״כ %d משחק</item>
+        <item quantity="two">סה״כ %d משחקים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">סה״כ %d משחקים</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">ב-%d החודשים האחרונים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">בחודש %d האחרון</item>
+        <item quantity="two">ב-%d החודשים האחרונים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">ב-%d החודשים האחרונים</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d ימים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d יום</item>
+        <item quantity="two">%d ימים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d ימים</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">נותרו %d ימים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">נותר יום %d</item>
+        <item quantity="two">נותרו %d ימים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">נותרו %d ימים</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d שניות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">שנייה (%d)</item>
+        <item quantity="two">%d שניות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">%d שניות</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">לפני %d ימים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לפני %d יום</item>
+        <item quantity="two">לפני %d ימים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לפני %d ימים</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">לפני %d שעות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לפני %d שעה</item>
+        <item quantity="two">לפני %d שעות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לפני %d שעות</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">לפני %d דקות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לפני %d דקה</item>
+        <item quantity="two">לפני %d דקות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לפני %d דקות</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">לפני %d חודשים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לפני חודש %d</item>
+        <item quantity="two">לפני %d חודשים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לפני %d חודשים</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">לפני %d שבועות</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לפני שבוע %d</item>
+        <item quantity="two">לפני %d שבועות</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לפני %d שבועות</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">לפני %d שנים</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">לפני שנה %d</item>
+        <item quantity="two">לפני %d שנים</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">לפני %d שנים</item>
+    </plurals>
+</resources>

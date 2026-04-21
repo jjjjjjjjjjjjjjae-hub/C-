@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_uninstall" android:id="@id/menu_uninstall" android:title="@string/library_multi_select_dialog_uninstall" android:contentDescription="@string/library_multi_select_dialog_uninstall" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_remove_from_game_launcher" android:id="@id/menu_remove" android:title="@string/library_remove_from_game_launcher_title" android:contentDescription="@string/library_remove_from_game_launcher_title" app:showAsAction="always" />
+</menu>

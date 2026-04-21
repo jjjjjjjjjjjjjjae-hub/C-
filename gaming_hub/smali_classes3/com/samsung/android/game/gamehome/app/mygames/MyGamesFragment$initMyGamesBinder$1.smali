@@ -1,0 +1,476 @@
+.class final Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;
+.super Lkotlin/coroutines/jvm/internal/SuspendLambda;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/p;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;->v0(Lcom/samsung/android/game/gamehome/databinding/b5;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/coroutines/jvm/internal/SuspendLambda;",
+        "Lkotlin/jvm/functions/p;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u0010\u0002\u001a\u00020\u0001*\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0002\u0010\u0003"
+    }
+    d2 = {
+        "Lkotlinx/coroutines/g0;",
+        "Lkotlin/o;",
+        "<anonymous>",
+        "(Lkotlinx/coroutines/g0;)V"
+    }
+    k = 0x3
+    mv = {
+        0x2,
+        0x0,
+        0x0
+    }
+.end annotation
+
+.annotation runtime Lkotlin/coroutines/jvm/internal/d;
+    c = "com.samsung.android.game.gamehome.app.mygames.MyGamesFragment$initMyGamesBinder$1"
+    f = "MyGamesFragment.kt"
+    l = {
+        0x79,
+        0x7c
+    }
+    m = "invokeSuspend"
+.end annotation
+
+
+# instance fields
+.field public e:Ljava/lang/Object;
+
+.field public f:Ljava/lang/Object;
+
+.field public g:Ljava/lang/Object;
+
+.field public h:Ljava/lang/Object;
+
+.field public i:Ljava/lang/Object;
+
+.field public j:Ljava/lang/Object;
+
+.field public k:I
+
+.field public final synthetic l:Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;
+
+.field public final synthetic m:Lcom/samsung/android/game/gamehome/databinding/b5;
+
+
+# direct methods
+.method public constructor <init>(Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;Lcom/samsung/android/game/gamehome/databinding/b5;Lkotlin/coroutines/c;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->l:Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;
+
+    iput-object p2, p0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->m:Lcom/samsung/android/game/gamehome/databinding/b5;
+
+    const/4 p1, 0x2
+
+    invoke-direct {p0, p1, p3}, Lkotlin/coroutines/jvm/internal/SuspendLambda;-><init>(ILkotlin/coroutines/c;)V
+
+    return-void
+.end method
+
+.method public static synthetic F(Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;Ljava/lang/Boolean;)Lkotlin/o;
+    .locals 0
+
+    invoke-static {p0, p1}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->H(Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;Ljava/lang/Boolean;)Lkotlin/o;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static final H(Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;Ljava/lang/Boolean;)Lkotlin/o;
+    .locals 0
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getActivity()Landroidx/fragment/app/s;
+
+    move-result-object p0
+
+    if-eqz p0, :cond_0
+
+    invoke-virtual {p0}, Landroid/app/Activity;->invalidateOptionsMenu()V
+
+    :cond_0
+    sget-object p0, Lkotlin/o;->a:Lkotlin/o;
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public final A(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 15
+
+    move-object v0, p0
+
+    invoke-static {}, Lkotlin/coroutines/intrinsics/a;->c()Ljava/lang/Object;
+
+    move-result-object v1
+
+    iget v2, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->k:I
+
+    const/4 v3, 0x2
+
+    const/4 v4, 0x1
+
+    const/4 v5, 0x0
+
+    if-eqz v2, :cond_2
+
+    if-eq v2, v4, :cond_1
+
+    if-ne v2, v3, :cond_0
+
+    iget-object v1, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->h:Ljava/lang/Object;
+
+    check-cast v1, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;
+
+    iget-object v2, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->g:Ljava/lang/Object;
+
+    check-cast v2, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesLayoutViewBinder;
+
+    iget-object v3, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->f:Ljava/lang/Object;
+
+    check-cast v3, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;
+
+    iget-object v4, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->e:Ljava/lang/Object;
+
+    check-cast v4, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesLayoutViewBinder;
+
+    invoke-static/range {p1 .. p1}, Lkotlin/h;->b(Ljava/lang/Object;)V
+
+    goto/16 :goto_2
+
+    :cond_0
+    new-instance v0, Ljava/lang/IllegalStateException;
+
+    const-string v1, "call to \'resume\' before \'invoke\' with coroutine"
+
+    invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+
+    :cond_1
+    iget-object v2, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->j:Ljava/lang/Object;
+
+    check-cast v2, Lcom/samsung/android/game/gamehome/logger/f;
+
+    iget-object v4, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->i:Ljava/lang/Object;
+
+    check-cast v4, Lcom/samsung/android/game/gamehome/logger/MainLogger;
+
+    iget-object v6, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->h:Ljava/lang/Object;
+
+    check-cast v6, Landroidx/activity/result/b;
+
+    iget-object v7, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->g:Ljava/lang/Object;
+
+    check-cast v7, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesViewModel;
+
+    iget-object v8, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->f:Ljava/lang/Object;
+
+    check-cast v8, Lcom/samsung/android/game/gamehome/databinding/b5;
+
+    iget-object v9, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->e:Ljava/lang/Object;
+
+    check-cast v9, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;
+
+    invoke-static/range {p1 .. p1}, Lkotlin/h;->b(Ljava/lang/Object;)V
+
+    move-object v11, v2
+
+    move-object v10, v4
+
+    move-object v2, v9
+
+    move-object/from16 v4, p1
+
+    :goto_0
+    move-object v9, v6
+
+    move-object v14, v8
+
+    move-object v8, v7
+
+    move-object v7, v14
+
+    goto :goto_1
+
+    :cond_2
+    invoke-static/range {p1 .. p1}, Lkotlin/h;->b(Ljava/lang/Object;)V
+
+    iget-object v2, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->l:Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;
+
+    iget-object v8, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->m:Lcom/samsung/android/game/gamehome/databinding/b5;
+
+    invoke-static {v2}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;->o0(Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;)Lcom/samsung/android/game/gamehome/app/mygames/MyGamesViewModel;
+
+    move-result-object v7
+
+    iget-object v6, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->l:Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;
+
+    invoke-static {v6}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;->m0(Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;)Landroidx/activity/result/b;
+
+    move-result-object v6
+
+    if-nez v6, :cond_3
+
+    const-string v6, "libraryAddAppResultLauncher"
+
+    invoke-static {v6}, Lkotlin/jvm/internal/i;->t(Ljava/lang/String;)V
+
+    move-object v6, v5
+
+    :cond_3
+    iget-object v9, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->l:Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;
+
+    invoke-virtual {v9}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;->s0()Lcom/samsung/android/game/gamehome/logger/MainLogger;
+
+    move-result-object v9
+
+    iget-object v10, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->l:Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;
+
+    invoke-virtual {v10}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;->r0()Lcom/samsung/android/game/gamehome/logger/f;
+
+    move-result-object v10
+
+    iget-object v11, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->l:Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;
+
+    invoke-static {v11}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;->o0(Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;)Lcom/samsung/android/game/gamehome/app/mygames/MyGamesViewModel;
+
+    move-result-object v11
+
+    iput-object v2, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->e:Ljava/lang/Object;
+
+    iput-object v8, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->f:Ljava/lang/Object;
+
+    iput-object v7, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->g:Ljava/lang/Object;
+
+    iput-object v6, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->h:Ljava/lang/Object;
+
+    iput-object v9, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->i:Ljava/lang/Object;
+
+    iput-object v10, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->j:Ljava/lang/Object;
+
+    iput v4, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->k:I
+
+    invoke-virtual {v11, p0}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesViewModel;->J0(Lkotlin/coroutines/c;)Ljava/lang/Object;
+
+    move-result-object v4
+
+    if-ne v4, v1, :cond_4
+
+    return-object v1
+
+    :cond_4
+    move-object v11, v10
+
+    move-object v10, v9
+
+    goto :goto_0
+
+    :goto_1
+    check-cast v4, Ljava/lang/Boolean;
+
+    invoke-virtual {v4}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result v12
+
+    iget-object v4, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->l:Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;
+
+    invoke-virtual {v4}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;->u0()Lcom/samsung/android/game/gamehome/data/provider/service/a;
+
+    move-result-object v13
+
+    new-instance v4, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesLayoutViewBinder;
+
+    move-object v6, v4
+
+    invoke-direct/range {v6 .. v13}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesLayoutViewBinder;-><init>(Lcom/samsung/android/game/gamehome/databinding/b5;Lcom/samsung/android/game/gamehome/app/mygames/MyGamesViewModel;Landroidx/activity/result/b;Lcom/samsung/android/game/gamehome/logger/MainLogger;Lcom/samsung/android/game/gamehome/logger/f;ZLcom/samsung/android/game/gamehome/data/provider/service/a;)V
+
+    iget-object v6, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->l:Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;
+
+    iput-object v4, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->e:Ljava/lang/Object;
+
+    iput-object v6, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->f:Ljava/lang/Object;
+
+    iput-object v4, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->g:Ljava/lang/Object;
+
+    iput-object v2, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->h:Ljava/lang/Object;
+
+    iput-object v5, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->i:Ljava/lang/Object;
+
+    iput-object v5, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->j:Ljava/lang/Object;
+
+    iput v3, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->k:I
+
+    invoke-virtual {v4, p0}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesViewBinder;->v0(Lkotlin/coroutines/c;)Ljava/lang/Object;
+
+    move-result-object v3
+
+    if-ne v3, v1, :cond_5
+
+    return-object v1
+
+    :cond_5
+    move-object v1, v2
+
+    move-object v2, v4
+
+    move-object v3, v6
+
+    :goto_2
+    invoke-virtual {v3}, Landroidx/fragment/app/Fragment;->getLifecycle()Landroidx/lifecycle/Lifecycle;
+
+    move-result-object v5
+
+    invoke-virtual {v5, v2}, Landroidx/lifecycle/Lifecycle;->a(Landroidx/lifecycle/p;)V
+
+    invoke-static {v3}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;->l0(Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;)Lcom/samsung/android/game/gamehome/app/mygames/g;
+
+    move-result-object v5
+
+    invoke-virtual {v5}, Lcom/samsung/android/game/gamehome/app/mygames/g;->a()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-interface {v5}, Ljava/lang/CharSequence;->length()I
+
+    move-result v5
+
+    if-lez v5, :cond_6
+
+    invoke-static {v3}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;->l0(Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;)Lcom/samsung/android/game/gamehome/app/mygames/g;
+
+    move-result-object v5
+
+    invoke-virtual {v5}, Lcom/samsung/android/game/gamehome/app/mygames/g;->a()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-virtual {v2, v5}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesViewBinder;->e0(Ljava/lang/String;)V
+
+    :cond_6
+    invoke-static {v3}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;->l0(Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;)Lcom/samsung/android/game/gamehome/app/mygames/g;
+
+    move-result-object v5
+
+    invoke-virtual {v5}, Lcom/samsung/android/game/gamehome/app/mygames/g;->b()Ljava/lang/String;
+
+    move-result-object v5
+
+    invoke-interface {v5}, Ljava/lang/CharSequence;->length()I
+
+    move-result v5
+
+    if-lez v5, :cond_7
+
+    invoke-static {v3}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;->l0(Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;)Lcom/samsung/android/game/gamehome/app/mygames/g;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Lcom/samsung/android/game/gamehome/app/mygames/g;->b()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-virtual {v2, v3}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesViewBinder;->x1(Ljava/lang/String;)V
+
+    :cond_7
+    invoke-static {v1, v4}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;->p0(Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;Lcom/samsung/android/game/gamehome/app/mygames/MyGamesViewBinder;)V
+
+    iget-object v1, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->l:Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;
+
+    invoke-static {v1}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;->o0(Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;)Lcom/samsung/android/game/gamehome/app/mygames/MyGamesViewModel;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesViewModel;->N0()Landroidx/lifecycle/y;
+
+    move-result-object v1
+
+    iget-object v2, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->l:Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;
+
+    invoke-virtual {v2}, Landroidx/fragment/app/Fragment;->getViewLifecycleOwner()Landroidx/lifecycle/q;
+
+    move-result-object v2
+
+    iget-object v0, v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->l:Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;
+
+    new-instance v3, Lcom/samsung/android/game/gamehome/app/mygames/f;
+
+    invoke-direct {v3, v0}, Lcom/samsung/android/game/gamehome/app/mygames/f;-><init>(Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;)V
+
+    new-instance v0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$c;
+
+    invoke-direct {v0, v3}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$c;-><init>(Lkotlin/jvm/functions/l;)V
+
+    invoke-virtual {v1, v2, v0}, Landroidx/lifecycle/LiveData;->i(Landroidx/lifecycle/q;Landroidx/lifecycle/z;)V
+
+    sget-object v0, Lkotlin/o;->a:Lkotlin/o;
+
+    return-object v0
+.end method
+
+.method public final G(Lkotlinx/coroutines/g0;Lkotlin/coroutines/c;)Ljava/lang/Object;
+    .locals 0
+
+    invoke-virtual {p0, p1, p2}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->v(Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;
+
+    sget-object p1, Lkotlin/o;->a:Lkotlin/o;
+
+    invoke-virtual {p0, p1}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->A(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final v(Ljava/lang/Object;Lkotlin/coroutines/c;)Lkotlin/coroutines/c;
+    .locals 1
+
+    new-instance p1, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;
+
+    iget-object v0, p0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->l:Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;
+
+    iget-object p0, p0, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->m:Lcom/samsung/android/game/gamehome/databinding/b5;
+
+    invoke-direct {p1, v0, p0, p2}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;-><init>(Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment;Lcom/samsung/android/game/gamehome/databinding/b5;Lkotlin/coroutines/c;)V
+
+    return-object p1
+.end method
+
+.method public bridge synthetic w(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p1, Lkotlinx/coroutines/g0;
+
+    check-cast p2, Lkotlin/coroutines/c;
+
+    invoke-virtual {p0, p1, p2}, Lcom/samsung/android/game/gamehome/app/mygames/MyGamesFragment$initMyGamesBinder$1;->G(Lkotlinx/coroutines/g0;Lkotlin/coroutines/c;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method

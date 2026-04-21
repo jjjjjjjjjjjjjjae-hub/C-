@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="basic_multiple_selection_n_selected">
+        <item quantity="other">%d valda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d vald</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="bookmark_list_delete_dialog_message">
+        <item quantity="other">Vill du radera %d bokmärken?</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Vill du radera %d bokmärke?</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="common_cant_enter_more_than_pd_characters">
+        <item quantity="other">Det går inte att ange fler än %d tecken.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Det går inte att ange fler än %d tecken.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="detail_days_ago">
+        <item quantity="other">%d dagar sedan</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dag sedan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Spola framåt %d sekunder</item>
+        <item quantity="one">Spola framåt %d sekund</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Spola tillbaka %d sekunder</item>
+        <item quantity="one">Spola tillbaka %d sekund</item>
+    </plurals>
+    <plurals name="gamer_profile_upcoming_mission_description">
+        <item quantity="other">Ditt nästa uppdrag kommer om %d dagar.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Ditt nästa uppdrag kommer om %d dag.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_main_child_restrict_age">
+        <item quantity="other">Du måste vara minst %d år för att få använda Direktspel.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Du måste vara minst %d år för att få använda Direktspel.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="instant_plays_add_shortcut">
+        <item quantity="other">Du har spelet det här spelet %d gånger. Lägg till det i biblioteket så kommer du åt det snabbare.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Du har spelet det här spelet %d gång. Lägg till det i biblioteket så kommer du åt det snabbare.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="library_multi_select_after_remove_toast">
+        <item quantity="other">Tog bort %1$s och %2$d till från Gaming Hub.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Tog bort %1$s och %2$d till från Gaming Hub.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_hour_ago">
+        <item quantity="other">%d timmar sedan</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d timme sedan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="main_recent_last_played_minutes_ago">
+        <item quantity="other">%d minuter sedan</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut sedan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nya aviseringar</item>
+        <item quantity="one">%d ny avisering</item>
+    </plurals>
+    <plurals name="notification_list_empty_message_subtext">
+        <item quantity="other">Dina spelaviseringar visas här i %d dagar.</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Dina spelaviseringar visas här i %d dag.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="number_selected">
+        <item quantity="other">%d valda</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d vald</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="playlog_total_of_games">
+        <item quantity="other">Sammanlagt %d spel</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Sammanlagt %d spel</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_last_pd_months">
+        <item quantity="other">Senaste %d månaderna</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">Senaste %d månaden</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="profile_pd_days">
+        <item quantity="other">%d dagar</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dag</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="promotions_coupon_valid_days">
+        <item quantity="other">%d dagar kvar</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dag kvar</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="remaining_time_sec">
+        <item quantity="other">%d sek</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d sek</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_days_ago">
+        <item quantity="other">%d dagar sedan</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d dag sedan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_hours_ago">
+        <item quantity="other">%d timmar sedan</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d timme sedan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_minutes_ago">
+        <item quantity="other">%d minuter sedan</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d minut sedan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_months_ago">
+        <item quantity="other">%d månader sedan</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d månad sedan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_weeks_ago">
+        <item quantity="other">%d veckor sedan</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d vecka sedan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+    <plurals name="youtube_publish_date_years_ago">
+        <item quantity="other">%d år sedan</item>
+        <item quantity="zero">N/A</item>
+        <item quantity="one">%d år sedan</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+    </plurals>
+</resources>

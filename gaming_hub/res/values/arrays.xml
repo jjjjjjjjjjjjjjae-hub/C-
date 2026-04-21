@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="csc_korea">
+        <item>KOO</item>
+        <item>SKC</item>
+        <item>KTC</item>
+        <item>LUC</item>
+        <item>SKO</item>
+        <item>KON</item>
+        <item>LUO</item>
+        <item>GS2</item>
+        <item>KKO</item>
+        <item>KSO</item>
+        <item>KLO</item>
+        <item>ANY</item>
+        <item>KKC</item>
+        <item>FML</item>
+        <item>KLC</item>
+        <item>KSC</item>
+        <item>EVT</item>
+        <item>KTT</item>
+        <item>DID</item>
+        <item>KTO</item>
+        <item>LGT</item>
+        <item>SKT</item>
+        <item>SON</item>
+        <item>LON</item>
+    </string-array>
+    <string-array name="default_on_device">
+        <item>SM-J731</item>
+    </string-array>
+    <string-array name="entries_backup_using">
+        <item>[TEMP] WIFI ONLY</item>
+        <item>[TEMP] WIFI OR MOBILE DATA</item>
+    </string-array>
+    <string-array name="entryvalues_backup_using">
+        <item>[TEMP] WIFI ONLY VALUE</item>
+        <item>[TEMP] WIFI OR MOBILE DATA VALUE</item>
+    </string-array>
+    <string-array name="eu_gdpr_country_iso">
+        <item>GB</item>
+        <item>IE</item>
+        <item>FR</item>
+        <item>DE</item>
+        <item>IT</item>
+        <item>MT</item>
+        <item>NL</item>
+        <item>BE</item>
+        <item>LU</item>
+        <item>DK</item>
+        <item>IS</item>
+        <item>FI</item>
+        <item>SE</item>
+        <item>NO</item>
+        <item>ES</item>
+        <item>PT</item>
+        <item>PL</item>
+        <item>HU</item>
+        <item>CZ</item>
+        <item>SK</item>
+        <item>EE</item>
+        <item>LT</item>
+        <item>LV</item>
+        <item>AT</item>
+        <item>CH</item>
+        <item>LI</item>
+        <item>HR</item>
+        <item>SI</item>
+        <item>BG</item>
+        <item>RO</item>
+        <item>GR</item>
+        <item>CY</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="india_default_off_device">
+        <item>SM-A102</item>
+        <item>SM-A105</item>
+        <item>SM-A205</item>
+        <item>SM-J720</item>
+        <item>SM-J701</item>
+        <item>SM-J730</item>
+        <item>SM-T82</item>
+        <item>SM-T38</item>
+        <item>SM-M107</item>
+    </string-array>
+    <string-array name="mock_settings_country">
+        <item>KOR</item>
+        <item>USA</item>
+        <item>FRA</item>
+        <item>DEU</item>
+        <item>GBN</item>
+        <item>IND</item>
+        <item>MEX</item>
+        <item>BRA</item>
+        <item>CAN</item>
+        <item>POL</item>
+        <item>NPL</item>
+        <item>RUS</item>
+        <item>IDN</item>
+        <item>THA</item>
+        <item>MYS</item>
+        <item>SGP</item>
+        <item>VNM</item>
+        <item>HKG</item>
+        <item>PHL</item>
+        <item>TWN</item>
+        <item>JPN</item>
+        <item>AUS</item>
+        <item>NZL</item>
+    </string-array>
+    <array name="my_play_log_category_chart">
+        <item>@color/my_play_log_categories_chart_1</item>
+        <item>@color/my_play_log_categories_chart_2</item>
+        <item>@color/my_play_log_categories_chart_3</item>
+        <item>@color/my_play_log_categories_chart_4</item>
+        <item>@color/my_play_log_categories_chart_5</item>
+        <item>@color/my_play_log_categories_chart_6</item>
+    </array>
+    <string-array name="pref_test_server_select">
+        <item>PRD</item>
+        <item>BETA</item>
+        <item>STG</item>
+    </string-array>
+    <string-array name="pref_test_server_select_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

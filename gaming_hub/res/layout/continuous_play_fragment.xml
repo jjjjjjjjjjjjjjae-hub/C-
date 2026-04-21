@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="@color/basic_token_sys_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SeslAppbarLayout">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_tool_bar_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="scroll|exitUntilCollapsed|snap" style="@style/SeslCollapsingToolbarLayout">
+            <androidx.appcompat.widget.Toolbar android:layout_gravity="bottom" android:id="@id/tool_bar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:layout_collapseMode="pin" style="@style/SeslToolbar" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/tips_container" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/continuous_play_tip_view" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:background="@color/basic_token_sys_surface" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <androidx.appcompat.widget.SeslProgressBar android:id="@id/progress_bar" android:visibility="invisible" android:layout_width="@dimen/common_progress_size" android:layout_height="@dimen/common_progress_size" android:indeterminate="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="?android:progressBarStyle" />
+                <FrameLayout android:id="@id/no_item" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginHorizontal="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                    <TextView android:layout_gravity="center" android:id="@id/no_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/continuous_instant_plays_no_item_description" style="@style/SubPage.NoItem.Text" />
+                </FrameLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

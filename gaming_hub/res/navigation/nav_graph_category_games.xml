@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/nav_graph_category_games" app:startDestination="@id/CategoryFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="" android:name="com.samsung.android.game.gamehome.app.category.CategoryFragment" android:id="@id/CategoryFragment">
+        <argument android:name="categoryType" app:argType="string" />
+        <argument android:name="categoryItemId" app:argType="string" />
+        <argument android:name="categoryRcuId" app:argType="string" />
+        <argument android:name="cardPosition" app:argType="string" />
+    </fragment>
+    <activity android:label="" android:name="com.samsung.android.game.gamehome.app.instantdetail.InstantDetailActivity" android:id="@id/InstantDetailActivity" />
+    <activity android:label="" android:name="com.samsung.android.game.gamehome.app.detail.DetailActivity" android:id="@id/DetailActivity">
+        <argument android:name="gameType" android:defaultValue="UNKNOWN" app:argType="com.samsung.android.game.gamehome.network.gamelauncher.model.instantplays.constant.GameType" />
+        <argument android:name="packageName" android:defaultValue="" app:argType="string" />
+        <argument android:name="gameId" android:defaultValue="" app:argType="string" />
+        <argument android:name="storeType" android:defaultValue="" app:argType="string" />
+        <argument android:name="downloadLink" android:defaultValue="" app:argType="string" />
+    </activity>
+</navigation>

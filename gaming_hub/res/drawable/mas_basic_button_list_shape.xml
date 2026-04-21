@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:tint="@color/mas_basic_button_default_background" android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/mas_basic_button_list_corner_radius" />
+    <padding android:left="@dimen/mas_basic_button_paddingHorizontal" android:right="@dimen/mas_basic_button_paddingHorizontal" />
+</shape>

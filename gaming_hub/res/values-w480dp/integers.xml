@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="creature_collection_recycler_view_span_count">4</integer>
+    <integer name="main_contents_curation_category_grid_height">1</integer>
+    <integer name="main_contents_for_you_page_span_count">6</integer>
+    <item type="integer" name="videoAdSlimView_item_shadowRadius">1.09</item>
+    <item type="integer" name="videoAdSlimView_title_shadowRadius">1.7</item>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gamer_profile_profile_sign_in_edit_btn_layout_padding_horizontal">6.0dip</dimen>
+</resources>

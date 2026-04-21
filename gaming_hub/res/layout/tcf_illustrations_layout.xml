@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:background="@color/mas_basic_window_background" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.samsung.android.mas.internal.cmpui.ExpandableAppBarView android:id="@id/app_bar" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_behavior="com.samsung.android.mas.internal.cmpui.TopOnlyExpandBehavior" />
+    <androidx.core.widget.NestedScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="always" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <TextView android:textSize="@dimen/tcf_illustration_description_text_size" android:textColor="@color/tcf_setting_description_text_color" android:id="@id/illustrations_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/tcf_illustration_description_margin_bottom" android:layout_marginHorizontal="@dimen/tcf_illustration_description_margin_horizontal" android:lineHeight="@dimen/tcf_illustration_description_line_height" style="@style/MasSec400" />
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

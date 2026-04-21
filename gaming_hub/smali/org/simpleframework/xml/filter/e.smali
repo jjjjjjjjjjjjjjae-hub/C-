@@ -1,0 +1,74 @@
+.class public abstract Lorg/simpleframework/xml/filter/e;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lorg/simpleframework/xml/filter/b;
+
+
+# instance fields
+.field public a:Ljava/util/Stack;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    new-instance v0, Ljava/util/Stack;
+
+    invoke-direct {v0}, Ljava/util/Stack;-><init>()V
+
+    iput-object v0, p0, Lorg/simpleframework/xml/filter/e;->a:Ljava/util/Stack;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Ljava/lang/String;)Ljava/lang/String;
+    .locals 2
+
+    iget-object v0, p0, Lorg/simpleframework/xml/filter/e;->a:Ljava/util/Stack;
+
+    invoke-virtual {v0}, Ljava/util/AbstractCollection;->size()I
+
+    move-result v0
+
+    :cond_0
+    add-int/lit8 v0, v0, -0x1
+
+    if-ltz v0, :cond_1
+
+    iget-object v1, p0, Lorg/simpleframework/xml/filter/e;->a:Ljava/util/Stack;
+
+    invoke-virtual {v1, v0}, Ljava/util/AbstractList;->get(I)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lorg/simpleframework/xml/filter/b;
+
+    invoke-interface {v1, p1}, Lorg/simpleframework/xml/filter/b;->a(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_0
+
+    return-object v1
+
+    :cond_1
+    const/4 p0, 0x0
+
+    return-object p0
+.end method
+
+.method public b(Lorg/simpleframework/xml/filter/b;)V
+    .locals 0
+
+    iget-object p0, p0, Lorg/simpleframework/xml/filter/e;->a:Ljava/util/Stack;
+
+    invoke-virtual {p0, p1}, Ljava/util/Stack;->push(Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-void
+.end method

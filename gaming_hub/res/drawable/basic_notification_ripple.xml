@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/basic_dark_theme_ripple_long"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" />
+            <corners android:radius="@dimen/basic_notification_radius" />
+        </shape>
+    </item>
+</ripple>

@@ -1,0 +1,19 @@
+name: Build Android C++ Lib
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up NDK
+        uses: nndemyanov/setup-ndk@v1
+        with:
+          ndk-version: r25b
+      - name: Build with ndk-build
+        run: ndk-build -C jni
+      - name: Upload Result
+        uses: actions/upload-artifact@v3
+        with:
+          name: ghost_lib
+          path: libs/

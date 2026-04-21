@@ -3,5 +3,6 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE    := ghost_cheat
 LOCAL_SRC_FILES := main.cpp
+LOCAL_LDLIBS    := -llog -landroid
 
 include $(BUILD_SHARED_LIBRARY)
